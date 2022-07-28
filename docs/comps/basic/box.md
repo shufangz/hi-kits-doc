@@ -1,0 +1,37 @@
+# Box 盒子模型
+盒子模型(Box Modal)： 把HTML页面中的元素看作是一个矩形的盒子，也就是一个盛装内容的容器。每个矩形包括：margin border padding content 四个属性
+
+### 基本用法
+
+
+::: demo
+```html
+<div>
+  <h-row  gutter="10">
+    <h-col>
+      <style>
+        .Box {
+          background-color: #90eedb;
+          border-style: dashed;
+          border-color: #91c1f4;
+          box-shadow: 0 0 0px 25px #b3f5b0;;
+        }
+      </style>
+      <h-box class="Box" margin="25" padding="25" border="25" >这里是盒子内的实际内容。有 25px 内间距，25px 黄色外间距、25px 蓝色边框。</h-box>
+    </h-col>
+  </h-row>
+</div>
+
+```
+:::
+
+### 参数说明
+
+|参数|说明|类型|可选值|默认值
+|:--|:--|:--|:-----|:---
+| margin | 清除边框外的区域，外边距是透明的	| number | - | 0
+| border | 围绕在内边距和内容外的边框	| number | - | 0
+| padding | 清除内容周围的区域，内边距是透明的	| number | - | 0
+| content | 盒子的内容，显示文本和图像	| number | - | 0
+
+
