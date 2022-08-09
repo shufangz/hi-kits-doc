@@ -1,18 +1,12 @@
-<!--
- * @Author: zengshufang zengshufang@haier.com
- * @Date: 2022-07-26 17:32:49
- * @LastEditors: zengshufang zengshufang@haier.com
- * @LastEditTime: 2022-07-26 17:56:37
- * @FilePath: /vuedoc/docs/comps/data/card.md
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
--->
 # Card 卡片
 
 通用卡片容器。将信息聚合在卡片容器中展示。
 
 ### 何时使用
 最基础的卡片容器，可承载文字、列表、图片、段落，常用于后台概览页面。
-
+<pre class="language-ts">
+import { HiCard } from 'hi-kits/card'
+</pre>
 ### 简单卡片
 
 卡片可以只有内容区域。
@@ -180,4 +174,4 @@
 
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
-|[noBorder]|	是否移除边框 |	boolean	|- |false
+|`noBorder`|	是否移除边框 |	`boolean`	|- |`false`

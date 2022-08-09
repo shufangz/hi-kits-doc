@@ -5,7 +5,9 @@
 ### 何时使用
 - 对评价进行展示。
 - 对事物进行快速的评级操作。
-
+<pre class="language-ts">
+import { HiRate } from 'hi-kits/rate'
+</pre>
 ### 基本用法
 
 最简单的用法。
@@ -55,9 +57,9 @@
 
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
-|defaultvalue|默认数|number|-|-
-|tips|提示文字, 以 , 分割的字符串文本 |string|-|-
-|icon|图标|string|-|-
-|value|当前值|number|-|-
-|length|长度|number|-|-
-|onchange|点击回调函数|function|-|-
+|`defaultvalue`|默认数|`number`|-|-
+|`tips`|提示文字, 以 , 分割的字符串文本 |`string`|-|-
+|`icon`|图标|`string`|-|-
+|`value`|当前值|`number`|-|-
+|`length`|长度|`number`|-|-
+|`onchange`|点击回调函数|`function`|-|-

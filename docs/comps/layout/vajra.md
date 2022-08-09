@@ -1,20 +1,11 @@
-<!--
- * @Author: zengshufang zengshufang@haier.com
- * @Date: 2022-07-27 18:38:07
- * @LastEditors: zengshufang zengshufang@haier.com
- * @LastEditTime: 2022-07-27 18:41:45
- * @FilePath: /vuedoc/docs/comps/layout/vajra.md
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
--->
 # Vajra District 金刚区 
 
 金刚区是一个页面中头部的重要位置,是页面的核心功能区域,表现形式为多行排列的宫格区图标。
-
+<pre class="language-ts">
+import { HiVajra } from 'hi-kits/vajra'
+</pre>
 
 ### 基本用法
-
-适用广泛的基础单选
-
 ::: demo
 ```html
 <h-vajra row="2" col="5" gutter="12">
@@ -88,7 +79,17 @@
 ```
 :::
 
-### 参数说明
+### h-vajra
 
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
+| `row`| 行数 |  `number` | - | 1
+| `col`| 列数 |  `number` | - | 1
+| `gutter`| 子项目间距 |  `number` | - | 1
+
+### h-vajra-item
+
+|参数|说明|类型|可选值|默认值
+|:--|:--|:--|:-----|:---
+| `text`| 文本 |  `string` | - | -
+| `col`| 列数 |  `number` | - | 1

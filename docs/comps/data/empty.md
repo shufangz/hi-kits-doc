@@ -4,7 +4,9 @@
 
 ### 何时使用
 当目前没有数据时，用于显式的用户提示。
-
+<pre class="language-ts">
+import { HiEmpty } from 'hi-kits/empty'
+</pre>
 
 
 ### 基本用法
@@ -50,6 +52,5 @@
 
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
-|   color    |文字颜色     |string       |   -     |     -
-|   size    |文字大小   |string       |   -     |     -
-|   slot    |自定义内容   |string / TemplateRef / null	       |   -     |     -
+|   `color`    |文字颜色     |`string`       |   -     |     -
+|   `size`    |文字大小   |`string`       |   -     |     -

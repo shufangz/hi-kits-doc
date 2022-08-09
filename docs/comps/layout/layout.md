@@ -3,7 +3,9 @@
 用于布局的容器组件，方便快速搭建页面的基本结构
 
 ### 基础布局
-
+<pre class="language-ts">
+import { HiLayout } from 'hi-kits/layout'
+</pre>
 #### 垂直排列
 ::: demo
 ```html
@@ -103,7 +105,7 @@
 
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
-| row | 水平排列 | boolean | - | false
-| expand | 根据剩余空间填充（主轴方向 | boolean | - | -
-| center | 居中 | string | boolean | mainAxis / crosAxis / boolean  | boolean
+| `row` | 水平排列 | `boolean` | - | `false`
+| `expand` | 根据剩余空间填充（主轴方向 | `boolean` | - | -
+| `center` | 居中 | `string | boolean` |` mainAxis | crosAxis | boolean`  | `boolean`
 

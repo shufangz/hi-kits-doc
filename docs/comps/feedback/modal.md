@@ -1,11 +1,3 @@
-<!--
- * @Author: zengshufang zengshufang@haier.com
- * @Date: 2022-07-21 18:46:22
- * @LastEditors: zengshufang zengshufang@haier.com
- * @LastEditTime: 2022-07-26 09:49:44
- * @FilePath: /vuedoc/docs/comps/feedback/modal.md
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
--->
 # Modal 对话框
 模态对话框。
 
@@ -17,7 +9,9 @@
 - 推荐使用加载Component的方式弹出Modal，这样弹出层的Component逻辑可以与外层Component完全隔离，并且做到可以随时复用，
 
 - 在弹出层Component中可以通过依赖注入NzModalRef方式直接获取模态框的组件实例，用于控制在弹出层组件中控制模态框行为。
-
+<pre class="language-ts">
+import { HiModal } from 'hi-kits/modal'
+</pre>
 ### 基本用法
 
 第一个对话框
@@ -79,10 +73,10 @@
 
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
-| oktext| 确定键文本| string| - | 确定
-| title| 标题| string |-	| -
-| canceltext| 取消键文本| string |-	| 取消
-| type| 对话框类型| string |'alert' / 'confirm' / 'prompt'	| -
-| open| 显示open。当 HiModal 内容比较复杂时，可以直接写在页面body上，通过 open 属性来控制显示 | boolean |-| false
-| ok| 点击确定按钮时将执行的回调函数。该函数可返回promise，待执行完毕或promise结束时，将自动关闭对话框（返回false可阻止关闭）| function| - | -
-| cancel| 点击遮罩层或右上角叉或取消按钮的回调。该函数可返回promise，待执行完毕或promise结束时，将自动关闭对话框（返回false可阻止关闭）	| function| - | -
+| `oktext`| 确定键文本| `string`| - | 确定
+| `title`| 标题| `string` |-	| -
+| `canceltext`| 取消键文本| `string` |-	| 取消
+| `type`| 对话框类型| `string` |`alert' | confirm | prompt`	| -
+| `open`| 显示open。当 HiModal 内容比较复杂时，可以直接写在页面body上，通过 open 属性来控制显示 | `boolean` |-| `false`
+| `ok`| 点击确定按钮时将执行的回调函数。该函数可返回promise，待执行完毕或promise结束时，将自动关闭对话框（返回false可阻止关闭）| `function`| - | -
+| `cancel`| 点击遮罩层或右上角叉或取消按钮的回调。该函数可返回promise，待执行完毕或promise结束时，将自动关闭对话框（返回false可阻止关闭）	| `function`| - | -

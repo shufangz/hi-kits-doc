@@ -5,7 +5,9 @@
 
 - 当某个页面需要向用户显示警告的信息时。
 - 非浮层的静态展现形式，始终展现，不会自动消失，用户可以点击关闭。
-
+<pre class="language-ts">
+import { HiAlert } from 'hi-kits/alert'
+</pre>
 ### 基本用法
 
 最简单的用法，适用于简短的警告提示。
@@ -83,7 +85,7 @@
 
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
-|title	|标题	|string	|—	|—
-|type	|主题	|string	|success/warning/info/error	|info
-|closeable	|是否可关闭	|boolean	|—	|true
-|showIcon	|是否显示图标	|boolean	|—	|false
+|`title`	|标题	|`string`	|—	|—
+|`type`	|主题	|`string`	|`success | warning | info | error`	|`info`
+|`closeable`	|是否可关闭	|`boolean`	|—	|`true`
+|`showIcon`	|是否显示图标	|`boolean`	|—	|`false`

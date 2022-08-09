@@ -13,12 +13,14 @@
     "@vuepress-reco/vuepress-plugin-back-to-top": "^1.6.13",
     "@vuepress/plugin-active-header-links": "^1.9.7",
     "@vuepress/plugin-container": "^2.0.0-beta.49",
+    "@vuepress/theme-blog": "^2.3.3",
     "vuepress": "^1.9.7",
-    "vuepress-plugin-cursor-effects": "^1.1.4"
+    "vuepress-plugin-cursor-effects": "^1.1.4",
+    "vuepress-plugin-global-toc": "^1.1.0"
   },
   "dependencies": {
     "element-ui": "^2.15.9",
-    "hi-kits": "^1.0.8",
+    "hi-kits": "^1.0.16",
     "vuepress-plugin-demo-container": "^0.2.0"
   }
 }

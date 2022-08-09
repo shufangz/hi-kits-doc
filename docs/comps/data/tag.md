@@ -5,7 +5,9 @@
 ### 何时使用
 - 用于标记事物的属性和维度。
 - 进行分类。
-
+<pre class="language-ts">
+import { HiTag } from 'hi-kits/tag'
+</pre>
 ### 基本用法
 
 基本标签的用法。可通过text设置标签文字。color 设置文字颜色
@@ -101,6 +103,6 @@
 
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
-|text|标签文字|string|-|-
-|color|标签文字颜色|string|-|-
-|size|标签文字大小|string|-|-
+|`text`|标签文字|`string`|-|-
+|`color`|标签文字颜色|`string`|-|-
+|`size`|标签文字大小|`string`|-|-

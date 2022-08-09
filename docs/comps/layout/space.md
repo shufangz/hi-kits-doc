@@ -7,7 +7,9 @@
 
 - 适合行内元素的水平间距。
 - 可以设置各种水平对齐方式。目前支持水平（ horizontal ）和竖直（ vertical ）两种方向
-
+<pre class="language-ts">
+import { HiSpace } from 'hi-kits/space'
+</pre>
 ### 基本用法
 相邻组件水平间距。
 
@@ -54,7 +56,7 @@
 
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
-| dir | 间距方向| string | vertical / horizontal | horizontal
-| gutter | 间距大小	| number | - | 12
+| `dir` | 间距方向| `string` | `vertical | horizontal` | `horizontal`
+| `gutter` | 间距大小	| `number` | - | 12
 
 

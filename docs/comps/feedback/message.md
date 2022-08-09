@@ -7,7 +7,9 @@
 - 全局展示操作反馈信息。
 - 可提供成功、警告和错误等反馈信息。
 - 顶部居中显示并自动消失，是一种不打断用户操作的轻量级提示方式
-
+<pre class="language-ts">
+import { HiMessage } from 'hi-kits/message'
+</pre>
 ### 基础用法
 
 从顶部出现，3 秒后自动消失。
@@ -67,5 +69,5 @@
 
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
-| content| 提示内容| string / TemplateRef| - | -
-| duration| 持续时间(毫秒)| number |-	| 3
+| `content`| 提示内容| `string | TemplateRef`| - | -
+| `duration`| 持续时间(毫秒)| `number` |-	| 3

@@ -6,7 +6,9 @@
 
 - 用于在多个备选项中选中单个状态。
 - 和 Select 的区别是，Radio 所有选项默认可见，方便用户在比较中选择，因此选项不宜过多。
-
+<pre class="language-ts">
+import { HiRadio } from 'hi-kits/radio'
+</pre>
 ### 基本用法
 最简单的用法
 
@@ -72,3 +74,12 @@ h-radio不可用
 
 ```
 :::
+
+### 参数说明
+
+|参数|说明|类型|可选值|默认值
+|:--|:--|:--|:-----|:---
+| `name`| 通知标题 |  `string` | - | -
+| `value`| 通知标题 |  `string` | - | -
+| `disabled`| 不可选择 |  `boolean` | - | -
+| `onchange`| 当前是否选中的回调	 |  `EventEmitter<boolean>` | - | `false`

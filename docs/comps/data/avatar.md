@@ -1,7 +1,9 @@
 # Avatar 头像
 
 用来代表用户或事物，支持图片、图标或字符展示。
-
+<pre class="language-ts">
+import { HiAvatar } from 'hi-kits/avatar'
+</pre>
 ### 基本用法
 
 通过 circle 和 size 设置头像的形状和大小。
@@ -90,5 +92,5 @@
 
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
-| size | 大小 | string / number | large / small / number | -
-| [circle] | 圆形 | boolean | - | false  
+| `size` | 大小 | `string | number` | `large | small | number` | -
+| `circle` | 圆形 | `boolean` | - | `false`  

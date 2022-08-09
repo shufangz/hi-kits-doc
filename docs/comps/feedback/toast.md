@@ -1,7 +1,9 @@
 # Toast 轻提示
 
 在页面中间弹出黑色半透明提示，用于消息通知、加载提示、操作结果提示等场景。
-
+<pre class="language-ts">
+import { HiToast } from 'hi-kits/toast'
+</pre>
 ### 基本用法
 
 ::: demo
@@ -35,6 +37,6 @@ Toast 默认渲染在屏幕底部正中位置，通过配置 site 可以控制 T
 
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
-| content| 提示内容| string / TemplateRef| - | -
-| duration| 持续时间(毫秒)| number |-	| 3
-| site| 显示位置信息设置 |  {Array} |-	| 
+| `content`| 提示内容| `string | TemplateRef`| - | -
+| `duration`| 持续时间(毫秒)| `number` |-	| 3
+| `site`| 显示位置信息设置 |  `{Array} `|-	| 

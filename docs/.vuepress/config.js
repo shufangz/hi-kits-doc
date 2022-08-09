@@ -1,7 +1,3 @@
-const {
-  containerPlugin
-} = require('@vuepress/plugin-container')
-
 module.exports = {
   theme: '',
   title: '',
@@ -14,6 +10,9 @@ module.exports = {
     }]
   ],
   themeConfig: { // 新增代码
+    smoothScroll: true,
+    repo: 'https://github.com/shufangz/hi-kits-doc.git',
+    docsRepo: 'https://github.com/shufangz/hi-kits-doc.git',
     logo: 'https://ys-haier-uplusapp-static.oss-cn-beijing.aliyuncs.com/image/logo.svg',
     nav: [ // 配置顶部导航栏
       {
@@ -88,8 +87,42 @@ module.exports = {
               path: '/comps/layout/space'
             },
             {
-              title: 'Vajra 金刚区 ',
+              title: 'Vajra 金刚区',
               path: '/comps/layout/vajra'
+            },
+            {
+              title: 'Banner 横幅',
+              path: '/comps/layout/banner.md'
+            },
+            {
+              title: '导航',
+              collapsable: false,
+            }, {
+              title: 'Breadcrumb 面包屑',
+              path: '/comps/navigation/breadcrumb'
+            }, {
+              title: 'Navdot 导航点',
+              path: '/comps/navigation/navdot'
+            }, {
+              title: 'Navbar 导航栏',
+              path: '/comps/navigation/navbar'
+            }, {
+              title: 'Steps 步骤条',
+              path: '/comps/navigation/steps'
+            }, {
+              title: 'Pagination 分页',
+              path: '/comps/navigation/pagination'
+            }, {
+              title: 'Toolbar 工具栏',
+              path: '/comps/navigation/toolbar'
+            },
+            {
+              title: 'Jumper 跳转',
+              path: '/comps/navigation/jumper'
+            },
+            {
+              title: 'Title 标题',
+              path: '/comps/navigation/title'
             },
             {
               title: '表单录入',
@@ -114,6 +147,10 @@ module.exports = {
             {
               title: 'ColorPicker 颜色选择器',
               path: '/comps/form/color'
+            },
+            {
+              title: 'Switch 开关',
+              path: '/comps/form/switch'
             },
             {
               title: '数据展示',
@@ -156,8 +193,24 @@ module.exports = {
               path: '/comps/data/segmented'
             },
             {
-              title: 'Tabs标签页',
+              title: 'Tabs 标签页',
               path: '/comps/data/tab'
+            },
+            {
+              title: 'Statistic 统计',
+              path: '/comps/data/statistic'
+            },
+            {
+              title: 'Timeline 时间轴',
+              path: '/comps/data/timeline'
+            },
+            {
+              title: 'Watermark 水印',
+              path: '/comps/data/watermark'
+            },
+            {
+              title: 'Accordion 折叠面板/手风琴',
+              path: '/comps/data/accordion'
             },
             {
               title: '反馈',
@@ -184,21 +237,18 @@ module.exports = {
               path: '/comps/feedback/modal'
             },
             {
-              title: '导航',
-              collapsable: false,
+              title: 'Popover 气泡卡片',
+              path: '/comps/feedback/popover'
             },
             {
-              title: 'Steps 步骤条',
-              path: '/comps/navigation/steps'
+              title: 'Notify 通知',
+              path: '/comps/feedback/notify'
             },
             {
-              title: 'Navdot 导航点',
-              path: '/comps/navigation/navdot'
+              title: 'Sidebar 侧边栏',
+              path: '/comps/feedback/sidebar'
             },
-            {
-              title: 'Pagination 分页',
-              path: '/comps/navigation/pagination'
-            },
+
             {
               title: 'Others',
               collapsable: false,
@@ -216,11 +266,12 @@ module.exports = {
     ['@vuepress-reco/vuepress-plugin-back-to-top'],
     ['@vuepress/active-header-links'],
     ['@vuepress/last-updated', {
-      dateOptions:{
+      dateOptions: {
         hour12: false
       }
     }],
     ["cursor-effects"],
+    ['vuepress-plugin-global-toc'],
   ], // 配置插件
   markdown: {}
 }

@@ -1,15 +1,11 @@
-<!--
- * @Author: zengshufang zengshufang@haier.com
- * @Date: 2022-07-21 17:33:37
- * @LastEditors: zengshufang zengshufang@haier.com
- * @LastEditTime: 2022-07-21 18:00:25
- * @FilePath: /vuedoc/docs/comps/feedback/loading.md
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
--->
 # Loading 加载
 
-加载数据时显示动效。
-
+用于页面和区块的加载中状态。
+### 何时使用
+页面局部处于等待异步数据或正在渲染过程时，合适的加载动效会有效缓解用户的焦虑。
+<pre class="language-ts">
+import { HiLoading } from 'hi-kits/loading'
+</pre>
 ### 基本用法
 
 一个简单的 loading 状态。
@@ -67,9 +63,23 @@
 
 ```
 :::
+### 加载遮罩
+
+::: demo
+```html
+<h-row gutter="10">
+    <h-col span="6" style="background:rgba(29, 161, 222, 0.602); height: 100px;">
+        <h-loading mask size="30"  color="#fff">
+            <div style="font-size: 14px;">加载遮罩</div>
+        </h-loading>
+    </h-col>
+</h-row>
+
+```
+:::
 ### 参数说明
 
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
-|size|大小|number |-|-
-|color|颜色|string |-|-
+|`size`|大小|`number` |-|-
+|`color`|颜色|`string` |-|-

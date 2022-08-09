@@ -4,7 +4,9 @@
 
 ### 何时使用
 当任务复杂或者存在先后关系时，将其分解成一系列步骤，从而简化任务。
-
+<pre class="language-ts">
+import { HiSteps } from 'hi-kits/steps'
+</pre>
 
 
 ### 基本用法
@@ -145,17 +147,17 @@
 整体步骤条。
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
-|current|指定当前步骤，从 0 开始记数。|number|-|0
-|dir|指定步骤条方向。目前支持水平（horizontal）和竖直（vertical）两种方向	|string| vertical / horizontal | horizontal
-|dot|点状步骤条|boolean|-|false
-|start|步骤条的起始序号|number|-|0
+|`current`|指定当前步骤，从 0 开始记数。|`number`|-|0
+|`dir`|指定步骤条方向。目前支持水平（horizontal）和竖直（vertical）两种方向	|`string`| `vertical | horizontal` | `horizontal`
+|`dot`|点状步骤条|`boolean`|-|`false`
+|`start`|步骤条的起始序号|`number`|-|0
 
 ### h-step参数说明
 步骤条内的每一个步骤。
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
-|desc|步骤的详情描述，可选。|string / TemplateRef|-|-
-|title|标题	|string| - | -
-|subtitle|子标题	|boolean|-|false
-|status|指定状态。当不配置该属性时，会使用 h-steps 的 current 来自动指定状态。|string|wait / process / finish / error|0
+|`desc`|步骤的详情描述，可选。|`string | TemplateRef`|-|-
+|`title`|标题	|`string`| - | -
+|`subtitle`|子标题	|`boolean`|-|`false`
+|`status`|指定状态。当不配置该属性时，会使用 `h-steps` 的 `current` 来自动指定状态。|`string`|`wait | process | finish | error`|0
 

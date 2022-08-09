@@ -1,18 +1,12 @@
-<!--
- * @Author: zengshufang zengshufang@haier.com
- * @Date: 2022-07-26 18:02:27
- * @LastEditors: zengshufang zengshufang@haier.com
- * @LastEditTime: 2022-07-27 09:26:11
- * @FilePath: /vuedoc/docs/comps/data/badge.md
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
--->
 # Badge 徽标数
 
 图标右上角的圆形徽标数字。
 
 ### 何时使用
 一般出现在通知图标或头像的右上角，用于显示需要处理的消息条数，通过醒目视觉形式吸引用户处理。
-
+<pre class="language-ts">
+import { HiBadge } from 'hi-kits/badge'
+</pre>
 
 ### 基本用法
 
@@ -20,7 +14,6 @@
 
 ::: demo
 ```html
-
  <h-row gutter="10">
     <h-col span="8">
         <h-space gutter="30">
@@ -74,3 +67,6 @@
 
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
+| `count`| 展示的数字 |  `number` | - | -
+| `dot`| 不展示数字，只有一个小红点	 |  `boolean` | - | `false`
+| `badgeStyle`| 自定义样式|  `string` | - | -

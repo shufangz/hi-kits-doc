@@ -3,6 +3,9 @@
 按钮用于开始一个即时操作。
 
 ### 何时使用
+<pre class="language-ts">
+import { HiButton } from 'hi-kits/button'
+</pre>
 
 标记了一个（或封装一组）操作命令，响应用户点击行为，触发相应的业务逻辑。
 在 Hi-kits 中，我们有五种按钮。
@@ -237,9 +240,9 @@ Block 属性将使按钮适合其父宽度
 
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
-| size | 尺寸 | string | small / middle/ large | -
-| type | 设置按钮类型，可选值为 primary,dashed,default,flat 或者不设 | string | primary / dashed / danger / flat / default | default
-| shape | 形状 | string | circle  | -
-| href | 超链接 | string |   | -
-| [disabled] | 是否禁用状态	 | boolean |-  | false
-| [block]	 | 将按钮宽度调整为其父宽度的选项		 | boolean |-  | false
+| `size` | 尺寸 | `string` | `small | middle | large` | -
+| `type` | 设置按钮类型，可选值为 `primary,dashed,default,flat` 或者不设 | `string` | `primary | dashed | danger | flat | default` | `default`
+| `shape` | 形状 | `string` | `circle`  | -
+| `href` | 超链接 | `string` |   | -
+| `disabled `| 是否禁用状态	 | `boolean` |-  | `false`
+| `block`	 | 将按钮宽度调整为其父宽度的选项		 | `boolean` |-  | `false`

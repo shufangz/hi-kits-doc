@@ -1,8 +1,13 @@
 # Box 盒子模型
 盒子模型(Box Modal)： 把HTML页面中的元素看作是一个矩形的盒子，也就是一个盛装内容的容器。每个矩形包括：margin border padding content 四个属性
 
-### 基本用法
+### 何时使用
 
+<pre class="language-ts">
+import { HiBox } from 'hi-kits/box'
+</pre>
+
+### 基本用法
 
 ::: demo
 ```html
@@ -29,9 +34,9 @@
 
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
-| margin | 清除边框外的区域，外边距是透明的	| number | - | 0
-| border | 围绕在内边距和内容外的边框	| number | - | 0
-| padding | 清除内容周围的区域，内边距是透明的	| number | - | 0
-| content | 盒子的内容，显示文本和图像	| number | - | 0
+| `margin` | 清除边框外的区域，外边距是透明的	| `number` | - | 0
+| `border` | 围绕在内边距和内容外的边框	| `number` | - | 0
+| `padding` | 清除内容周围的区域，内边距是透明的	| `number` | - | 0
+| `content` | 盒子的内容，显示文本和图像	| `number` | - | 0
 
 

@@ -1,13 +1,15 @@
 # Icon 图标
+语义化的矢量图形。
+### 何时使用
 
-提供了一套常用的图标集合。
-
-
-### 基本用法
+<pre class="language-ts">
+import { HiIcon } from 'hi-kits/icon'
+</pre>
+### 图标列表
+默认提供15个图标,后续补充
 
 ::: demo
 ```html
-<p>默认提供15个图标</p>
 <h-icon name="info-circle" size="30" color="orangered"></h-icon>
 <h-icon name="question-circle" size="30" color="orangered"></h-icon>
 <h-icon name="warning-circle" size="30" color="#1E90FF"></h-icon>
@@ -32,6 +34,6 @@
 
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
-| name | 名称 | string | - | -
-| size | 大小 | string | - | -
-| color | 颜色 | string | - | -  | -
+| `name` | 名称 | `string` | - | -
+| `size` | 大小 | `string` | - | -
+| `color` | 颜色 | `string` | - | -  | -

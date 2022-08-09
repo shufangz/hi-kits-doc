@@ -2,7 +2,9 @@
 
 ### 何时使用
 可用于页面切换或者轮播切换
-
+<pre class="language-ts">
+import { HiNavdot } from 'hi-kits/navdot'
+</pre>
 ### 基本用法
 
 ::: demo
@@ -63,8 +65,8 @@
 
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
-|total|总数|number|-|6
-|current|当前位置|number|-|0
-|size|远点大小|string|small / large / number| -
-|type|点击风格|string|puff / scaleup / fillup | fillup
+|`total`|总数|`number`|-|6
+|`current`|当前位置|`number`|-|0
+|`size`|圆点大小|`string`|`small | large | number`| -
+|`type`|点击风格|`string`|`puff | scaleup | fillup` | `fillup`
 

@@ -5,7 +5,9 @@
 ### 何时使用
 - 鼠标移入则显示提示，移出消失，气泡浮层不承载复杂文本和操作。
 - 可用来代替系统默认的 title 提示，提供一个按钮/文字/操作的文案解释。
-
+<pre class="language-ts">
+import { HiTips } from 'hi-kits/tips'
+</pre>
 ### 基本用法
 
 最简单的用法。
@@ -155,8 +157,8 @@ h-tips h-button {
 
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
-|type|可以通过type设置提示框的颜色，有三种类型|string|success / error / warning |-
-|show|添加show属性可以主动控制提示框的出现时机，不再与hover和focus关联，可以取值true和false。|boolean| - |false
-|tips|提示文字。如果不设置则不显示提示|string| - |-
-|color|背景颜色	|string| - |-
-|dir|气泡框位置	|	string| top / right / bottom / left / topleft / topright / righttop / rightbottom / bottomleft / bottomright / lefttop / leftbottom | top
+|`type`|可以通过type设置提示框的颜色，有三种类型|`string`|`success | error | warning` |-
+|`show`|添加show属性可以主动控制提示框的出现时机，不再与hover和focus关联，可以取值true和false。|`boolean`| - |`false`
+|`tips`|提示文字。如果不设置则不显示提示|`string`| - |-
+|`color`|背景颜色	|`string`| - |-
+|`dir`|气泡框位置	|	`string`| `top ｜ right ｜ bottom ｜ left ｜ topleft ｜ topright ｜ righttop ｜ rightbottom ｜ bottomleft ｜ bottomright ｜ lefttop ｜ leftbottom` | `top`

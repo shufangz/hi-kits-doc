@@ -5,7 +5,9 @@
 ### 何时使用
 - 当加载/渲染所有数据将花费很多时间时；
 - 可切换页码浏览数据。
-
+<pre class="language-ts">
+import { HiPagination } from 'hi-kits/pagination'
+</pre>
 ### 基本用法
 
 基础分页。
@@ -44,8 +46,8 @@
 
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
-|defaultcurrent|默认值	|number| - | 1
-|pagesize|设置或返回分页组件的每页条数	|number| - | 1
-|total|设置或返回分页组件的数据总数	|number| - | 1
-|simple|可以添加simple属性，只展示当前页和总页数	|boolean| - | false
-|href|支持href链接模式，可以实现分页通过a链接跳转	|string| - | -
+|`defaultcurrent`|默认值	|`number`| - | 1
+|`pagesize`|设置或返回分页组件的每页条数	|`number`| - | 1
+|`total`|设置或返回分页组件的数据总数	|`number`| - | 1
+|`simple`|可以添加simple属性，只展示当前页和总页数	|`boolean`| - | `false`
+|`href`|支持href链接模式，可以实现分页通过a链接跳转	|`string`| - | -
