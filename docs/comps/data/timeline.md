@@ -108,7 +108,7 @@ import { HiTimeline } from 'hi-kits/timeline'
 
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
-| mode| 可以改变时间轴和内容的相对位置| string 	 |  `left | alternate | right | custom` |  `right`
+| mode| 可以改变时间轴和内容的相对位置| `string` 	 |  `left | alternate | right | custom` |  `right`
 
 ### h-timeline-item
 

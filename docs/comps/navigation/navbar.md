@@ -9,7 +9,7 @@ import { HiNavbar } from 'hi-kits/navbar'
 
 ### 基本用法
 
-通过 title 属性设置导航栏标题。
+通过 `title` 属性设置导航栏标题。
 
 ::: demo
 ```html

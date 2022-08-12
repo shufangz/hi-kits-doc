@@ -34,8 +34,6 @@ Switch 失效状态。
 
 ### 默认选中
 
-Switch 默认选中
-
 ::: demo
 ```html
 <h-switch checked></h-switch>
@@ -48,4 +46,5 @@ Switch 默认选中
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
 | `checked`| 是否选中 |  `boolean` | - | `false`
-| `onchange`| 当前是否选中的回调	 |  `EventEmitter<boolean>` | - | `false`
+| `disabled`| 是否禁用 |  `boolean` | - | `false`
+| `onchange`| 当前是否选中的回调	 |  `EventEmitter<boolean>` | - | -

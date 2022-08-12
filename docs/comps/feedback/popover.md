@@ -22,7 +22,7 @@ import { HiPopover } from 'hi-kits/popover'
 
 ::: demo
 ```html
-<h-popover disabled type="confirm" onsubmit="console.log('ok')" title="确定删除吗?" content="删除后无法撤销">
+<h-popover disabled type="confirm" onsubmit="console.log('ok')" ptitle="确定删除吗?" content="删除后无法撤销">
     <h-button> disabled</h-button>
 </h-popover>
 
@@ -35,7 +35,7 @@ import { HiPopover } from 'hi-kits/popover'
 ```html
 <h-popover>
     <h-button>自定义content</h-button>
-    <h-popcon title="确定删除吗?" type="confirm" onsubmit="console.log('ok')">
+    <h-popcon ptitle="确定删除吗?" type="confirm" onsubmit="console.log('ok')">
         <div>
         <div>自定义删除后无法撤销</div>
         <div>删除后无法撤销</div>
@@ -46,7 +46,7 @@ import { HiPopover } from 'hi-kits/popover'
 
  <h-popover>
     <h-button>自定义2</h-button>
-    <h-popcon type="pane" title="提示">
+    <h-popcon type="pane" ptitle="提示">
         <div>
         <div>这是一段提示提示提示提示提示</div>
         <div>这是一段提示</div>
@@ -63,10 +63,10 @@ import { HiPopover } from 'hi-kits/popover'
 
 ::: demo
 ```html
-<h-popover dir="left" title="uuu" trigger="click" hOk='alert(233)' type='confirm'>
+<h-popover dir="left" ptitle="uuu" trigger="click" hOk='alert(233)' type='confirm'>
     <h-button>confirmOk</h-button>
 </h-popover>
-<h-popover dir="top" title="我是title" content="我是内容" trigger="hover">
+<h-popover dir="top" ptitle="我是ptitle" content="我是内容" trigger="hover">
     <h-button>hover popover</h-button>
 </h-popover>
 
@@ -93,7 +93,7 @@ import { HiPopover } from 'hi-kits/popover'
 |:--|:--|:--|:-----|:---
 | `stopfocus`| 聚焦 |  `boolean` | -|`false`
 | `disabled`| 是否可用 |  `boolean` | - | `false`
-| `title`| 标题 |  `string` | -|-
+| `ptitle`| 标题 |  `string` | -|-
 | `type`| 类型 |  `string` | `'confirm' | 'nomal'`|`nomal`
 | `oktext`| 确定文案 |  `string` | -|确 定
 | `canceltext`| 取消文案 |  `string` | -|取 消

@@ -29,8 +29,6 @@ import { HiRadio } from 'hi-kits/radio'
 :::
 
 ### 不可用
-h-radio不可用
-
 ::: demo
 ```html
 <h-radio disabled>Web Components</h-radio>
@@ -41,7 +39,7 @@ h-radio不可用
 :::
 
 ### 单选框组1
-通常多个出现，有一个相同的name，表示同一组，可以通过name来获取当前组的选中
+通常多个出现，有一个相同的name，表示同一组，可以通过`name`来获取当前组的选中
 
 ::: demo
 ```html

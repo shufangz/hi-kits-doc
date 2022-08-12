@@ -120,7 +120,7 @@ Hi-kits 为 Notify 组件准备了四种通知类型：success, warning, info, e
 |:--|:--|:--|:-----|:---
 | `title`| 通知标题 |  `string` | - | -
 | `content`| 通知内容| `string | TemplateRef`| - | -
-| `duration`| 自动关闭的延时，单位毫秒。设为 0 时不自动关闭| number |-	| 5000
+| `duration`| 自动关闭的延时，单位毫秒。设为 0 时不自动关闭| `number` |-	| 5000
 | `placement`| 显示位置信息设置 |  `string` | `topleft | topright | bottomleft | bottomright | topleft`
 | `type`| 通知类型 |  `string` | `success | warning | info | error`| -
 | `autohide`| 自动关闭 |  `boolean` | - | `true`

@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /images/logo(1).svg
+heroImage: https://ys-zjrs.haier.net/image/logo(1).svg
 tagline: 面向未来的全新组件交互设计理念
 heroText: Hi-kits
 features: 
@@ -47,6 +47,7 @@ footer: by 海尔
         width: 20%;
         margin-left: 20px;
         text-align: center;
+        height: 140px;
         padding: 5px;
         background: #21a0ff;
         color: white;

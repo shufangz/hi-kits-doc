@@ -8,8 +8,6 @@ import { HiTitle } from 'hi-kits/title'
 
 ### 基本用法
 
-适用广泛的基础单选
-
 ::: demo
 ```html
 <h-title title="标题"></h-title>

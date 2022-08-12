@@ -1,19 +1,20 @@
 module.exports = {
-  theme: '',
-  title: '',
-  base: '/',
-  port: '8080',
   head: [
-    ['link', {
-      rel: 'icon',
-      href: './images/logo.svg'
-    }]
+    ['link',
+      {
+        rel: 'icon',
+        href: 'https://ys-zjrs.haier.net/image/logo(1).svg'
+      }
+    ]
   ],
+  title: 'Hikits',
+  base: '/hidoc/',
+  port: '8080',
   themeConfig: { // 新增代码
     smoothScroll: true,
-    repo: 'https://github.com/shufangz/hi-kits-doc.git',
-    docsRepo: 'https://github.com/shufangz/hi-kits-doc.git',
-    logo: 'https://ys-haier-uplusapp-static.oss-cn-beijing.aliyuncs.com/image/logo.svg',
+    // repo: 'https://github.com/shufangz/hi-kits-doc.git',
+    // docsRepo: 'https://github.com/shufangz/hi-kits-doc.git',
+    logo: 'https://ys-zjrs.haier.net/image/logo.svg',
     nav: [ // 配置顶部导航栏
       {
         text: '首页',
@@ -36,10 +37,10 @@ module.exports = {
               title: '快速上手',
               path: '/comps/guide/guide'
             },
-            {
-              title: '国际化',
-              path: '/comps/guide/international'
-            },
+            // {
+            //   title: '国际化',
+            //   path: '/comps/guide/international'
+            // },
             {
               title: '自定义主题',
               path: '/comps/guide/theme'
@@ -153,6 +154,14 @@ module.exports = {
               path: '/comps/form/switch'
             },
             {
+              title: 'EditWord 文字编辑',
+              path: '/comps/form/editWord'
+            },
+            {
+              title: 'DatePicker 日期选择框',
+              path: '/comps/form/datepicker'
+            },
+            {
               title: '数据展示',
               collapsable: false,
             },
@@ -253,6 +262,10 @@ module.exports = {
               title: 'Others',
               collapsable: false,
             },
+            {
+              title: 'BackTop 回到顶部',
+              path: '/comps/other/backTop'
+            },
           ]
         },
 
@@ -260,7 +273,6 @@ module.exports = {
     },
     lastUpdated: true
   },
-  head: [],
   plugins: [
     'demo-container',
     ['@vuepress-reco/vuepress-plugin-back-to-top'],

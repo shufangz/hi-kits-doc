@@ -25,7 +25,7 @@ import { HiSteps } from 'hi-kits/steps'
 
 ### 迷你版
 
-迷你版的步骤条，通过设置 size="small" 启用.
+迷你版的步骤条，通过设置 `size="small"` 启用.
 
 ::: demo
 ```html
@@ -38,7 +38,7 @@ import { HiSteps } from 'hi-kits/steps'
 :::
 
 ### 起始序号
-通过 start 来设置步骤条的起始序号.
+通过 `start` 来设置步骤条的起始序号.
 
 
 ::: demo
