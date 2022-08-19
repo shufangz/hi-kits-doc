@@ -27,24 +27,13 @@ import { HiButton } from 'hi-kits/button'
 
 ::: demo
 ```html
-<div class="Button">
-    <h-row>
+    <h-space>
         <h-button type="primary">Primary Button</h-button>
         <h-button>Default Button</h-button>
         <h-button type="dashed">Dashed Button</h-button>
         <h-button type='flat'>Text Button</h-button>
         <h-button type="flat" href="https://ys-zjrs.haier.net/zjm/synsm/pushManage/favicon.ico" download="111">Link Button</h-button>
-    </h-row>
-</div>
-<style>
-    .Button h-row {
-        display: flex;
-        justify-content: flex-start;
-    }
-    .Button h-row h-button {
-        margin-left: 20px;
-    }
-</style>
+    </h-space>
 
 ```
 :::
@@ -55,24 +44,14 @@ import { HiButton } from 'hi-kits/button'
 
 ::: demo
 ```html
-<div class="Button">
-    <h-row>
+    <h-space>
         <h-button disabled>Default Button</h-button>
         <h-button type="primary" disabled>Primary Button</h-button>
         <h-button type="dashed" disabled>Dashed Button</h-button>
         <h-button type='flat' disabled>Text Button</h-button>
         <h-button type="flat" href="https://ys-zjrs.haier.net/zjm/synsm/pushManage/favicon.ico" download="111" disabled>Link Button</h-button>
-    </h-row>
+    </h-space>
 </div>
-<style>
-    .Button h-row {
-        display: flex;
-        justify-content: flex-start;
-    }
-    .Button h-row h-button {
-        margin-left: 20px;
-    }
-</style>
 
 ```
 :::
@@ -83,21 +62,10 @@ import { HiButton } from 'hi-kits/button'
 
 ::: demo
 ```html
-<div class="Button">
-    <h-row>
-        <h-button type="flat" >Text Button</h-button>
-        <h-button type='flat' disabled>Text Button</h-button>
-    </h-row>
-</div>
-<style>
-   .Button h-row {
-        display: flex;
-        justify-content: flex-start;
-    }
-    .Button h-row h-button {
-        margin-left: 20px;
-    }
-</style>
+<h-space>
+    <h-button type="flat" >Text Button</h-button>
+    <h-button type='flat' disabled>Text Button</h-button>
+</h-space>
 
 ```
 :::
@@ -108,36 +76,25 @@ import { HiButton } from 'hi-kits/button'
 
 ::: demo
 ```html
-<div class="Button">
-    <h-row>
-        <h-button  type="default">
-            <h-icon name="search" color="fff"></h-icon>
-            搜索
-        </h-button>
-        <h-button type="primary" shape="circle">
-            <h-icon name="sync" color="fff"></h-icon>
-        </h-button>
-        <h-button type="primary">
-            <h-icon name="error" color="fff" ></h-icon>
-            警告
-        </h-button>
-        <h-button type="dashed">
-            <h-icon name="user" color="fff"></h-icon>
-        </h-button>
-        <h-button type='flat'>
-            <h-icon name="link" color="fff"></h-icon>
-        </h-button>
-    </h-row>
-</div>
-<style>
-    .Button h-row {
-        display: flex;
-        justify-content: flex-start;
-    }
-    .Button h-row h-button {
-        margin-left: 20px;
-    }
-</style>
+<h-space>
+    <h-button  type="default">
+        <h-icon name="search" color="fff"></h-icon>
+        搜索
+    </h-button>
+    <h-button type="primary" shape="circle">
+        <h-icon name="sync" color="fff"></h-icon>
+    </h-button>
+    <h-button type="primary">
+        <h-icon name="error" color="fff" ></h-icon>
+        警告
+    </h-button>
+    <h-button type="dashed">
+        <h-icon name="user" color="fff"></h-icon>
+    </h-button>
+    <h-button type='flat'>
+        <h-icon name="link" color="fff"></h-icon>
+    </h-button>
+</h-space>
 
 ```
 :::
@@ -148,23 +105,12 @@ import { HiButton } from 'hi-kits/button'
 
 ::: demo
 ```html
-<div class="Button">
-<h-row>
+<h-space>
     <h-button type="dashed">
          <h-loading></h-loading>
         loading Button
     </h-button>
-</h-row>
-</div>
-<style>
-    .Button h-row {
-        display: flex;
-        justify-content: flex-start;
-    }
-    .Button h-row h-button {
-        margin-left: 20px;
-    }
-</style>
+</h-space>
 
 ```
 :::
@@ -175,62 +121,50 @@ Button 组件提供除了默认值以外的两种尺寸，可以在不同场景�
 
 ::: demo
 ```html
-<div class="Button">
-    <h-row>
-        <h-button type="primary" size="large">Primary Button</h-button>
-        <h-button  size="large">Default Button</h-button>
-        <h-button type="dashed"  size="large">Dashed Button</h-button>
-        <h-button type="primary" shape="circle" size="large">
-            <h-icon name="sync" color="fff"></h-icon>
-        </h-button>
-    </h-row>
-    <h-row>
-        <h-button type="primary">Primary Button</h-button>
-        <h-button>Default Button</h-button>
-        <h-button type="dashed">Dashed Button</h-button>
-        <h-button type='flat'>Text Button</h-button>
-        <h-button type="flat" href="https://ys-zjrs.haier.net/zjm/synsm/pushManage/favicon.ico" download="111">Link Button</h-button>
-    </h-row>
-    <h-row>
-        <h-button type="primary" size="small">Primary Button</h-button>
-        <h-button  size="small">Default Button</h-button>
-        <h-button type="dashed"  size="small">Dashed Button</h-button>
-        <h-button type="primary" shape="circle" size="small">
-            <h-icon name="sync" color="fff"></h-icon>
-        </h-button>
-    </h-row>
-</div>
-<style>
-    .Button h-row {
-        display: flex;
-        justify-content: flex-start;
-        margin-bottom: 20px
-    }
-    .Button h-row h-button {
-        margin-left: 20px;
-    }
-</style>
+<h-space>
+    <h-button type="primary" size="large">Primary Button</h-button>
+    <h-button  size="large">Default Button</h-button>
+    <h-button type="dashed"  size="large">Dashed Button</h-button>
+    <h-button type="primary" shape="circle" size="large">
+        <h-icon name="sync" color="fff"></h-icon>
+    </h-button>
+</h-space>
+<h-space>
+    <h-button type="primary">Primary Button</h-button>
+    <h-button>Default Button</h-button>
+    <h-button type="dashed">Dashed Button</h-button>
+    <h-button type='flat'>Text Button</h-button>
+    <h-button type="flat" href="https://ys-zjrs.haier.net/zjm/synsm/pushManage/favicon.ico" download="111">Link Button</h-button>
+</h-space>
+<h-space>
+    <h-button type="primary" size="small">Primary Button</h-button>
+    <h-button  size="small">Default Button</h-button>
+    <h-button type="dashed"  size="small">Dashed Button</h-button>
+    <h-button type="primary" shape="circle" size="small">
+        <h-icon name="sync" color="fff"></h-icon>
+    </h-button>
+</h-space>
 
 ```
 :::
-
+<style>
+    h-space {
+        margin: 10px
+    }
+</style>
 ### Block 按钮
 
 Block 属性将使按钮适合其父宽度
 
 ::: demo
 ```html
-<h-button block type="primary">Primary Button</h-button>
-<h-button block>Default Button</h-button>
-<h-button type="dashed" block>Dashed Button</h-button>
-<h-button type='flat' block>Text Button</h-button>
-<h-button type="flat" href="https://ys-zjrs.haier.net/zjm/synsm/pushManage/favicon.ico" download="111" block>Link Button</h-button>
-
-<style>
-    h-button {
-        margin-top: 20px;
-    }
-</style>
+<h-space>
+    <h-button block type="primary">Primary Button</h-button>
+    <h-button block>Default Button</h-button>
+    <h-button type="dashed" block>Dashed Button</h-button>
+    <h-button type='flat' block>Text Button</h-button>
+    <h-button type="flat" href="https://ys-zjrs.haier.net/zjm/synsm/pushManage/favicon.ico" download="111" block>Link Button</h-button>
+</h-space>
 
 ```
 :::

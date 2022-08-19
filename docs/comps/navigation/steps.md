@@ -20,6 +20,7 @@ import { HiSteps } from 'hi-kits/steps'
     <h-step title="In Progress" subtitle="Left 00:00:08" desc="This is a description."></h-step>
     <h-step title="Waiting" desc="This is a description."></h-step>
 </h-steps>
+
 ```
 :::
 
@@ -34,6 +35,7 @@ import { HiSteps } from 'hi-kits/steps'
     <h-step title="In Progress" subtitle="Left 00:00:08" desc="This is a description."></h-step>
     <h-step title="Waiting" desc="This is a description."></h-step>
 </h-steps>
+
 ```
 :::
 
@@ -88,7 +90,6 @@ import { HiSteps } from 'hi-kits/steps'
     <h-step title="In Progress" subtitle="Left 00:00:08" desc="This is a description."></h-step>
     <h-step title="Waiting" desc="This is a description."></h-step>
 </h-steps>
-
 
 ```
 :::

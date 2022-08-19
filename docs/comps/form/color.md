@@ -36,6 +36,7 @@ import { HiColorPicker } from 'hi-kits/color'
  <h-color-picker custom onchange="this.firstElementChild.color=this.value">
     <h-icon name="check-circle" size="20" color="#F44336"></h-icon>
 </h-color-picker>
+
 ```
 :::
 ### 参数说明

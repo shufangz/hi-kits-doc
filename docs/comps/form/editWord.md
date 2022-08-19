@@ -8,7 +8,7 @@ import { HiEditWord } from 'hi-kits/editWord'
 
 ::: demo
 ```html
-<h-edit-word ochange="showDialog(event)">文字编辑</h-edit-word>
+<h-edit-word onchange="showDialog(event)">文字编辑</h-edit-word>
 
 ```
 :::

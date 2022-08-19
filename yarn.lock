@@ -4995,10 +4995,10 @@ hi-element@0.0.14:
   resolved "https://registry.yarnpkg.com/hi-element/-/hi-element-0.0.14.tgz#895b99622c6c39492841917fbd77d47f1482d4eb"
   integrity sha512-cBrfhWtdy/9W+8brzOuiS53dYy09f5gd4OWCB+pDBEyKoVqtTOJYaohlJZn2gN0q07Sbseo0WFvU/LyHO552Yg==
 
-hi-kits@^1.0.17:
-  version "1.0.17"
-  resolved "https://registry.yarnpkg.com/hi-kits/-/hi-kits-1.0.17.tgz#32c851b5471a73367dba92e2b192cd866b92f161"
-  integrity sha512-eI3L/H/RPtVxA6iaCyq7uF1hSdSVOLjELBG6CD0bUTded65mRz8VLqC6JWfb6ULeAKT9/QxOvDKvOaPgBmb0JQ==
+hi-kits@^1.0.21:
+  version "1.0.21"
+  resolved "https://registry.yarnpkg.com/hi-kits/-/hi-kits-1.0.21.tgz#b446c9c5db4422ec21945ae0720c7610a03f0445"
+  integrity sha512-idjAyxeefc1Qgw5jZNvXSmN151GC9DHuj2RP+H2lGnyh2qrxbkEjdj3SKG3UZa5eqOuSXA1nhpXfecK4eAXzrA==
   dependencies:
     hi-element "0.0.14"
     tslib "^2.4.0"

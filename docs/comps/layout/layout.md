@@ -27,7 +27,8 @@ import { HiLayout } from 'hi-kits/layout'
 :::
 
 #### expand 水平填充
-::: demo根据剩余空间填充（主轴方向）
+根据剩余空间填充（主轴方向）
+::: demo
 ```html
 <h-layout row>
   <h-layout class="layoutBox" expand></h-layout>
@@ -81,6 +82,10 @@ import { HiLayout } from 'hi-kits/layout'
     </h-layout>
     <h-layout class="footer">底部</h-layout>
 </h-layout>
+
+```
+:::
+
 <style>
   h-layout{ background: #2196f380; }
   .layoutBox{
@@ -97,10 +102,6 @@ import { HiLayout } from 'hi-kits/layout'
   .box{ width: 100px; height: 100px; color: #fff; }
   .header,.footer{ padding: 5px 10px; color: #fff; }
 </style>
-
-```
-:::
-
 ### 参数说明
 
 |参数|说明|类型|可选值|默认值

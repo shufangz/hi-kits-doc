@@ -11,22 +11,16 @@ import { HiBox } from 'hi-kits/box'
 
 ::: demo
 ```html
-<div>
-  <h-row  gutter="10">
-    <h-col>
-      <style>
-        .Box {
-          background-color: #90eedb;
-          border-style: dashed;
-          border-color: #91c1f4;
-          box-shadow: 0 0 0px 25px #b3f5b0;;
-        }
-      </style>
-      <h-box class="Box" margin="25" padding="25" border="25" >这里是盒子内的实际内容。有 25px 内间距，25px 黄色外间距、25px 蓝色边框。</h-box>
-    </h-col>
-  </h-row>
-</div>
+<h-box class="Box" margin="25" padding="25" border="25" >这里是盒子内的实际内容。有 25px 内间距，25px 绿色外间距、25px 蓝色边框。</h-box>
 
+<style>
+  .Box {
+    background-color: #90eedb;
+    border-style: dashed;
+    border-color: #91c1f4;
+    box-shadow: 0 0 0px 25px #b3f5b0;;
+  }
+</style>
 ```
 :::
 

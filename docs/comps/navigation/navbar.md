@@ -55,7 +55,7 @@ import { HiNavbar } from 'hi-kits/navbar'
 :::
 
 ### 改变位置
-
+通过`fixed`属性设置导航栏吸顶
 ::: demo
 ```html
 <h-switch onchange="this.nextElementSibling.fixed = this.checked;"></h-switch>

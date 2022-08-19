@@ -30,7 +30,6 @@ import { HiVajra } from 'hi-kits/vajra'
             </a>
         </span>
     </h-vajra-item>
-    
     <h-vajra-item text="11111">
         <span slot="icon">
             <a class="Example">
@@ -60,12 +59,19 @@ import { HiVajra } from 'hi-kits/vajra'
         </span>
     </h-vajra-item>
     <h-vajra-item text="22222">
-        <span slot="icon"><h-icon name="star" size="42" color="#000"></h-icon></span>
+        <span slot="icon">
+            <h-icon name="star" size="42" color="#000"></h-icon>
+        </span>
     </h-vajra-item>
     <h-vajra-item text="22222">
-        <span slot="icon"><h-icon name="error" size="42" color="#42b983"></h-icon></span>
+        <span slot="icon">
+            <h-icon name="error" size="42" color="#42b983"></h-icon>
+        </span>
     </h-vajra-item>
 </h-vajra>
+
+```
+:::
 <style>
     .Example{
         width: 42px;
@@ -75,10 +81,6 @@ import { HiVajra } from 'hi-kits/vajra'
         display: inline-block;
     }
 </style>
-
-```
-:::
-
 ### h-vajra
 
 |参数|说明|类型|可选值|默认值

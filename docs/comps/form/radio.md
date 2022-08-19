@@ -32,9 +32,10 @@ import { HiRadio } from 'hi-kits/radio'
 ::: demo
 ```html
 <h-radio disabled>Web Components</h-radio>
-<hr/>
+<h-divider line></h-divider>
 <h-radio>radio</h-radio>
 <h-switch onchange="this.previousElementSibling.disabled = this.checked"></h-switch>
+
 ```
 :::
 
@@ -62,9 +63,9 @@ import { HiRadio } from 'hi-kits/radio'
 
 ::: demo
 ```html
-<h-radio-group name="bookws" defaultvalue="Angular">
+ <h-radio-group name="books" defaultvalue="Angular">
     <h-radio>React</h-radio>
-    <h-radio indeterminate>Vue</h-radio>
+    <h-radio>Vue</h-radio>
     <h-radio>Angular</h-radio>
     <h-radio>Flutter</h-radio>
     <h-radio>Swift</h-radio>

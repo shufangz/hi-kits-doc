@@ -67,6 +67,10 @@ module.exports = {
               path: '/comps/basic/box'
             },
             {
+              title: 'Animate 动效',
+              path: '/comps/basic/animate'
+            },
+            {
               title: '布局',
               collapsable: false,
             },
@@ -158,8 +162,16 @@ module.exports = {
               path: '/comps/form/editWord'
             },
             {
+              title: 'Captcha 验证码',
+              path: '/comps/form/captcha'
+            },
+            {
               title: 'DatePicker 日期选择框',
               path: '/comps/form/datepicker'
+            },
+            {
+              title: 'TimePicker 时间选择框',
+              path: '/comps/form/timepicker'
             },
             {
               title: '数据展示',
@@ -218,8 +230,12 @@ module.exports = {
               path: '/comps/data/watermark'
             },
             {
-              title: 'Accordion 折叠面板/手风琴',
+              title: 'Accordion 折叠面板',
               path: '/comps/data/accordion'
+            },
+            {
+              title: 'Carousel 走马灯',
+              path: '/comps/data/carousel'
             },
             {
               title: '反馈',

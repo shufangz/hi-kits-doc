@@ -14,19 +14,19 @@ import { HiRate } from 'hi-kits/rate'
 ::: demo
 ```html
     <h-rate></h-rate>
+    
 ```
 :::
 
 ### 默认选中
 ::: demo
 ```html
+<h-space dir="vertical">
     <h-rate defaultvalue="1"></h-rate>
-    <div>
-        <h-rate defaultvalue="3"></h-rate>
-    </div>
-    <div>
-        <h-rate defaultvalue="5"></h-rate>
-    </div>
+    <h-rate defaultvalue="3"></h-rate>
+    <h-rate defaultvalue="5"></h-rate>
+</h-space>
+
 ```
 :::
 
@@ -36,7 +36,7 @@ import { HiRate } from 'hi-kits/rate'
 
 ::: demo
 ```html
-    <h-rate defaultvalue="1" tips="12,34,5"></h-rate>
+    <h-rate defaultvalue="1" tips="terrible,bad,normal,good,wonderful"></h-rate>
 
 ```
 :::
@@ -44,13 +44,12 @@ import { HiRate } from 'hi-kits/rate'
 ### 自定义
 ::: demo
 ```html
+<h-space dir="vertical">
     <h-rate length="8" defaultvalue="1" ></h-rate>
-    <div>
-        <h-rate length="10" color="red" defaultvalue="1" ></h-rate>
-    </div>
-    <div>
-        <h-rate length="15" defaultvalue="10" color="black"></h-rate>
-    </div>
+    <h-rate length="10" color="red" defaultvalue="1" ></h-rate>
+    <h-rate length="15" defaultvalue="10" color="pink"></h-rate>
+</h-space>
+
 ```
 :::
 ### 参数说明

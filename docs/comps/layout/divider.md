@@ -15,14 +15,12 @@ import { HiDivider } from 'hi-kits/divider'
 
 :::demo
 ```html
-  <div>
-    <span>青春是一个短暂的美梦, 当你醒来时, 它早已消失无踪</span>
-    <h-divider></h-divider>
-    <span>少量的邪恶足以抵消全部高贵的品质, 害得人声名狼藉</span>
-    <h-divider text="With Text"></h-divider>
-    <span>Lorem ipsum dolor sit amet, consectetur adipiscing hit. Sed nonne merninisti licere mihi ista probare, quae sunt a te dicta? Refert tamen, quo modo.</span>
-    <h-divider text="虚线分割线" dashed></h-divider>
-  </div>
+<span>青春是一个短暂的美梦, 当你醒来时, 它早已消失无踪</span>
+<h-divider line></h-divider>
+<span>少量的邪恶足以抵消全部高贵的品质, 害得人声名狼藉</span>
+<h-divider text="With Text"></h-divider>
+<span>Lorem ipsum dolor sit amet, consectetur adipiscing hit. Sed nonne merninisti licere mihi ista probare, quae sunt a te dicta? Refert tamen, quo modo.</span>
+<h-divider text="虚线分割线" dashed></h-divider>
   
 ```
 :::
@@ -33,14 +31,13 @@ import { HiDivider } from 'hi-kits/divider'
 
 :::demo
 ```html
-    <h-divider dir="left" text="少年包青天"></h-divider>
-    <h-divider dir="left">少年包青天</h-divider>
-    <h-divider dir="center" text="1">
-      <span>123
+<h-divider dir="left" text="少年包青天"></h-divider>
+<h-divider dir="center">
+    <span>
         <h-icon name="heart" size="50" color="#F44336"></h-icon>
-        </span>
-    </h-divider>
-    <h-divider dir="right" text="阿里云"></h-divider>
+    </span>
+</h-divider>
+<h-divider dir="right" text="阿里云"></h-divider>
 
 ```
 :::
@@ -51,17 +48,14 @@ import { HiDivider } from 'hi-kits/divider'
 
 :::demo
 ```html
-  <div>
-    <span>雨纷纷</span>
-    <h-divider type="vertical"></h-divider>
-    <span>旧故里</span>
-    <h-divider type="vertical"></h-divider>
-    <span>草木深</span>
-  </div>
+<span>雨纷纷</span>
+<h-divider type="vertical"></h-divider>
+<span>旧故里</span>
+<h-divider type="vertical"></h-divider>
+<span>草木深</span>
 
 ```
 :::
-
 
 ### 参数说明
 
@@ -71,3 +65,4 @@ import { HiDivider } from 'hi-kits/divider'
 | `text` | 中间文字	 | `string` | - | -
 | `dir` | 中间文字方向 | `string` | `left | center | right`  | `center`
 | `dashed` | 是否虚线	 | `boolean` | - | `false`
+| `line` | 无文字	 | `boolean` | - | `false`

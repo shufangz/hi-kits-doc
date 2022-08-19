@@ -33,21 +33,23 @@ import { HiBreadcrumb } from 'hi-kits/breadcrumb'
 
 ::: demo
 ```html
-<h-breadcrumb separator=">">
-    <h-breadcrumb-item>Home</h-breadcrumb-item>
-    <h-breadcrumb-item>
-        <a>页面2</a>
-    </h-breadcrumb-item>
-    <h-breadcrumb-item>页面3</h-breadcrumb-item>
-</h-breadcrumb>
+<h-space  dir="vertical">
+    <h-breadcrumb separator=">">
+        <h-breadcrumb-item>Home</h-breadcrumb-item>
+        <h-breadcrumb-item>
+            <a>页面2</a>
+        </h-breadcrumb-item>
+        <h-breadcrumb-item>页面3</h-breadcrumb-item>
+    </h-breadcrumb>
 
-<h-breadcrumb separator="->">
-    <h-breadcrumb-item>Home</h-breadcrumb-item>
-    <h-breadcrumb-item>
-        <a>页面2</a>
-    </h-breadcrumb-item>
-    <h-breadcrumb-item>页面3</h-breadcrumb-item>
-</h-breadcrumb>
+    <h-breadcrumb separator="->">
+        <h-breadcrumb-item>Home</h-breadcrumb-item>
+        <h-breadcrumb-item>
+            <a>页面2</a>
+        </h-breadcrumb-item>
+        <h-breadcrumb-item>页面3</h-breadcrumb-item>
+    </h-breadcrumb>
+</h-space>
 
 ```
 :::
@@ -74,7 +76,6 @@ import { HiBreadcrumb } from 'hi-kits/breadcrumb'
 
 ```
 :::
-### 参数说明
 
 
 ### 带有图标的
@@ -98,4 +99,4 @@ import { HiBreadcrumb } from 'hi-kits/breadcrumb'
 ### 参数说明
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
-| `title`| 通知标题 |  `string` | - | -
+| `separator`| 分隔符 |  `string` | - | -
