@@ -245,7 +245,7 @@ import { HiList } from 'hi-kits/list'
                 <p style="color: #aaa;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis tellus ut turpis condimentum, ut dignissim lacus tincidunt.</p>
                 <p> Cras dolor metus, ultrices condimentum sodales sit amet, pharetra sodales eros. Phasellus vel felis tellus. Mauris rutrum ligula nec dapibus feugiat. In vel dui laoreet, commodo augue id, pulvinar lacus.</p>
                 <h-list-item-action style="color: #aaa; ">
-                    <h-icon name="user" color="#42b983"></h-icon> 222
+                    <h-icon name="person" color="#42b983"></h-icon> 222
                     <h-divider type="vertical"></h-divider>
                     <h-icon name="heart" color="#F44336"></h-icon> 333
                 </h-list-item-action>
@@ -268,7 +268,7 @@ import { HiList } from 'hi-kits/list'
                 <p style="color: #aaa;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis tellus ut turpis condimentum, ut dignissim lacus tincidunt.</p>
                 <p> Cras dolor metus, ultrices condimentum sodales sit amet, pharetra sodales eros. Phasellus vel felis tellus. Mauris rutrum ligula nec dapibus feugiat. In vel dui laoreet, commodo augue id, pulvinar lacus.</p>
                 <h-list-item-action style="color: #aaa; ">
-                    <h-icon name="user" color="#42b983"></h-icon> 222
+                    <h-icon name="person" color="#42b983"></h-icon> 222
                     <h-divider type="vertical"></h-divider>
                     <h-icon name="heart" color="#F44336"></h-icon> 333
                 </h-list-item-action>

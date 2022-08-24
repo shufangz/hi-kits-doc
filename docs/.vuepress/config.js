@@ -130,6 +130,14 @@ module.exports = {
               path: '/comps/navigation/title'
             },
             {
+              title: 'Float 浮动',
+              path: '/comps/navigation/float'
+            },
+            {
+              title: 'Menu 导航菜单',
+              path: '/comps/navigation/menu'
+            },
+            {
               title: '表单录入',
               collapsable: false,
             },
@@ -172,6 +180,14 @@ module.exports = {
             {
               title: 'TimePicker 时间选择框',
               path: '/comps/form/timepicker'
+            },
+            {
+              title: 'Slider 滑动输入条',
+              path: '/comps/form/slider'
+            },
+            {
+              title: 'Upload 上传',
+              path: '/comps/form/upload'
             },
             {
               title: '数据展示',

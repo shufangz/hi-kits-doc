@@ -65,7 +65,7 @@ import { HiVajra } from 'hi-kits/vajra'
     </h-vajra-item>
     <h-vajra-item text="22222">
         <span slot="icon">
-            <h-icon name="error" size="42" color="#42b983"></h-icon>
+            <h-icon name="warning" size="42" color="#42b983"></h-icon>
         </span>
     </h-vajra-item>
 </h-vajra>

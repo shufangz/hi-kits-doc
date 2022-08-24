@@ -45,10 +45,10 @@ import { HiTag } from 'hi-kits/tag'
 ::: demo
 ```html
 <h-tag text="用户">
-    <h-icon name="user" size="20" color="#3F51B5"></h-icon>
+    <h-icon name="person" size="20" color="#3F51B5"></h-icon>
 </h-tag>
 <h-tag text="标签二" color="#fff" style="background: purple;">
-  <h-icon name="info-circle" size="20" color="#fff"></h-icon>
+  <h-icon name="info" size="20" color="#fff"></h-icon>
 </h-tag>
 <h-tag text="标签三" style="background: gold;">
     <h-icon name="heart" size="20" color="red"></h-icon>
@@ -57,7 +57,7 @@ import { HiTag } from 'hi-kits/tag'
     <h-icon name="star" size="20" color="aliceblue"></h-icon>
 </h-tag>
 <h-tag text="标签五" style="background: cyan;">
-    <h-icon name="error" size="20" color="#3F51B5"></h-icon>
+    <h-icon name="warning" size="20" color="#3F51B5"></h-icon>
 </h-tag>
 <h-tag text="标签六" style="background: #108ee9;">
     <h-icon name="sync" size="20" color="lightblue"></h-icon>
@@ -71,7 +71,7 @@ import { HiTag } from 'hi-kits/tag'
 
 ::: demo
 ```html
-<h-tips tips="user" type="info">
+<h-tips tips="person" type="info">
     <h-tag text="用户">
     </h-tag>
 </h-tips>

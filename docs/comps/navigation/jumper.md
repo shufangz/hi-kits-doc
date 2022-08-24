@@ -43,6 +43,13 @@ import { HiJumper } from 'hi-kits/jumper'
 ```
 :::
 
+### 上下结构
+::: demo
+```html
+<h-jumper dir="vertical"></h-jumper>
+
+```
+:::
 ### 参数说明
 
 |参数|说明|类型|可选值|默认值

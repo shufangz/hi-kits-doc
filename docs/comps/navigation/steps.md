@@ -61,7 +61,7 @@ import { HiSteps } from 'hi-kits/steps'
 <h-steps current="1" start="3" size="small">
     <h-step title="Finished" desc="This is a description.">
         <div slot="icon">
-            <h-icon name="user" size="24" color="#42b983"></h-icon>
+            <h-icon name="person" size="24" color="#42b983"></h-icon>
         </div>
     </h-step>
     <h-step title="In Progress" subtitle="Left 00:00:08" desc="This is a description.">
@@ -101,7 +101,7 @@ import { HiSteps } from 'hi-kits/steps'
 <h-steps current="1" dir="vertical">
     <h-step title="Finished" desc="This is a description.">
         <div slot="icon">
-            <h-icon name="user" size="24" color="#42b983"></h-icon>
+            <h-icon name="person" size="24" color="#42b983"></h-icon>
         </div>
     </h-step>
     <h-step title="In Progress" subtitle="Left 00:00:08" desc="This is a description.">

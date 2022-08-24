@@ -78,25 +78,25 @@ import { HiTimeline } from 'hi-kits/timeline'
 <h-timeline mode="custom">
         <h-timeline-item mode="right"  color="red" style="color:#1890ff">
             <span slot="dot">
-                <h-icon name="info-circle"   color="#42b983"></h-icon>
+                <h-icon name="activity"   color="#42b983"></h-icon>
             </span>
             创建服务网站 2022-06-01
         </h-timeline-item>
         <h-timeline-item mode="right" color="green">
             <span slot="dot">
-                <h-icon name="question-circle"   color="red"></h-icon>
+                <h-icon name="bug"   color="red"></h-icon>
             </span>
             解决初始网络问题 2022-06-01
         </h-timeline-item>
         <h-timeline-item mode="left" color="green">
             <span slot="dot">
-                <h-icon name="warning-circle"   color="red"></h-icon>
+                <h-icon name="warning"   color="red"></h-icon>
             </span>
             技术测试 2022-06-01
         </h-timeline-item>
         <h-timeline-item mode="left" color="green">
             <span slot="dot">
-                <h-icon name="check-circle"   color="#1890ff"></h-icon>
+                <h-icon name="alert_circled"   color="#1890ff"></h-icon>
             </span>
             正在解决的网络问题 2022-06-01
         </h-timeline-item>

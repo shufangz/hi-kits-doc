@@ -78,7 +78,7 @@ Hikits 提供了模式，为适配不同需求中的布局
 
 ::: demo
 ```html
-<h-row gutter="10">
+<h-row gutter="30">
     <h-col span="12">
         <p>一行二个</p>
         <h-banner mode="1/1" gutter="10">
@@ -124,7 +124,7 @@ Hikits 提供了模式，为适配不同需求中的布局
             </h-banner>
         </h-banner>
     </h-col>
-    <h-col span="6">
+    <h-col span="12">
         <p>一上两下</p>
         <h-banner mode="auto" gutter="10">
             <h-banner-item ratio="2:1"

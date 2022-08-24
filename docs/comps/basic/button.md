@@ -85,11 +85,11 @@ import { HiButton } from 'hi-kits/button'
         <h-icon name="sync" color="fff"></h-icon>
     </h-button>
     <h-button type="primary">
-        <h-icon name="error" color="fff" ></h-icon>
+        <h-icon name="warning" color="fff" ></h-icon>
         警告
     </h-button>
     <h-button type="dashed">
-        <h-icon name="user" color="fff"></h-icon>
+        <h-icon name="person" color="fff"></h-icon>
     </h-button>
     <h-button type='flat'>
         <h-icon name="link" color="fff"></h-icon>
@@ -121,34 +121,36 @@ Button 组件提供除了默认值以外的两种尺寸，可以在不同场景�
 
 ::: demo
 ```html
-<h-space>
-    <h-button type="primary" size="large">Primary Button</h-button>
-    <h-button  size="large">Default Button</h-button>
-    <h-button type="dashed"  size="large">Dashed Button</h-button>
-    <h-button type="primary" shape="circle" size="large">
-        <h-icon name="sync" color="fff"></h-icon>
-    </h-button>
-</h-space>
-<h-space>
-    <h-button type="primary">Primary Button</h-button>
-    <h-button>Default Button</h-button>
-    <h-button type="dashed">Dashed Button</h-button>
-    <h-button type='flat'>Text Button</h-button>
-    <h-button type="flat" href="https://ys-zjrs.haier.net/zjm/synsm/pushManage/favicon.ico" download="111">Link Button</h-button>
-</h-space>
-<h-space>
-    <h-button type="primary" size="small">Primary Button</h-button>
-    <h-button  size="small">Default Button</h-button>
-    <h-button type="dashed"  size="small">Dashed Button</h-button>
-    <h-button type="primary" shape="circle" size="small">
-        <h-icon name="sync" color="fff"></h-icon>
-    </h-button>
+<h-space  dir="vertical">
+    <h-space>
+        <h-button type="primary" size="large">Primary Button</h-button>
+        <h-button  size="large">Default Button</h-button>
+        <h-button type="dashed"  size="large">Dashed Button</h-button>
+        <h-button type="primary" shape="circle" size="large">
+            <h-icon name="sync" color="fff"></h-icon>
+        </h-button>
+    </h-space>
+    <h-space>
+        <h-button type="primary">Primary Button</h-button>
+        <h-button>Default Button</h-button>
+        <h-button type="dashed">Dashed Button</h-button>
+        <h-button type='flat'>Text Button</h-button>
+        <h-button type="flat" href="https://ys-zjrs.haier.net/zjm/synsm/pushManage/favicon.ico" download="111">Link Button</h-button>
+    </h-space>
+    <h-space>
+        <h-button type="primary" size="small">Primary Button</h-button>
+        <h-button  size="small">Default Button</h-button>
+        <h-button type="dashed"  size="small">Dashed Button</h-button>
+        <h-button type="primary" shape="circle" size="small">
+            <h-icon name="sync" color="fff"></h-icon>
+        </h-button>
+    </h-space>
 </h-space>
 
 ```
 :::
 <style>
-    h-space {
+    h-space, h-button {
         margin: 10px
     }
 </style>
@@ -158,13 +160,11 @@ Block 属性将使按钮适合其父宽度
 
 ::: demo
 ```html
-<h-space>
     <h-button block type="primary">Primary Button</h-button>
     <h-button block>Default Button</h-button>
     <h-button type="dashed" block>Dashed Button</h-button>
     <h-button type='flat' block>Text Button</h-button>
     <h-button type="flat" href="https://ys-zjrs.haier.net/zjm/synsm/pushManage/favicon.ico" download="111" block>Link Button</h-button>
-</h-space>
 
 ```
 :::

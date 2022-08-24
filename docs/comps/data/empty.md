@@ -41,7 +41,7 @@ import { HiEmpty } from 'hi-kits/empty'
 ::: demo
 ```html
 <h-empty>
-    <h-icon name="user" size="50" color="#42b983"></h-icon>
+    <h-icon name="frown" size="50" color="#42b983"></h-icon>
     <p>自定义空状态</p>
     <h-button>Click Here</h-button>
 </h-empty>

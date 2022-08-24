@@ -15,45 +15,45 @@ import { HiToolbar } from 'hi-kits/toolbar'
 <h-toolbar>
     <h-toolbar-group>
         <h-toolbar-item tips="撤销(⌘+Z)">
-            <h-icon name="user" size="16" color="#444"></h-icon>
+            <h-icon name="undo" size="16" color="#444"></h-icon>
             <span slot="label">撤销</span>
         </h-toolbar-item>
         <h-toolbar-item tips="重做(⌘+Y)">
-            <h-icon name="user" size="16" color="#333"></h-icon>
+            <h-icon name="redo" size="16" color="#333"></h-icon>
             <span slot="label">重做</span>
         </h-toolbar-item>
         <h-toolbar-item tips="格式刷(双击连续使用)">
-            <h-icon name="heart" size="16" color="#333"></h-icon>
+            <h-icon name="brush" size="16" color="#333"></h-icon>
             <span slot="label">格式刷</span>
         </h-toolbar-item>
         <h-toolbar-item tips="清除格式(⌘+\)">
-            <h-icon name="close" size="16" color="#333"></h-icon>
+            <h-icon name="repeat" size="16" color="#333"></h-icon>
             <span slot="label">清除格式</span>
         </h-toolbar-item>
     </h-toolbar-group>
     <h-toolbar-group column>
         <h-toolbar-row>
             <h-toolbar-item tips="同步(⌘+\)">
-                <h-icon name="sync" size="16" color="#333"></h-icon>
+                <h-icon name="shuffle" size="16" color="#333"></h-icon>
             </h-toolbar-item>
             <h-toolbar-item tips="链接(⌘+\)">
                 <h-icon name="link" size="16" color="#333"></h-icon>
             </h-toolbar-item>
             <h-toolbar-item tips="颜色(⌘+\)">
                 <h-color-picker custom onchange="this.firstElementChild.color=this.value">
-                    <h-icon name="check-circle" size="16" color="#9C27B0"></h-icon>
+                    <h-icon name="color_palette" size="16" color="#9C27B0"></h-icon>
                 </h-color-picker>
             </h-toolbar-item>
         </h-toolbar-row>
         <h-toolbar-row>
             <h-toolbar-item active  tips="右箭头(⌘+\)">
-                <h-icon name="right" size="16" color="#333"></h-icon>
+                <h-icon name="arrow_backward" size="16" color="#333"></h-icon>
             </h-toolbar-item>
             <h-toolbar-item  tips="搜索(⌘+\)">
                 <h-icon name="search" size="16" color="#333"></h-icon>
             </h-toolbar-item>
             <h-toolbar-item>
-                <h-icon name="search" size="16" color="#333"></h-icon>
+                <h-icon name="cloud_upload" size="16" color="#333"></h-icon>
             </h-toolbar-item>
         </h-toolbar-row>
     </h-toolbar-group>
@@ -68,51 +68,49 @@ import { HiToolbar } from 'hi-kits/toolbar'
 <h-toolbar simple>
     <h-toolbar-group>
         <h-toolbar-item tips="撤销(⌘+Z)">
-            <h-icon name="user" size="16" color="#444"></h-icon>
+            <h-icon name="undo" size="16" color="#444"></h-icon>
             <span slot="label">撤销</span>
         </h-toolbar-item>
         <h-toolbar-item tips="重做(⌘+Y)">
-            <h-icon name="user" size="16" color="#333"></h-icon>
+            <h-icon name="redo" size="16" color="#333"></h-icon>
             <span slot="label">重做</span>
         </h-toolbar-item>
-        <h-toolbar-item tips="格式刷(双击连续使用)">
-            <h-icon name="heart" size="16" color="#333"></h-icon>
+            <h-toolbar-item tips="格式刷(双击连续使用)">
+            <h-icon name="brush" size="16" color="#333"></h-icon>
             <span slot="label">格式刷</span>
         </h-toolbar-item>
         <h-toolbar-item tips="清除格式(⌘+\)">
-            <h-icon name="close" size="16" color="#333"></h-icon>
+            <h-icon name="repeat" size="16" color="#333"></h-icon>
             <span slot="label">清除格式</span>
         </h-toolbar-item>
     </h-toolbar-group>
     <h-toolbar-group column>
         <h-toolbar-row>
             <h-toolbar-item tips="同步(⌘+\)">
-                <h-icon name="sync" size="16" color="#333"></h-icon>
+                <h-icon name="shuffle" size="16" color="#333"></h-icon>
             </h-toolbar-item>
             <h-toolbar-item tips="链接(⌘+\)">
                 <h-icon name="link" size="16" color="#333"></h-icon>
             </h-toolbar-item>
             <h-toolbar-item tips="颜色(⌘+\)">
                 <h-color-picker custom onchange="this.firstElementChild.color=this.value">
-                    <h-icon name="check-circle" size="16" color="#9C27B0"></h-icon>
+                <h-icon name="color_palette" size="16" color="#9C27B0"></h-icon>
                 </h-color-picker>
             </h-toolbar-item>
         </h-toolbar-row>
         <h-toolbar-row>
-            <h-toolbar-item active  tips="右箭头(⌘+\)">
-                <h-icon name="right" size="16" color="#333"></h-icon>
+            <h-toolbar-item active tips="右箭头(⌘+\)">
+                <h-icon name="arrow_backward" size="16" color="#333"></h-icon>
             </h-toolbar-item>
-            <h-toolbar-item  tips="搜索(⌘+\)">
+            <h-toolbar-item tips="搜索(⌘+\)">
                 <h-icon name="search" size="16" color="#333"></h-icon>
             </h-toolbar-item>
             <h-toolbar-item>
-                <h-icon name="search" size="16" color="#333"></h-icon>
+                <h-icon name="cloud_upload" size="16" color="#333"></h-icon>
             </h-toolbar-item>
         </h-toolbar-row>
     </h-toolbar-group>
 </h-toolbar>
-
-```
 :::
 
 ### 位置居右
@@ -122,45 +120,45 @@ import { HiToolbar } from 'hi-kits/toolbar'
 <h-toolbar right>
     <h-toolbar-group>
         <h-toolbar-item tips="撤销(⌘+Z)">
-            <h-icon name="user" size="16" color="#444"></h-icon>
+            <h-icon name="undo" size="16" color="#444"></h-icon>
             <span slot="label">撤销</span>
         </h-toolbar-item>
         <h-toolbar-item tips="重做(⌘+Y)">
-            <h-icon name="user" size="16" color="#333"></h-icon>
+            <h-icon name="redo" size="16" color="#333"></h-icon>
             <span slot="label">重做</span>
         </h-toolbar-item>
         <h-toolbar-item tips="格式刷(双击连续使用)">
-            <h-icon name="heart" size="16" color="#333"></h-icon>
+            <h-icon name="brush" size="16" color="#333"></h-icon>
             <span slot="label">格式刷</span>
         </h-toolbar-item>
         <h-toolbar-item tips="清除格式(⌘+\)">
-            <h-icon name="close" size="16" color="#333"></h-icon>
+            <h-icon name="repeat" size="16" color="#333"></h-icon>
             <span slot="label">清除格式</span>
         </h-toolbar-item>
     </h-toolbar-group>
     <h-toolbar-group column>
         <h-toolbar-row>
             <h-toolbar-item tips="同步(⌘+\)">
-                <h-icon name="sync" size="16" color="#333"></h-icon>
+                <h-icon name="shuffle" size="16" color="#333"></h-icon>
             </h-toolbar-item>
             <h-toolbar-item tips="链接(⌘+\)">
                 <h-icon name="link" size="16" color="#333"></h-icon>
             </h-toolbar-item>
             <h-toolbar-item tips="颜色(⌘+\)">
                 <h-color-picker custom onchange="this.firstElementChild.color=this.value">
-                    <h-icon name="check-circle" size="16" color="#9C27B0"></h-icon>
+                <h-icon name="color_palette" size="16" color="#9C27B0"></h-icon>
                 </h-color-picker>
             </h-toolbar-item>
         </h-toolbar-row>
         <h-toolbar-row>
-            <h-toolbar-item active  tips="右箭头(⌘+\)">
-                <h-icon name="right" size="16" color="#333"></h-icon>
+            <h-toolbar-item active tips="右箭头(⌘+\)">
+                <h-icon name="arrow_backward" size="16" color="#333"></h-icon>
             </h-toolbar-item>
-            <h-toolbar-item  tips="搜索(⌘+\)">
+            <h-toolbar-item tips="搜索(⌘+\)">
                 <h-icon name="search" size="16" color="#333"></h-icon>
             </h-toolbar-item>
             <h-toolbar-item>
-                <h-icon name="search" size="16" color="#333"></h-icon>
+                <h-icon name="cloud_upload" size="16" color="#333"></h-icon>
             </h-toolbar-item>
         </h-toolbar-row>
     </h-toolbar-group>

@@ -86,10 +86,10 @@ import { HiBreadcrumb } from 'hi-kits/breadcrumb'
 ```html
 <h-breadcrumb>
     <h-breadcrumb-item>
-        <h-icon name="user" size="18" color="#3F51B5"></h-icon>
+        <h-icon name="person" size="18" color="#3F51B5"></h-icon>
     </h-breadcrumb-item>
     <h-breadcrumb-item>
-        <a><h-icon name="user" size="18"></h-icon> 页面2</a>
+        <a><h-icon name="person" size="18"></h-icon> 页面2</a>
     </h-breadcrumb-item>
     <h-breadcrumb-item>页面3</h-breadcrumb-item>
 </h-breadcrumb>

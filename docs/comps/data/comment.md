@@ -27,9 +27,9 @@ import { HiComment } from 'hi-kits/comment'
     We supply a series of design principles, practical patterns and high quality design resources (Sketch and
 Axure), to help people create their product prototypes beautifully and efficiently.
     <h-comment-action>
-        <h-icon name="user" color="#42b983"></h-icon> 0
+        <h-icon name="leaderboard" color="#42b983"></h-icon> 0
         <h-divider type="vertical"></h-divider>
-        <h-icon name="user" color="#42b983"></h-icon> 222
+        <h-icon name="loader" color="#42b983"></h-icon> 222
         <h-divider type="vertical"></h-divider>
         <h-icon name="heart" color="#F44336"></h-icon> 333
     </h-comment-action>
@@ -60,9 +60,9 @@ Axure), to help people create their product prototypes beautifully and efficient
             We supply a series of design principles, practical patterns and high quality design resources (Sketch and
 Axure), to help people create their product prototypes beautifully and efficiently.
             <h-comment-action>
-                <h-icon name="user" color="#42b983"></h-icon> 0
+                <h-icon name="internet" color="#42b983"></h-icon> 0
                 <h-divider type="vertical"></h-divider>
-                <h-icon name="user" color="#42b983"></h-icon> 222
+                <h-icon name="message" color="#42b983"></h-icon> 222
                 <h-divider type="vertical"></h-divider>
                 <h-icon name="heart" color="#F44336"></h-icon> 333
             </h-comment-action>
@@ -84,9 +84,9 @@ Axure), to help people create their product prototypes beautifully and efficient
             We supply a series of design principles, practical patterns and high quality design resources (Sketch and
 Axure), to help people create their product prototypes beautifully and efficiently.
             <h-comment-action>
-                <h-icon name="user" color="#42b983"></h-icon> 0
+                <h-icon name="layers" color="#42b983"></h-icon> 0
                 <h-divider type="vertical"></h-divider>
-                <h-icon name="user" color="#42b983"></h-icon> 222
+                <h-icon name="notes" color="#42b983"></h-icon> 222
                 <h-divider type="vertical"></h-divider>
                 <h-icon name="heart" color="#F44336"></h-icon> 333
             </h-comment-action>
@@ -115,9 +115,9 @@ Axure), to help people create their product prototypes beautifully and efficient
     </div>
     We supply a series of design principles, practical patterns and high quality design resources.
     <h-comment-action>
-        <h-icon name="user" color="#42b983"></h-icon> 0
+        <h-icon name="home" color="#42b983"></h-icon> 0
         <h-divider type="vertical"></h-divider>
-        <h-icon name="user" color="#42b983"></h-icon> 222
+        <h-icon name="justify" color="#42b983"></h-icon> 222
         <h-divider type="vertical"></h-divider>
         <h-icon name="heart" color="#F44336"></h-icon> 333
     </h-comment-action>
@@ -135,9 +135,9 @@ Axure), to help people create their product prototypes beautifully and efficient
         </div>
         We supply a series of design principles, practical patterns and high quality design resources.
         <h-comment-action>
-            <h-icon name="user" color="#42b983"></h-icon> 0
+            <h-icon name="flashlight" color="#42b983"></h-icon> 0
             <h-divider type="vertical"></h-divider>
-            <h-icon name="user" color="#42b983"></h-icon> 222
+            <h-icon name="history" color="#42b983"></h-icon> 222
             <h-divider type="vertical"></h-divider>
             <h-icon name="heart" color="#F44336"></h-icon> 333
         </h-comment-action>
@@ -155,9 +155,9 @@ Axure), to help people create their product prototypes beautifully and efficient
             </div>
             We supply a series of design principles, practical patterns and high quality design resources.
             <h-comment-action>
-                <h-icon name="user" color="#42b983"></h-icon> 0
+                <h-icon name="flight" color="#42b983"></h-icon> 0
                 <h-divider type="vertical"></h-divider>
-                <h-icon name="user" color="#42b983"></h-icon> 222
+                <h-icon name="hourglass" color="#42b983"></h-icon> 222
                 <h-divider type="vertical"></h-divider>
                 <h-icon name="heart" color="#F44336"></h-icon> 333
             </h-comment-action>
