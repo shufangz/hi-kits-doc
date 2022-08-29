@@ -54,17 +54,16 @@ import { HiCheckbox } from 'hi-kits/checkbox'
 
 ### h-checkbox-group组件
 新增`h-checkbox-group`组件，表示同一组
-
 ::: demo
 ```html
-<h-checkbox-group name="books" defaultvalue="React,Angular">
-  <h-checkbox>React</h-checkbox>
-  <h-checkbox indeterminate>Vue</h-checkbox>
-  <h-checkbox>Angular</h-checkbox>
-  <h-checkbox>Flutter</h-checkbox>
-  <h-checkbox>Swift</h-checkbox>
-</h-checkbox-group>
-
+  <h-checkbox-group name="books" defaultvalue="React,Angular" id="checkgroup">
+    <h-checkbox>React</h-checkbox>
+    <h-checkbox>Vue</h-checkbox>
+    <h-checkbox>Angular</h-checkbox>
+    <h-checkbox>Flutter</h-checkbox>
+    <h-checkbox>Swift</h-checkbox>
+  </h-checkbox-group>
+  
 ```
 :::
 
@@ -87,3 +86,4 @@ import { HiCheckbox } from 'hi-kits/checkbox'
 | `defaultvalue`| 默认选中的value	 |  `string` | - | -
 | `onchange`| 变化时回调函数	 |  `Function(e:Event)	` | - | -
 
+<checkbox />

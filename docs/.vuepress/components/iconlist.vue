@@ -14,14 +14,7 @@ export default {
     return {
       // 图标name
       iconlist: [
-        "help",
-        "warning",
-        "person",
-        "alert_circled",
-        "color_palette",
-        "upload",
-        "chevron_forward",
-        "bug",
+        'add',
         "anchor",
         "arrow_down",
         "add_circled",
@@ -51,6 +44,7 @@ export default {
         "bulb",
         "calendar",
         "chevron_double_down",
+        "bug",
         "bank",
         "burger",
         "briefcase",
@@ -61,6 +55,7 @@ export default {
         "cart",
         "battery",
         "cast",
+        "chevron_forward",
         "cake",
         "bus",
         "bookmark",
@@ -111,6 +106,7 @@ export default {
         "fast_forward",
         "document",
         "drop",
+        "help",
         "flight",
         "italics",
         "facebook",
@@ -262,6 +258,7 @@ export default {
         "tag",
         "toggle_left",
         "web_development",
+        "warning",
         "trash",
         "icon-kfckfc",
         "share",
@@ -371,6 +368,9 @@ export default {
 }
 .icontable tr td h-icon {
   margin-top: 14px;
+}
+.icontable tr td p {
+  text-align: center;
 }
 .icontable tr td:hover {
   color: #42b983;

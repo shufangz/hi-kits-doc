@@ -1,6 +1,5 @@
-# DatePicker 日期选择框
-选择日期的控件。
-
+# TimePicker 时间选择器
+选择时间的控件
 ### 何时使用
 选择时间的控件。
 <pre class="language-ts">
@@ -14,7 +13,6 @@ import { HiTimePicker } from 'hi-kits/time-picker'
 ::: demo
 ```html
 <h-space dir="vertical">
-    <h-time-picker></h-time-picker>
     <h-time-picker></h-time-picker>
 </h-space>
 
@@ -46,6 +44,16 @@ import { HiTimePicker } from 'hi-kits/time-picker'
 ::: demo
 ```html
     <h-time-picker allowClear="false"></h-time-picker>
+
+```
+:::
+### 12小时制
+
+::: demo
+```html
+    <h-time-picker defaultTimeValue="12:24:30 am" allowClear="false" use12Hours></h-time-picker>
+    <h-time-picker range defaultTimeValue="12:24:30 am~12:20:40 pm" allowClear use12Hours></h-time-picker>
+
 ```
 :::
 ### 参数说明
@@ -63,4 +71,6 @@ import { HiTimePicker } from 'hi-kits/time-picker'
 |`min`|可选择时间的最小值|`yyyy-mm-dd`|-|-
 |`max`|可选择时间的最大值|`yyyy-mm-dd`|-|-
 |`defaultTimeValue`|默认值|`yyyy-mm-dd～yyyy-mm-dd`  `hh:mm:ss` |-|-
+|`onOpenChange`|面板打开/关闭时的回调	|`function`|-|-
+|`onChange`|时间发生变化的回调	|`function`|-|-
 

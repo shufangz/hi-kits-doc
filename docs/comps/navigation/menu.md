@@ -9,7 +9,7 @@ import { HiMenut } from 'hi-kits/menu'
 </pre>
 
 ### 基本用法
-
+垂直菜单，子菜单是弹出的形式。
 ::: demo
 ```html
 <h-menu>

@@ -146,6 +146,10 @@ module.exports = {
               path: '/comps/form/input'
             },
             {
+              title: 'InputNumber 数字输入框',
+              path: '/comps/form/inputNumber'
+            },
+            {
               title: 'Radio 单选框',
               path: '/comps/form/radio'
             },
@@ -254,6 +258,10 @@ module.exports = {
               path: '/comps/data/carousel'
             },
             {
+              title: 'Popup 弹出窗',
+              path: '/comps/data/popup'
+            },
+            {
               title: '反馈',
               collapsable: false,
             },
@@ -289,7 +297,22 @@ module.exports = {
               title: 'Sidebar 侧边栏',
               path: '/comps/feedback/sidebar'
             },
-
+            {
+              title: 'Actions 动作面板',
+              path: '/comps/form/actions'
+            },
+            {
+              title: '手势',
+              collapsable: false,
+            },
+            {
+              title: 'PenSigner 签名板',
+              path: '/comps/gesture/penSigner'
+            },
+            {
+              title: 'PullToRefresh 拉动刷新',
+              path: '/comps/gesture/pullToRefresh'
+            },
             {
               title: 'Others',
               collapsable: false,

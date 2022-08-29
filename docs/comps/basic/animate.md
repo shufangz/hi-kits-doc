@@ -1,3 +1,11 @@
+<!--
+ * @Author: zengshufang zengshufang@haier.com
+ * @Date: 2022-08-19 18:04:54
+ * @LastEditors: zengshufang zengshufang@haier.com
+ * @LastEditTime: 2022-08-25 15:31:13
+ * @FilePath: /hi-kits-doc/docs/comps/basic/animate.md
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 # Animate 动效
 
 ### 何时使用
@@ -36,8 +44,17 @@ import { HiAnimate } from 'hi-kits/animate'
 
 ```
 :::
+`HiAnimate.run()`方法提供了四个参数,可以支持设置动画时长，及回调函数
+
+|参数|说明|类型|可选值|默认值
+|:--|:--|:--|:-----|:---
+| `selector` | 元素选择器名称 | `string` | - | -
+| `name` | 动效名称 | `string` | - | -
+| `duration` | 动效时长 （单位秒/s） | `number` | - | 1
+| `callback` | 回调方法 | `()=>{}` | - | -  | -
 
 ### 动效库
 Hi-kits 目前提供了98个动画效果可供参考,点击可展示效果
 
 <activeList />
+
