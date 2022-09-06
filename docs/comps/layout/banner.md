@@ -74,8 +74,9 @@ Hikits 可以自定义比例展示banner
 
 ### 不同模式
 
-Hikits 提供了模式，为适配不同需求中的布局
+#### Hikits 提供了模式，为适配不同需求中的布局
 
+### 基础模式
 ::: demo
 ```html
 <h-row gutter="30">
@@ -93,6 +94,8 @@ Hikits 提供了模式，为适配不同需求中的布局
             <h-banner-item  ratio="16:9" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d"></h-banner-item>
             <h-banner-item  ratio="16:9" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d"></h-banner-item>
         </h-banner>
+    </h-col>
+      <h-col span="24">
         <p>一行四个</p>
         <h-banner mode="1/1/1/1" gutter="10">
             <h-banner-item  ratio="16:9" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d"></h-banner-item>
@@ -101,6 +104,15 @@ Hikits 提供了模式，为适配不同需求中的布局
             <h-banner-item  ratio="16:9" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d"></h-banner-item>
         </h-banner>
     </h-col>
+</h-row>
+
+```
+:::
+
+### 左右模式
+::: demo
+```html
+<h-row gutter="30">
     <h-col span="12">
         <p>左一右二</p>
         <h-banner mode="1/2" gutter="10">
@@ -124,6 +136,15 @@ Hikits 提供了模式，为适配不同需求中的布局
             </h-banner>
         </h-banner>
     </h-col>
+</h-row>
+
+```
+:::
+
+### 上下模式
+::: demo
+```html
+<h-row gutter="30">
     <h-col span="12">
         <p>一上两下</p>
         <h-banner mode="auto" gutter="10">

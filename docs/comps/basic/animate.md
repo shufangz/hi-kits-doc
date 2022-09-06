@@ -2,8 +2,8 @@
  * @Author: zengshufang zengshufang@haier.com
  * @Date: 2022-08-19 18:04:54
  * @LastEditors: zengshufang zengshufang@haier.com
- * @LastEditTime: 2022-08-25 15:31:13
- * @FilePath: /hi-kits-doc/docs/comps/basic/animate.md
+ * @LastEditTime: 2022-09-02 15:24:15
+ * @FilePath: /h5_base_ui/Users/zengshufang/Documents/hi-kits-doc/docs/comps/basic/animate.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
 # Animate 动效
@@ -18,7 +18,7 @@ import { HiAnimate } from 'hi-kits/animate'
 ::: demo
 ```html
 <h-space>
-    <h-animate name="shakeX">
+    <h-animate name="shakeX"  duration="10" onchange="HiMessage.info({content: '动画结束'})">
         <div id="shakeX" style="background-color: #81ea9d; width:100px; height:100px; color: #fff;text-align:center;line-height: 100px;" onclick=" HiAnimate.run(document.getElementById('shakeX'), 'shakeX')">左右晃动</div>
     </h-animate>
     <h-animate name="shakeY">
@@ -39,19 +39,29 @@ import { HiAnimate } from 'hi-kits/animate'
     <h-button type="primary" onclick="HiAnimate.run(document.getElementById('AnimateBox'), 'bounce')">bounce</h-button>
     <h-button type="primary" onclick="HiAnimate.run(document.getElementById('AnimateBox'), 'flash')">flash</h-button>
     <h-button type="primary" onclick="HiAnimate.run(document.getElementById('AnimateBox'), 'headShake')">headShake</h-button>
-    <h-button type="primary" onclick="HiAnimate.run(document.getElementById('AnimateBox'), 'heartBeat')">heartBeat</h-button>
+    <h-button type="primary" onclick="HiAnimate.run(document.getElementById('AnimateBox'), 'heartBeat',10)">heartBeat</h-button>
 </h-space>
 
 ```
 :::
-`HiAnimate.run()`方法提供了四个参数,可以支持设置动画时长，及回调函数
+### 参数说明
+
+#### h-animate
+|参数|说明|类型|可选值|默认值
+|:--|:--|:--|:-----|:---
+| `name` | 动效名称 | `string` | - | -
+| `duration` | 动效时长 （单位秒/s），此处指完成一次动画的时长 | `number` | - | 1
+| `onchange` | 动画结束时的回调方法 | `Function` | - | -
+
+
+#### `HiAnimate.run()`方法提供了四个参数,可以支持设置动画时长，及回调函数
 
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
 | `selector` | 元素选择器名称 | `string` | - | -
 | `name` | 动效名称 | `string` | - | -
 | `duration` | 动效时长 （单位秒/s） | `number` | - | 1
-| `callback` | 回调方法 | `()=>{}` | - | -  | -
+| `callback` | 回调方法,动画结束后触发 | `()=>{}` | - | -  | -
 
 ### 动效库
 Hi-kits 目前提供了98个动画效果可供参考,点击可展示效果

@@ -42,9 +42,19 @@ import { HiBadge } from 'hi-kits/badge'
 ```
 :::
 
+### 独立使用
+不包裹任何元素，增加 `standAlone` 标签后，即是独立使用，可自定样式展现
+::: demo
+```html
+    <h-badge  badgeStyle="background: green;" standAlone count="12"></h-badge>
+    <h-badge  badgeStyle="background: gold;" standAlone count="warning"></h-badge>
+    <h-badge  badgeStyle="background: cyan;" standAlone count="default"></h-badge>
 
-### 状态点
-用于表示状态的小圆点。
+```
+:::
+
+### 讨嫌的小红点
+没有具体的数字。
 
 ::: demo
 ```html
@@ -62,11 +72,35 @@ import { HiBadge } from 'hi-kits/badge'
 </a>
 ```
 :::
+### 状态点
+用于表示状态的小圆点。提供五种状态.
+
+::: demo
+```html
+<h-badge status="success"></h-badge>
+<h-badge status="error"></h-badge>
+<h-badge status="warning"></h-badge>
+<h-badge status="processing"></h-badge>
+<h-badge status="default"></h-badge>
+
+<h-space dir="vertical">
+    <h-badge status="success" text="success"></h-badge>
+    <h-badge status="error" text="error"></h-badge>
+    <h-badge status="warning" text="warning"></h-badge>
+    <h-badge status="processing"text="processing" ></h-badge>
+    <h-badge status="default" text="default"></h-badge>
+</h-space>
+
+```
+:::
 
 ### 参数说明
 
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
-| `count`| 展示的数字 |  `number` | - | -
+| `count`| 展示的数字 |  `number | string` | - | -
 | `dot`| 不展示数字，只有一个小红点	 |  `boolean` | - | `false`
 | `badgeStyle`| 自定义样式|  `string` | - | -
+| `standAlone`| 是否独立使用	|  `boolean` | - | `false`
+| `status`| 设置 `h-badge` 为状态点	|  `'success' | 'processing' | 'default' | 'error' | 'warning'	` | - | -
+| `text`| 在设置了status 的前提下有效，设置状态点的文本	|  `string` | - | -

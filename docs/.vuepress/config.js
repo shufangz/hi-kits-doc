@@ -21,8 +21,12 @@ module.exports = {
         link: '/'
       },
       {
-        text: '组件',
+        text: '基础组件',
         link: '/comps/'
+      },
+      {
+        text: '业务组件',
+        link: '/business/'
       }
     ],
     sidebar: { // 配置侧边栏部分
@@ -90,10 +94,6 @@ module.exports = {
             {
               title: 'Space 间距',
               path: '/comps/layout/space'
-            },
-            {
-              title: 'Vajra 金刚区',
-              path: '/comps/layout/vajra'
             },
             {
               title: 'Banner 横幅',
@@ -262,6 +262,10 @@ module.exports = {
               path: '/comps/data/popup'
             },
             {
+              title: 'Transfer 穿梭框',
+              path: '/comps/data/transfer'
+            },
+            {
               title: '反馈',
               collapsable: false,
             },
@@ -305,13 +309,14 @@ module.exports = {
               title: '手势',
               collapsable: false,
             },
-            {
-              title: 'PenSigner 签名板',
-              path: '/comps/gesture/penSigner'
-            },
+
             {
               title: 'PullToRefresh 拉动刷新',
               path: '/comps/gesture/pullToRefresh'
+            },
+            {
+              title: 'Swipeout 滑动操作',
+              path: '/comps/gesture/swipeout'
             },
             {
               title: 'Others',
@@ -323,8 +328,25 @@ module.exports = {
             },
           ]
         },
-
       ],
+      '/business/': [{
+        title: '模块简介',
+        collapsable: false,
+        children: [{
+          title: '介绍',
+          path: '/business/'
+        }]
+      }, {
+        title: '组件',
+        collapsable: false,
+        children: [{
+          title: 'Vajra 金刚区',
+          path: '/business/vajra'
+        }, {
+          title: 'PenSigner 签名板',
+          path: '/business/penSigner'
+        }]
+      }]
     },
     lastUpdated: true
   },
