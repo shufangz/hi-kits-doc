@@ -41,4 +41,5 @@ import { HiSwipeout } from 'hi-kits/swipeout'
 
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
-| `title`| 通知标题 |  `string` | - | -
+| `left`| 左侧 |  `boolean` | - | -
+| `right`| 右侧 |  `boolean` | - | -

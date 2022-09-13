@@ -48,4 +48,4 @@ import { HiPullToRefresh } from 'hi-kits/pullToRefresh'
 
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
-| `title`| 通知标题 |  `string` | - | -
+| `distance`| 触发距离 |  `number` | - | `44`

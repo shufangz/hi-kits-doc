@@ -69,4 +69,6 @@ import { HiPopup } from 'hi-kits/popup'
 
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
-| `title`| 通知标题 |  `string` | - | -
+| `heading`| 标题 |  `string` | - | -
+| `full`| 满屏显示 |  `boolean` | - | -
+| `show`| 显示状态 |  `boolean` | - | -

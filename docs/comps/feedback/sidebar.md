@@ -50,3 +50,4 @@ import { HiSidebar } from 'hi-kits/sidebar'
 
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
+| `show`| 显示状态 |  `boolean` | - | `false`

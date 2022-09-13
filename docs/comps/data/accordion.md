@@ -15,11 +15,177 @@ import { HiAccordion } from 'hi-kits/accordion'
 
 ::: demo
 ```html
+<h-accordion>
+    <h-accordion-panel active>
+        <span slot="description">This is panel header 1</span>
+        <div slot="attributes">
+        A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.
+        </div>
+    </h-accordion-panel>
+    <h-accordion-panel>
+        <span slot="description">This is panel header 2</span>
+        <div slot="attributes">
+        A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.
+        </div>
+    </h-accordion-panel>
+    <h-accordion-panel>
+        <span slot="description">This is panel header 3</span>
+        <div slot="attributes">
+        A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.
+        </div>
+    </h-accordion-panel>
+</h-accordion>
+
 ```
 :::
 
+<!-- ### 手风琴
+
+每次只打开一个tab.默认打开第一个。
+::: demo
+```html
+<h-accordion isAccordion  onsubmit="handleAccordion()">
+    <h-accordion-panel>
+        <span slot="description">This is panel header 1</span>
+        <div slot="attributes">
+        A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.
+        </div>
+    </h-accordion-panel>
+    <h-accordion-panel>
+        <span slot="description">This is panel header 2</span>
+        <div slot="attributes">
+        A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.
+        </div>
+    </h-accordion-panel>
+    <h-accordion-panel>
+        <span slot="description">This is panel header 3</span>
+        <div slot="attributes">
+        A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.
+        </div>
+    </h-accordion-panel>
+</h-accordion>
+
+```
+::: -->
+
+### 幽灵折叠面板
+
+背景透明且无边框
+
+::: demo
+```html
+<h-accordion ghost>
+    <h-accordion-panel >
+        <span slot="description">This is panel header 1</span>
+        <div slot="attributes">
+        A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.
+        </div>
+    </h-accordion-panel>
+    <h-accordion-panel>
+        <span slot="description">This is panel header 2</span>
+        <div slot="attributes">
+        A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.
+        </div>
+    </h-accordion-panel>
+    <h-accordion-panel>
+        <span slot="description">This is panel header 3</span>
+        <div slot="attributes">
+        A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.
+        </div>
+    </h-accordion-panel>
+</h-accordion>
+```
+:::
+
+### disabled，无法展开
+面板二disabled，无法展开
+
+::: demo
+```html
+<h-accordion>
+    <h-accordion-panel>
+        <span slot="description">This is panel header 1</span>
+        <div slot="attributes">
+        A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.
+        </div>
+    </h-accordion-panel>
+    <h-accordion-panel disabled>
+        <span slot="description">disabled</span>
+        <div slot="attributes">
+        A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.
+        </div>
+    </h-accordion-panel>
+    <h-accordion-panel>
+        <span slot="description">This is panel header 3</span>
+        <div slot="attributes">
+        A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.
+        </div>
+    </h-accordion-panel>
+</h-accordion>
+
+```
+:::
+
+### 箭头图标居右
+
+::: demo
+```html
+<h-accordion isAccordion  onsubmit="handleAccordion()">
+    <h-accordion-panel>
+        <span slot="description">This is panel header 1</span>
+        <div slot="attributes">
+        A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.
+        </div>
+    </h-accordion-panel>
+    <h-accordion-panel>
+        <span slot="description">This is panel header 2</span>
+        <div slot="attributes">
+        A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.
+        </div>
+    </h-accordion-panel>
+    <h-accordion-panel>
+        <span slot="description">This is panel header 3</span>
+        <div slot="attributes">
+        A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.
+        </div>
+    </h-accordion-panel>
+</h-accordion>
+
+```
+:::
+
+### 隐藏箭头
+
+::: demo
+```html
+<h-accordion>
+    <h-accordion-panel>
+        <span slot="description">This is panel header 1</span>
+        <div slot="attributes">
+        A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.
+        </div>
+    </h-accordion-panel>
+    <h-accordion-panel showArrow>
+        <span slot="description">This is panel header 2</span>
+        <div slot="attributes">
+        A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.
+        </div>
+    </h-accordion-panel>
+    <h-accordion-panel showArrow>
+        <span slot="description">This is panel header 3</span>
+        <div slot="attributes">
+        A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.
+        </div>
+    </h-accordion-panel>
+</h-accordion>
+
+```
+:::
 ### 参数说明
 
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
 | `title`| 通知标题 |  `string` | - | -
+| `active`| 是否默认打开面板 |  `boolean` | - | `false`
+| `right`| 箭头图标位置居右 |  `boolean` | - | `false`
+| `showArrow`| 是否隐藏箭头 |  `boolean` | - | `false`

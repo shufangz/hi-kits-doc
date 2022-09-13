@@ -85,5 +85,3 @@ import { HiCheckbox } from 'hi-kits/checkbox'
 |:--|:--|:--|:-----|:---
 | `defaultvalue`| 默认选中的value	 |  `string` | - | -
 | `onchange`| 变化时回调函数	 |  `Function(e:Event)	` | - | -
-
-<checkbox />

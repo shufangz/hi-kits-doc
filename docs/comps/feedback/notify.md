@@ -42,7 +42,7 @@ import { HiNotify } from 'hi-kits/notify'
 
 ### 取消自动关闭
 
-autohide设置为false时自动关闭取消
+`autohide`设置为`false`时自动关闭取消
 
 ::: demo
 ```html
@@ -56,7 +56,7 @@ autohide设置为false时自动关闭取消
 :::
 
 ### 不同状态的通知
-Hi-kits 为 Notify 组件准备了四种通知类型：success, warning, info, error。通过type字段来设置，除此以外的值将被忽略。
+Hi-kits 为 `Notify `组件准备了四种通知类型：`success`, `warning`, `info`, `error`。通过`type`字段来设置，除此以外的值将被忽略。
 
 ::: demo
 ```html
@@ -86,7 +86,7 @@ Hi-kits 为 Notify 组件准备了四种通知类型：success, warning, info, e
 
 ### 自定义弹出位置
 
-可以让 Notification 从屏幕四角中的任意一角弹出。
+可以让 `Notification` 从屏幕四角中的任意一角弹出。
 
 ::: demo
 ```html

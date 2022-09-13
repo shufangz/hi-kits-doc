@@ -41,8 +41,22 @@ import { HiActions } from 'hi-kits/select'
 
 ```
 :::
-### 参数说明
+#### h-actions
 
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
-| `title`| 通知标题 |  `string` | - | -
+| `list`| 列表模式 |  `boolean` | - | -
+| `show`| 显示状态 |  `boolean` | - | `false`
+
+
+#### h-actions-item
+
+|参数|说明|类型|可选值|默认值
+|:--|:--|:--|:-----|:---
+| `type`| 表展示类型 |  `string` | `'label' | 'button'`| `button`
+
+#### h-actions-group
+
+|参数|说明|类型|可选值|默认值
+|:--|:--|:--|:-----|:---
+| `grid`| 网格 |  `boolean` | -| -

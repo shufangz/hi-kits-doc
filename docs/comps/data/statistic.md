@@ -11,7 +11,7 @@ import { HiStatistic } from 'hi-kits/statistic'
 ### 基本用法
 
 简单的展示。
-
+x
 ::: demo
 ```html
 <h-row gutter="10">

@@ -100,6 +100,10 @@ module.exports = {
               path: '/comps/layout/banner.md'
             },
             {
+              title: 'Board 卡牌布局',
+              path: '/comps/layout/board.md'
+            },
+            {
               title: '导航',
               collapsable: false,
             }, {
@@ -194,6 +198,10 @@ module.exports = {
               path: '/comps/form/upload'
             },
             {
+              title: 'NumberKeyboard 数字键盘',
+              path: '/comps/form/numberKeyBoard'
+            },
+            {
               title: '数据展示',
               collapsable: false,
             },
@@ -224,6 +232,10 @@ module.exports = {
             {
               title: 'Comment 评论',
               path: '/comps/data/comment'
+            },
+            {
+              title: 'Ellipsis 文本省略',
+              path: '/comps/data/ellipsis'
             },
             {
               title: 'Tips 文字提示',
@@ -264,6 +276,10 @@ module.exports = {
             {
               title: 'Transfer 穿梭框',
               path: '/comps/data/transfer'
+            },
+            {
+              title: 'Flip 翻转',
+              path: '/comps/data/flip'
             },
             {
               title: '反馈',
@@ -340,12 +356,22 @@ module.exports = {
         title: '组件',
         collapsable: false,
         children: [{
-          title: 'Vajra 金刚区',
-          path: '/business/vajra'
-        }, {
-          title: 'PenSigner 签名板',
-          path: '/business/penSigner'
-        }]
+            title: 'Vajra 金刚区',
+            path: '/business/vajra'
+          },
+          {
+            title: 'PenSigner 签名板',
+            path: '/business/penSigner'
+          },
+          {
+            title: 'Drawlottery 转盘抽奖',
+            path: '/business/drawlottery'
+          },
+          {
+            title: 'Countdown 倒计时',
+            path: '/business/countdown'
+          }
+        ]
       }]
     },
     lastUpdated: true
@@ -359,7 +385,7 @@ module.exports = {
         hour12: false
       }
     }],
-    ["cursor-effects"],
+    // ["cursor-effects"],
     ['vuepress-plugin-global-toc'],
   ], // 配置插件
   markdown: {}

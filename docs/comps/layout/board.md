@@ -12,8 +12,8 @@ import { HiBoard } from 'hi-kits/board'
 ::: demo
 ```html
 <h-row gutter="10">
-    <h-col span="4">
-        <p>一行一个</p>
+    <h-col span="10">
+        <h-divider text="一行一个" dir="left"></h-divider>
         <h-board gutter="10">
             <h-goods picture="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimgservice.suning.cn%2Fuimg1%2Fb2c%2Fimage%2F79bH5QEe4hO6yps3XG3JsA.jpg_800w_800h_4e&refer=http%3A%2F%2Fimgservice.suning.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1664694209&t=4be791401a14527fea19700b574d1efb"
                 name="商品名称"
@@ -40,8 +40,8 @@ import { HiBoard } from 'hi-kits/board'
 ::: demo
 ```html
 <h-row gutter="10">
-     <h-col span="12" >
-        <p>一行两个</p>
+     <h-col span="16" >
+        <h-divider text="一行两个" dir="left"></h-divider>
         <h-board mode="1/1"  gutter="10">
             <h-goods picture="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimgservice.suning.cn%2Fuimg1%2Fb2c%2Fimage%2F79bH5QEe4hO6yps3XG3JsA.jpg_800w_800h_4e&refer=http%3A%2F%2Fimgservice.suning.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1664694209&t=4be791401a14527fea19700b574d1efb"
               name="商品名称"
@@ -63,8 +63,8 @@ import { HiBoard } from 'hi-kits/board'
             </h-goods>
         </h-board>
     </h-col>
-    <h-col span="12" >
-          <p>一行三个</p>
+    <h-col span="20" >
+          <h-divider text="一行三个" dir="left"></h-divider>
           <h-board mode="1/1/1"  gutter="10px 20px">
 
             <h-goods picture="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimgservice.suning.cn%2Fuimg1%2Fb2c%2Fimage%2F79bH5QEe4hO6yps3XG3JsA.jpg_800w_800h_4e&refer=http%3A%2F%2Fimgservice.suning.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1664694209&t=4be791401a14527fea19700b574d1efb"
@@ -109,7 +109,7 @@ import { HiBoard } from 'hi-kits/board'
 ::: demo
 ```html
 <h-row gutter="10">
-    <h-col span="4">
+    <h-col span="18">
         <h-board mode="1/1"  gutter="10px 20px">
             <h-goods>
               <div slot="custom">
@@ -129,7 +129,18 @@ import { HiBoard } from 'hi-kits/board'
 :::
 
 ### 参数说明
+#### h-board
 
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
-| `title`| 通知标题 |  `string` | - | -
+| `mode`| 显示模式 |  `string` |  `'1/1' | '1/1/1' | 'auto'`| -
+| `gutter`| 子项目间距 |  `string` | - | -
+
+#### h-goods
+
+|参数|说明|类型|可选值|默认值
+|:--|:--|:--|:-----|:---
+| `picture`| 商品图片 |  `string` |  -| -
+| `name`| 商品名称 |  `string` | - | -
+| `price`| 商品价格 |  `string` | - | -
+| `discount`| 商品折扣价 |  `string` | - | -

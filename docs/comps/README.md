@@ -6,5 +6,8 @@
 ```shell
 npm i hi-kits -S
 ```
+### yarn 安装
 
-
+```shell
+yarn add hi-kits
+```

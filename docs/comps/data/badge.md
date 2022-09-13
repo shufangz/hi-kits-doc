@@ -82,7 +82,7 @@ import { HiBadge } from 'hi-kits/badge'
 <h-badge status="warning"></h-badge>
 <h-badge status="processing"></h-badge>
 <h-badge status="default"></h-badge>
-
+<h-divider alone></h-divider>
 <h-space dir="vertical">
     <h-badge status="success" text="success"></h-badge>
     <h-badge status="error" text="error"></h-badge>
