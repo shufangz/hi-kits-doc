@@ -41,10 +41,10 @@ module.exports = {
               title: '快速上手',
               path: '/comps/guide/guide'
             },
-            // {
-            //   title: '国际化',
-            //   path: '/comps/guide/international'
-            // },
+            {
+              title: 'Config 配置',
+              path: '/comps/guide/config'
+            },
             {
               title: '自定义主题',
               path: '/comps/guide/theme'
@@ -142,6 +142,10 @@ module.exports = {
               path: '/comps/navigation/menu'
             },
             {
+              title: 'Affix 固钉',
+              path: '/comps/navigation/affix'
+            },
+            {
               title: '表单录入',
               collapsable: false,
             },
@@ -212,6 +216,10 @@ module.exports = {
             {
               title: 'Avatar 头像',
               path: '/comps/data/avatar'
+            },
+            {
+              title: 'Image 图片',
+              path: '/comps/data/image'
             },
             {
               title: 'Tag 标签',
@@ -370,7 +378,11 @@ module.exports = {
           {
             title: 'Countdown 倒计时',
             path: '/business/countdown'
-          }
+          },
+          {
+            title: 'Task 任务组件',
+            path: '/business/task'
+          },
         ]
       }]
     },

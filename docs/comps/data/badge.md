@@ -68,7 +68,7 @@ import { HiBadge } from 'hi-kits/badge'
     <h-badge  badgeStyle="background: cyan;" dot></h-badge>
 </a>
 <a class="Example">
-    <h-badge  color="#3F51B5"></h-badge>
+    <h-badge  color="#3F51B5" dot></h-badge>
 </a>
 ```
 :::

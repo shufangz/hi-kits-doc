@@ -10,7 +10,7 @@ import { HiTitle } from 'hi-kits/title'
 
 ::: demo
 ```html
-<h-title title="标题"></h-title>
+<h-title heading="标题"></h-title>
 
 ```
 :::
@@ -19,9 +19,9 @@ import { HiTitle } from 'hi-kits/title'
 
 ::: demo
 ```html
-<h-title title="小标题" size="small"></h-title>
-<h-title title="默认标题" size="default"></h-title>
-<h-title title="大标题" size="large"></h-title>
+<h-title heading="小标题" size="small"></h-title>
+<h-title heading="默认标题" size="default"></h-title>
+<h-title heading="大标题" size="large"></h-title>
 ```
 :::
 
@@ -29,7 +29,7 @@ import { HiTitle } from 'hi-kits/title'
 
 ::: demo
 ```html
-<h-title title="标题"  link="http://www.baidu.com"></h-title>
+<h-title heading="标题"  link="http://www.baidu.com"></h-title>
 
 ```
 :::
@@ -37,6 +37,6 @@ import { HiTitle } from 'hi-kits/title'
 
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
-| `title`| 标题内容 |  `string` | - | -
+| `heading`| 标题内容 |  `string` | - | -
 | `link`| 链接地址 |  `string` | - | -
 | `size`| 尺寸大小 |  `string` | `small | default | large` | -

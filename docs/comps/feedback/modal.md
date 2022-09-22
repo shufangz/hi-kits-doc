@@ -59,7 +59,7 @@ import { HiModal } from 'hi-kits/modal'
 ::: demo
 ```html
 <h-button type="primary" onclick="document.getElementById('modal01').open = true;">open modal</h-button>
-<h-modal id="modal01" title="自定义弹窗内容" oktext="知道了" >
+<h-modal id="modal01" heading="自定义弹窗内容" oktext="知道了" >
     <h-tabs>
         <h-tab label="tab1">tab111</h-tab>
         <h-tab label="tab2">tab222</h-tab>
@@ -74,7 +74,7 @@ import { HiModal } from 'hi-kits/modal'
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
 | `oktext`| 确定键文本| `string`| - | 确定
-| `title`| 标题| `string` |-	| -
+| `heading`| 标题| `string` |-	| -
 | `canceltext`| 取消键文本| `string` |-	| 取消
 | `type`| 对话框类型| `string` |`alert' | confirm | prompt`	| -
 | `open`| 显示open。当 HiModal 内容比较复杂时，可以直接写在页面body上，通过 open 属性来控制显示 | `boolean` |-| `false`

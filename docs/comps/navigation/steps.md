@@ -16,9 +16,9 @@ import { HiSteps } from 'hi-kits/steps'
 ::: demo
 ```html
 <h-steps current="1">
-    <h-step title="Finished" desc="This is a description."></h-step>
-    <h-step title="In Progress" subtitle="Left 00:00:08" desc="This is a description."></h-step>
-    <h-step title="Waiting" desc="This is a description."></h-step>
+    <h-step heading="Finished" desc="This is a description."></h-step>
+    <h-step heading="In Progress" subtitle="Left 00:00:08" desc="This is a description."></h-step>
+    <h-step heading="Waiting" desc="This is a description."></h-step>
 </h-steps>
 
 ```
@@ -31,9 +31,9 @@ import { HiSteps } from 'hi-kits/steps'
 ::: demo
 ```html
 <h-steps current="0" size="small">
-    <h-step title="Finished" desc="This is a description."></h-step>
-    <h-step title="In Progress" subtitle="Left 00:00:08" desc="This is a description."></h-step>
-    <h-step title="Waiting" desc="This is a description."></h-step>
+    <h-step heading="Finished" desc="This is a description."></h-step>
+    <h-step heading="In Progress" subtitle="Left 00:00:08" desc="This is a description."></h-step>
+    <h-step heading="Waiting" desc="This is a description."></h-step>
 </h-steps>
 
 ```
@@ -46,9 +46,9 @@ import { HiSteps } from 'hi-kits/steps'
 ::: demo
 ```html
  <h-steps current="1" start="3" size="small">
-    <h-step title="Finished" desc="This is a description."></h-step>
-    <h-step title="In Progress" subtitle="Left 00:00:08" desc="This is a description."></h-step>
-    <h-step title="Waiting" desc="This is a description."></h-step>
+    <h-step heading="Finished" desc="This is a description."></h-step>
+    <h-step heading="In Progress" subtitle="Left 00:00:08" desc="This is a description."></h-step>
+    <h-step heading="Waiting" desc="This is a description."></h-step>
 </h-steps>
 
 ```
@@ -59,17 +59,17 @@ import { HiSteps } from 'hi-kits/steps'
 ::: demo
 ```html
 <h-steps current="1" start="3" size="small">
-    <h-step title="Finished" desc="This is a description.">
+    <h-step heading="Finished" desc="This is a description.">
         <div slot="icon">
             <h-icon name="person" size="24" color="#42b983"></h-icon>
         </div>
     </h-step>
-    <h-step title="In Progress" subtitle="Left 00:00:08" desc="This is a description.">
+    <h-step heading="In Progress" subtitle="Left 00:00:08" desc="This is a description.">
         <div slot="icon">
             <h-icon name="heart" size="24" color="#F44336"></h-icon>
         </div>
     </h-step>
-    <h-step title="Waiting" desc="This is a description.">
+    <h-step heading="Waiting" desc="This is a description.">
         <div slot="icon">
             <h-icon name="star" size="24" color="#1E90FF"></h-icon>
         </div>
@@ -86,9 +86,9 @@ import { HiSteps } from 'hi-kits/steps'
 ::: demo
 ```html
 <h-steps current="1"  size="small" dir="vertical">
-    <h-step title="Finished" desc="This is a description."></h-step>
-    <h-step title="In Progress" subtitle="Left 00:00:08" desc="This is a description."></h-step>
-    <h-step title="Waiting" desc="This is a description."></h-step>
+    <h-step heading="Finished" desc="This is a description."></h-step>
+    <h-step heading="In Progress" subtitle="Left 00:00:08" desc="This is a description."></h-step>
+    <h-step heading="Waiting" desc="This is a description."></h-step>
 </h-steps>
 
 ```
@@ -99,17 +99,17 @@ import { HiSteps } from 'hi-kits/steps'
 ::: demo
 ```html
 <h-steps current="1" dir="vertical">
-    <h-step title="Finished" desc="This is a description.">
+    <h-step heading="Finished" desc="This is a description.">
         <div slot="icon">
             <h-icon name="person" size="24" color="#42b983"></h-icon>
         </div>
     </h-step>
-    <h-step title="In Progress" subtitle="Left 00:00:08" desc="This is a description.">
+    <h-step heading="In Progress" subtitle="Left 00:00:08" desc="This is a description.">
         <div slot="icon">
             <h-icon name="heart" size="24" color="#F44336"></h-icon>
         </div>
     </h-step>
-    <h-step title="Waiting" desc="This is a description.">
+    <h-step heading="Waiting" desc="This is a description.">
         <div slot="icon">
             <h-icon name="star" size="24" color="#1E90FF"></h-icon>
         </div>
@@ -124,9 +124,9 @@ import { HiSteps } from 'hi-kits/steps'
 ::: demo
 ```html
 <h-steps current="1" dot="true">
-    <h-step title="Finished" desc="This is a description."></h-step>
-    <h-step title="In Progress" subtitle="Left 00:00:08" desc="This is a description."></h-step>
-    <h-step title="Waiting" desc="This is a description."></h-step>
+    <h-step heading="Finished" desc="This is a description."></h-step>
+    <h-step heading="In Progress" subtitle="Left 00:00:08" desc="This is a description."></h-step>
+    <h-step heading="Waiting" desc="This is a description."></h-step>
 </h-steps>
 
 ```
@@ -137,9 +137,9 @@ import { HiSteps } from 'hi-kits/steps'
 ::: demo
 ```html
 <h-steps current="1" dot="true" dir="vertical">
-    <h-step title="Finished" desc="This is a description." ></h-step>
-    <h-step title="In Progress" subtitle="Left 00:00:08" desc="This is a description."></h-step>
-    <h-step title="Waiting" desc="This is a description."></h-step>
+    <h-step heading="Finished" desc="This is a description." ></h-step>
+    <h-step heading="In Progress" subtitle="Left 00:00:08" desc="This is a description."></h-step>
+    <h-step heading="Waiting" desc="This is a description."></h-step>
 </h-steps>
 
 ```
@@ -158,7 +158,7 @@ import { HiSteps } from 'hi-kits/steps'
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
 |`desc`|步骤的详情描述，可选。|`string | TemplateRef`|-|-
-|`title`|标题	|`string`| - | -
+|`heading`|标题	|`string`| - | -
 |`subtitle`|子标题	|`boolean`|-|`false`
 |`status`|指定状态。当不配置该属性时，会使用 `h-steps` 的 `current` 来自动指定状态。|`string`|`wait | process | finish | error`|0
 

@@ -53,7 +53,7 @@ import { HiCard } from 'hi-kits/card'
             </h-card-content>
             <h-card-footer>
                 <div><h-icon name="sync" size="16" color="#F44336"></h-icon></div>
-                <div><h-icon name="user" size="16" color="#42b983"></h-icon></div>
+                <div><h-icon name="person" size="16" color="#42b983"></h-icon></div>
                 <div><h-icon name="heart" size="16" color="#F44336"></h-icon></div>
             </h-card-footer>
         </h-card>
@@ -161,7 +161,7 @@ import { HiCard } from 'hi-kits/card'
         </h-card-content>
         <h-card-footer>
             <div><h-icon name="sync" size="16" color="#F44336"></h-icon></div>
-            <div><h-icon name="user" size="16" color="#42b983"></h-icon></div>
+            <div><h-icon name="person" size="16" color="#42b983"></h-icon></div>
             <div><h-icon name="heart" size="16" color="#F44336"></h-icon></div>
         </h-card-footer>
     </h-card>

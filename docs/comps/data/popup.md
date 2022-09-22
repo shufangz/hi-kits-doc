@@ -13,7 +13,7 @@ import { HiPopup } from 'hi-kits/popup'
 ::: demo
 ```html
 <h-button type="primary" onclick="document.getElementById('Popup').setAttribute('show', '')">打开弹出窗口</h-button>
-<h-popup title="Popup Title" id="Popup">
+<h-popup heading="Popup Title" id="Popup">
 <span slot="content">
     <h-button onclick="HiMessage.info({content: 'This a info message', duration: 3000})">info</h-button>
     <p>Here comes popup. You can put here anything, even independent view with its own navigation. Also not, that
@@ -42,7 +42,7 @@ import { HiPopup } from 'hi-kits/popup'
 ```html
  <h-button type="primary" onclick="document.getElementById('Popup1').setAttribute('show', '')">打开弹出窗口(满屏)
 </h-button>
-<h-popup title="Popup Title" full id="Popup1">
+<h-popup heading="Popup Title" full id="Popup1">
     <span slot="content">
         <h-button onclick="HiMessage.info({content: 'This a info message', duration: 3000})">info</h-button>
         <p>Here comes popup. You can put here anything, even independent view with its own navigation. Also not, that

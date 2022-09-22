@@ -6,7 +6,7 @@ import { HiVajra } from 'hi-kits/vajra'
 </pre>
 
 ### 基本用法
-::: demo
+::: demo [vanilla]
 ```html
 <h-vajra row="2" col="5" gutter="12">
     <h-vajra-item text="3333">

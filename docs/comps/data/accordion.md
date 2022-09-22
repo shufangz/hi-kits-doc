@@ -185,7 +185,6 @@ import { HiAccordion } from 'hi-kits/accordion'
 
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
-| `title`| 通知标题 |  `string` | - | -
 | `active`| 是否默认打开面板 |  `boolean` | - | `false`
 | `right`| 箭头图标位置居右 |  `boolean` | - | `false`
 | `showArrow`| 是否隐藏箭头 |  `boolean` | - | `false`

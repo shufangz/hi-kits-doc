@@ -60,7 +60,7 @@ import { HiAlert } from 'hi-kits/alert'
 
 ::: demo
 ```html
-<h-alert type="success" showIcon title="带辅助性文字介绍
+<h-alert type="success" showIcon heading="带辅助性文字介绍
 ">这是一句绕口令：黑灰化肥会挥发发灰黑化肥挥发；灰黑化肥会挥发发黑灰化肥发挥。 黑灰化肥会挥发发灰黑化肥黑灰挥发化为灰……
 </h-alert>
 
@@ -85,7 +85,7 @@ import { HiAlert } from 'hi-kits/alert'
 
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
-|`title`	|标题	|`string`	|—	|—
+|`heading`	|标题	|`string`	|—	|—
 |`type`	|主题	|`string`	|`success | warning | info | error`	|`info`
 |`closeable`	|是否可关闭	|`boolean`	|—	|`true`
 |`showIcon`	|是否显示图标	|`boolean`	|—	|`false`

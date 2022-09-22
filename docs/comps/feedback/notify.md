@@ -18,7 +18,7 @@ import { HiNotify } from 'hi-kits/notify'
 ::: demo
 ```html
 <h-button onclick="HiNotify.show({
-    title: 'Notify',
+    heading: 'Notify',
     content: 'This a info notify', 
 })">默认</h-button>
 
@@ -32,7 +32,7 @@ import { HiNotify } from 'hi-kits/notify'
 ::: demo
 ```html
 <h-button onclick="HiNotify.show({
-    title: 'Notify',
+    heading: 'Notify',
     content: 'This a info notify', 
     duration: 2000,
 })">指定时间2秒后关闭</h-button>
@@ -47,7 +47,7 @@ import { HiNotify } from 'hi-kits/notify'
 ::: demo
 ```html
 <h-button onclick="HiNotify.show({
-    title: 'Notify',
+    heading: 'Notify',
     content: 'This a info notify', 
     autohide: false,
 })">取消自动关闭</h-button>
@@ -61,22 +61,22 @@ Hi-kits 为 `Notify `组件准备了四种通知类型：`success`, `warning`, `
 ::: demo
 ```html
 <h-button onclick="HiNotify.show({
-    title: 'Notify',
+    heading: 'Notify',
     type: 'info',
     content: 'This a info notify', 
 })">info</h-button>
 <h-button onclick="HiNotify.show({
-    title: 'Notify',
+    heading: 'Notify',
     type: 'success',
     content: 'This a info notify', 
 })">success</h-button>
 <h-button onclick="HiNotify.show({
-    title: 'Notify',
+    heading: 'Notify',
     type: 'error',
     content: 'This a info notify', 
 })">error</h-button>
 <h-button onclick="HiNotify.show({
-    title: 'Notify',
+    heading: 'Notify',
     type: 'warning',
     content: 'This a info notify', 
 })">warning</h-button>
@@ -91,22 +91,22 @@ Hi-kits 为 `Notify `组件准备了四种通知类型：`success`, `warning`, `
 ::: demo
 ```html
 <h-button onclick="HiNotify.show({
-    title: 'Notify',
+    heading: 'Notify',
     content: 'This a info notify', 
     placement: 'topleft'
 })">topleft</h-button>
 <h-button onclick="HiNotify.show({
-    title: 'Notify',
+    heading: 'Notify',
     content: 'This a info notify', 
     placement: 'topright'
 })">topright</h-button>
 <h-button onclick="HiNotify.show({
-    title: 'Notify',
+    heading: 'Notify',
     content: 'This a info notify', 
     placement: 'bottomleft'
 })">bottomleft</h-button>
 <h-button onclick="HiNotify.show({
-    title: 'Notify',
+    heading: 'Notify',
     content: 'This a info notify', 
     placement: 'bottomright'
 })">bottomright</h-button>
@@ -118,7 +118,7 @@ Hi-kits 为 `Notify `组件准备了四种通知类型：`success`, `warning`, `
 
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
-| `title`| 通知标题 |  `string` | - | -
+| `heading`| 通知标题 |  `string` | - | -
 | `content`| 通知内容| `string | TemplateRef`| - | -
 | `duration`| 自动关闭的延时，单位毫秒。设为 0 时不自动关闭| `number` |-	| 5000
 | `placement`| 显示位置信息设置 |  `string` | `topleft | topright | bottomleft | bottomright | topleft`

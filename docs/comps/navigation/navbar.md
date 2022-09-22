@@ -9,11 +9,11 @@ import { HiNavbar } from 'hi-kits/navbar'
 
 ### 基本用法
 
-通过 `title` 属性设置导航栏标题。
+通过 `heading` 属性设置导航栏标题。
 
 ::: demo
 ```html
-<h-navbar title="NavBar"></h-navbar>
+<h-navbar heading="NavBar"></h-navbar>
 
 ```
 :::
@@ -77,5 +77,5 @@ import { HiNavbar } from 'hi-kits/navbar'
 
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
-| `title`| 导航栏标题 |  `string` | - | -
+| `heading`| 导航栏标题 |  `string` | - | -
 | `fixed`| 是否固定在顶部	 |  `boolean` | - | `false`
