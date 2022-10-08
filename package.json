@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "element-ui": "^2.15.9",
-    "hi-kits": "1.0.41",
+    "hi-kits": "1.0.60",
     "vuepress-plugin-demo-container": "^0.2.0"
   }
 }

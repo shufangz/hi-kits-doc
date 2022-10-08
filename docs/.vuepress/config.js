@@ -158,6 +158,10 @@ module.exports = {
               path: '/comps/form/inputNumber'
             },
             {
+              title: 'Search 搜索框',
+              path: '/comps/form/search'
+            },
+            {
               title: 'Radio 单选框',
               path: '/comps/form/radio'
             },
@@ -322,12 +326,20 @@ module.exports = {
               path: '/comps/feedback/notify'
             },
             {
+              title: 'Notice 通告栏',
+              path: '/comps/feedback/notice'
+            },
+            {
               title: 'Sidebar 侧边栏',
               path: '/comps/feedback/sidebar'
             },
             {
               title: 'Actions 动作面板',
               path: '/comps/form/actions'
+            },
+            {
+              title: 'Result 结果',
+              path: '/comps/feedback/result'
             },
             {
               title: '手势',

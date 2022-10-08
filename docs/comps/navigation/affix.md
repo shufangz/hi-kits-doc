@@ -10,28 +10,39 @@
 import { HiAffix } from 'hi-kits/affix'
 </pre>
 
-### 基本用法
-
+### 固定在页面顶部
+可通过 `siteTop`配置到顶部的距离
 ::: demo
 ```html
 <h-affix offset="top" siteTop="10">
     <h-button type="primary">Affix Top</h-button>
 </h-affix>
-
+<h-affix offset="top" siteTop="120">
+    <h-button type="primary">120px to affix top</h-button>
+</h-affix>
 ```
 :::
 
+
+### 固定在页面底部
+ 可通过 `siteTop`配置到底部的距离
+::: demo
+```html
+<h-affix offset="bottom" siteTop="10">
+    <h-button type="primary">Affix Bottom</h-button>
+</h-affix>
+<h-affix offset="bottom" siteTop="120">
+    <h-button type="primary">120px to affix bottom</h-button>
+</h-affix>
+
+```
+:::
 ### 参数说明
 
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
+|offset| 固定方向 | `string`| `top | bottom` | -
+|siteTop | 滚动距离 | `string` | - | -
 |- | - | - | - | -
 |- | - | - | - | -
-|- | - | - | - | -
-|- | - | - | - | -
-|- | - | - | - | -
-|- | - | - | - | -
-|- | - | - | - | -
-|- | - | - | - | -
-|- | - | - | - | -
-|- | - | - | - | -
+

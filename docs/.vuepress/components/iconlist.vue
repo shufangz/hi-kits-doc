@@ -260,7 +260,6 @@ export default {
         "web_development",
         "warning",
         "trash",
-        "icon-kfckfc",
         "share",
         "umbrella",
         "unlock",
@@ -310,6 +309,12 @@ export default {
         "del",
         "star_fill",
         "cursor",
+        "col_one",
+        "col_two",
+        "col_three",
+        "col_four",
+        "ot_twobottom",
+        "ol_tworight"
       ],
       iconlist1: [],
     };

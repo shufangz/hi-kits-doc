@@ -53,13 +53,12 @@ import { HiDrawlottery } from 'hi-kits/drawlottery'
 ```html
 <h-row gutter="10">
     <h-col span="12">
-        <h-drawlottery 
-          lotteryBtnInfo = "{text: '立即开奖', dec: '剩余3次机会', background: '#d988b1', color: '#fff', radius:[100, 100, 100, 100]}"
-          onclick="(
-            this.setAttribute('index', '1'),
-            this.setAttribute('start', 'true'),
-            this.removeAttribute('start')
-          )">
+        <h-drawlottery
+          id="drawlottery"
+          lotteryBtnInfo = "{text: '立即开奖', dec: '剩余1次机会', background: 'lightblue', color: '#000', fontSize: '12px', fontWeight: 600, textcolor: '#000000', textfontSize: '16px', textfontWeight: 500, deccolor: '#333333', decfontSize: '12px', decfontWeight: 400,radius:[100, 100, 100, 100]}"
+          radius="[10, 10, 10, 10]"
+          onchange="lottoryChange(event)"
+          gutter="10">
           </h-drawlottery>
     </h-col>
 </h-row>
