@@ -1,5 +1,11 @@
-# Navdot 导航点 
-
+---
+title: Navdot 导航点 
+author: fico
+date: 2022/06/17
+tags:
+ - 导航
+ - 操作
+---
 ### 何时使用
 可用于页面切换或者轮播切换
 <pre class="language-ts">

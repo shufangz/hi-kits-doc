@@ -1,7 +1,14 @@
-# InputNumber 数字输入框
-
+---
+title: InputNumber 数字输入框
+author: fico
+date: 2022/08/23
+tags:
+ - 表单
+ - 输入框
+---
+::: tip
 通过鼠标或键盘，输入范围内的数值。
-
+:::
 ### 何时使用
 当需要获取标准数值时。
 <pre class="language-ts">

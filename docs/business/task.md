@@ -1,6 +1,14 @@
-# Task 任务组件
-
+---
+title: Task 任务组件
+author: fico
+date: 2022/09/02
+tags:
+ - 活动业务
+ - 移动端
+---
+::: tip
 适用于活动中任务相关业务
+:::
 ### 何时使用
 <pre class="language-ts">
 import { HiTask } from 'hi-kits/task'

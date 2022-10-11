@@ -1,5 +1,14 @@
-# TimePicker 时间选择器
+---
+title: TimePicker 时间选择器
+author: liulina
+date: 2022/06/20
+tags:
+ - 表单
+ - 时间选择
+---
+::: tip
 选择时间的控件
+:::
 ### 何时使用
 选择时间的控件。
 <pre class="language-ts">

@@ -1,6 +1,14 @@
-# Countdown 倒计时
-
+---
+title:  Countdown 倒计时
+author: fico
+date: 2022/06/21
+tags:
+ - 活动业务
+ - 倒计时
+---
+::: tip
 当选项过多时，使用下拉菜单展示并选择内容。
+:::
 ### 何时使用
 <pre class="language-ts">
 import { HiCountdown } from 'hi-kits/countdown'

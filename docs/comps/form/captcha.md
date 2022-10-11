@@ -1,6 +1,15 @@
-# Captcha 验证码
+---
+title: Captcha 验证码
+author: fico
+date: 2022/08/12
+tags:
+ - 输入框
+ - 表单
+ - 验证码
+---
+::: tip
 验证码输入框。
-
+:::
 <pre class="language-ts">
 import { Hcaptcha } from 'hi-kits/captcha'
 </pre>

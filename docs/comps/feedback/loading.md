@@ -1,6 +1,13 @@
-# Loading 加载
-
+---
+title: Loading 加载
+author: fico
+date: 2022/04/27
+tags:
+ - 加载
+---
+::: tip
 用于页面和区块的加载中状态。
+:::
 ### 何时使用
 页面局部处于等待异步数据或正在渲染过程时，合适的加载动效会有效缓解用户的焦虑。
 <pre class="language-ts">

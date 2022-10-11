@@ -1,6 +1,14 @@
-# Drawlottery 转盘抽奖
+---
+title: Drawlottery 转盘抽奖
+author: liulina
+date: 2022/09/23
+tags:
+ - 活动业务
+ - 转盘
+---
+::: tip
 适用于活动抽奖等需求
-
+:::
 ### 何时使用
 <pre class="language-ts">
 import { HiDrawlottery } from 'hi-kits/drawlottery'

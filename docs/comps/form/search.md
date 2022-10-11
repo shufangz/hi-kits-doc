@@ -1,7 +1,14 @@
-# Search 搜索框
-
+---
+title:  Search 搜索框
+author: fico
+date: 2022/09/06
+tags:
+ - 表单
+ - 搜索框
+---
+::: tip
 带有搜索按钮的输入框。
-
+:::
 ### 何时使用
 <pre class="language-ts">
 import { HiSearch } from 'hi-kits/search'

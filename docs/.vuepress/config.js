@@ -7,28 +7,49 @@ module.exports = {
       }
     ]
   ],
-  title: 'Hikits',
   base: '/hidoc/',
   port: '8080',
+  theme: 'reco',
   themeConfig: { // 新增代码
     smoothScroll: true,
-    // repo: 'https://github.com/shufangz/hi-kits-doc.git',
-    // docsRepo: 'https://github.com/shufangz/hi-kits-doc.git',
+    mode: 'light',
+    modePicker: false, // 默认 true，false 不显示模式调节按钮，true 则显示
+    repo: 'https://github.com/shufangz/hi-kits-doc.git',
+    docsRepo: 'https://github.com/shufangz/hi-kits-doc.git',
     logo: 'https://ys-zjrs.haier.net/image/logo.svg',
+    subSidebar: 'auto', //在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
     nav: [ // 配置顶部导航栏
       {
         text: '首页',
-        link: '/'
+        link: '/',
+        icon: 'reco-home'
       },
+
       {
         text: '基础组件',
-        link: '/comps/'
+        link: '/comps/',
+        icon: 'reco-menu'
       },
       {
         text: '业务组件',
-        link: '/business/'
-      }
+        link: '/business/',
+        icon: 'reco-category'
+      },
+
     ],
+    blogConfig: {
+      tag: {
+        location: 4, // 在导航栏菜单中所占的位置，默认3
+        text: 'Tag' // 默认文案 “标签”
+      },
+    },
+    valineConfig: {
+      appId: 'iDeei0YnNjOlvfQsNfuyxPpU-gzGzoHsz',
+      appKey: 'QYLW6ClMJbuhOD7E8vmO23ZK',
+      placeholder: '请留下您宝贵的建议',
+      avatar: 'robohash',
+      visitor: true
+    },
     sidebar: { // 配置侧边栏部分
       '/comps/': [{
           title: '开发指南',
@@ -45,14 +66,14 @@ module.exports = {
               title: 'Config 配置',
               path: '/comps/guide/config'
             },
-            {
-              title: '自定义主题',
-              path: '/comps/guide/theme'
-            },
+            // {
+            //   title: '自定义主题',
+            //   path: '/comps/guide/theme'
+            // },
           ]
         },
         {
-          title: '组件',
+          title: '组件列表',
           collapsable: false,
           children: [{
               title: '通用',
@@ -357,6 +378,7 @@ module.exports = {
             {
               title: 'Others',
               collapsable: false,
+              icon: 'reco-other'
             },
             {
               title: 'BackTop 回到顶部',
@@ -398,7 +420,8 @@ module.exports = {
         ]
       }]
     },
-    lastUpdated: true
+    lastUpdated: true,
+
   },
   plugins: [
     'demo-container',
@@ -409,8 +432,16 @@ module.exports = {
         hour12: false
       }
     }],
-    // ["cursor-effects"],
-    ['vuepress-plugin-global-toc'],
   ], // 配置插件
-  markdown: {}
+  markdown: {
+    lineNumbers: true, //显示行号
+    // markdown-it-anchor 的选项
+    anchor: {
+      permalink: true
+    },
+    // markdown-it-toc 的选项
+    toc: {
+      includeLevel: [1, 2, 3, 4]
+    }
+  }
 }

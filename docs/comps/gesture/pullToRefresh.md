@@ -1,6 +1,14 @@
-# PullToRefresh 拉动刷新
+---
+title: PullToRefresh 拉动刷新
+author: fico
+date: 2022/08/25
+tags:
+ - 操作
+ - 移动端
+---
+::: tip
 用于提供下拉刷新的交互操作。
-
+:::
 ### 何时使用
 <pre class="language-ts">
 import { HiPullToRefresh } from 'hi-kits/pullToRefresh'

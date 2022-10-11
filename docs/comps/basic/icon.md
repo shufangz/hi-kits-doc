@@ -1,13 +1,14 @@
-<!--
- * @Author: zengshufang zengshufang@haier.com
- * @Date: 2022-07-20 16:56:13
- * @LastEditors: zengshufang zengshufang@haier.com
- * @LastEditTime: 2022-09-05 14:49:22
- * @FilePath: /hi-kits-doc/docs/comps/basic/icon.md
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
--->
-# Icon 图标
+---
+title: Icon 图标
+author: fico
+date: 2022/04/27
+tags:
+ - ICON
+ - 基础组件
+---
+::: tip
 语义化的矢量图形。
+:::
 ### 何时使用
 
 <pre class="language-ts">

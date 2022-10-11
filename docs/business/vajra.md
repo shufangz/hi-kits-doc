@@ -1,6 +1,15 @@
-# Vajra District 金刚区 
-
+---
+title: Vajra District 金刚区 
+author: fico
+date: 2022/07/19
+tags:
+ - 布局
+ - 业务
+ - 金刚区
+---
+::: tip
 金刚区是一个页面中头部的重要位置,是页面的核心功能区域,表现形式为多行排列的宫格区图标。
+:::
 <pre class="language-ts">
 import { HiVajra } from 'hi-kits/vajra'
 </pre>

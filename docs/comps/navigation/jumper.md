@@ -1,6 +1,14 @@
-# Jumper 跳转
-
+---
+title: Jumper 跳转
+author: fico
+date: 2022/08/02
+tags:
+ - 操作
+ - 跳转
+---
+::: tip
 用于上下翻页，适用于监控视图实例切换等
+:::
 ### 何时使用
 <pre class="language-ts">
 import { HiJumper } from 'hi-kits/jumper'

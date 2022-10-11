@@ -1,7 +1,14 @@
-# Swipeout 滑动操作
-
+---
+title: Swipeout 滑动操作
+author: fico
+date: 2022/08/30
+tags:
+ - 操作
+ - 移动端
+---
+::: tip
 可以左右滑动来展示操作按钮的单元格组件。
-
+:::
 ### 何时使用
 <pre class="language-ts">
 import { HiSwipeout } from 'hi-kits/swipeout'

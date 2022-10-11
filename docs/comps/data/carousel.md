@@ -1,6 +1,14 @@
-# Carousel 走马灯
-
+---
+title: Carousel 走马灯
+author: ann
+date: 2022/08/25
+tags:
+ - 卡片
+ - 轮播
+---
+::: tip
 当选项过多时，使用下拉菜单展示并选择内容。
+:::
 ### 何时使用
 <pre class="language-ts">
 import { HiCarousel } from 'hi-kits/carousel'

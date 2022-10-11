@@ -1,4 +1,11 @@
-# EditWord 文字编辑
+---
+title: EditWord 文字编辑
+author: fico
+date: 2022/04/27
+tags:
+ - 文本
+ - 表单
+---
 
 <pre class="language-ts">
 import { HiEditWord } from 'hi-kits/editWord'

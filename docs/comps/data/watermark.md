@@ -1,5 +1,15 @@
-# Watermark 水印
+---
+title: Watermark 水印
+author: fico
+date: 2022/07/13
+tags:
+ - 水印
+ - 文本
+---
+::: tip
 给页面的某个区域加上水印。
+:::
+### 何时使用
 <pre class="language-ts">
 import { HiWatermark } from 'hi-kits/watermark'
 </pre>

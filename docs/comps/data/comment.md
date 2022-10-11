@@ -1,6 +1,14 @@
-# Comment 评论
-
+---
+title: Comment 评论
+author: fico
+date: 2022/07/02
+tags:
+ - 列表
+ - 评论
+---
+::: tip
 对网站内容的反馈、评价和讨论。
+:::
 ### 何时使用
 评论组件可用于对事物的讨论，例如页面、博客文章、问题等等。
 <pre class="language-ts">

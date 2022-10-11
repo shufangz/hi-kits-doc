@@ -1,7 +1,14 @@
-# Toolbar 工具栏
+---
+title:  Toolbar 工具栏
+author: fico
+date: 2022/07/26
+tags:
+ - 工具栏
+ - 操作
+---
+::: tip
 Toolbar是应用程序中使用的标准工具栏。
-
-
+:::
 ### 何时使用
 用于为页面相关操作提供便捷交互。
 <pre class="language-ts">

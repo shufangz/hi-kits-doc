@@ -1,7 +1,13 @@
-# Empty 空状态
-
+---
+title: Empty 空状态
+author: fico
+date: 2022/04/27
+tags:
+ - 数据渲染
+---
+::: tip
 空状态时的展示占位图。
-
+:::
 ### 何时使用
 当目前没有数据时，用于显式的用户提示。
 <pre class="language-ts">

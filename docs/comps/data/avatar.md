@@ -1,14 +1,16 @@
-<!--
- * @Author: zengshufang zengshufang@haier.com
- * @Date: 2022-07-22 16:58:43
- * @LastEditors: zengshufang zengshufang@haier.com
- * @LastEditTime: 2022-08-23 10:47:25
- * @FilePath: /hi-kits-doc/docs/comps/data/avatar.md
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
--->
-# Avatar 头像
+---
+title: Avatar 头像
+author: fico
+date: 2022/04/27
+tags:
+ - 头像
+---
 
+::: tip
 用来代表用户或事物，支持图片、图标或字符展示。
+:::
+
+### 何时使用
 <pre class="language-ts">
 import { HiAvatar } from 'hi-kits/avatar'
 </pre>

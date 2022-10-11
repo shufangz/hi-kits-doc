@@ -1,7 +1,14 @@
-# Actions 动作面板
-
+---
+title: Actions 动作面板
+author: fico
+date: 2022/08/22
+tags:
+ - 布局
+ - 操作
+---
+::: tip
 底部弹起的模态面板，包含与当前情境相关的多个选项。
-
+:::
 ### 何时使用
 <pre class="language-ts">
 import { HiActions } from 'hi-kits/select'

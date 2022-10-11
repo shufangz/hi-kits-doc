@@ -1,12 +1,11 @@
-<!--
- * @Author: zengshufang zengshufang@haier.com
- * @Date: 2022-08-19 18:04:54
- * @LastEditors: zengshufang zengshufang@haier.com
- * @LastEditTime: 2022-09-02 15:24:15
- * @FilePath: /h5_base_ui/Users/zengshufang/Documents/hi-kits-doc/docs/comps/basic/animate.md
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
--->
-# Animate 动效
+---
+title: Animate 动效
+author: fico
+date: 2022/07/11
+tags:
+ - animate
+ - 基础组件
+---
 
 ### 何时使用
 <pre class="language-ts">

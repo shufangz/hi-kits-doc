@@ -1,5 +1,11 @@
-# Float 浮动
-
+---
+title: Float 浮动
+author: fico
+date: 2022/08/10
+tags:
+ - 布局
+ - 浮动
+---
 ### 何时使用
 <pre class="language-ts">
 import { HiFloat } from 'hi-kits/float'

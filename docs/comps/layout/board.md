@@ -1,7 +1,14 @@
-# Board 卡牌布局
-
+---
+title: Board 卡牌布局
+author: fico
+date: 2022/09/02
+tags:
+ - 卡片式
+ - 布局
+---
+::: tip
 商品卡片，用于展示商品的图片、价格等信息。
-
+:::
 ### 何时使用
 <pre class="language-ts">
 import { HiBoard } from 'hi-kits/board'

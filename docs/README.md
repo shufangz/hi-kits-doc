@@ -47,7 +47,7 @@ footer: by 海尔
         width: 20%;
         margin-left: 20px;
         text-align: center;
-        height: 140px;
+        height: 200px;
         padding: 5px;
         background: #21a0ff;
         color: white;

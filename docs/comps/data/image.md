@@ -1,15 +1,13 @@
-<!--
- * @Author: zengshufang zengshufang@haier.com
- * @Date: 2022-09-20 14:47:18
- * @LastEditors: zengshufang zengshufang@haier.com
- * @LastEditTime: 2022-09-20 15:09:49
- * @FilePath: /hi-kits-doc/docs/comps/data/image.md
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
--->
-# Image 图片
-
+---
+title: Image 图片
+author: zhangshaoming
+date: 2022/09/15
+tags:
+ - Image
+---
+::: tip
 可预览的图片。
-
+:::
 ### 何时使用
 <pre class="language-ts">
 import { HiImage } from 'hi-kits/image'

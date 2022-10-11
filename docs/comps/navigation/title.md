@@ -1,6 +1,14 @@
-# Title 标题
+---
+title: Title 标题
+author: fico
+date: 2022/08/02
+tags:
+ - 标题
+ - 导航
+---
+::: tip
 为页面提供标题功能，常用于页面顶部。
-
+:::
 ### 何时使用
 <pre class="language-ts">
 import { HiTitle } from 'hi-kits/title'

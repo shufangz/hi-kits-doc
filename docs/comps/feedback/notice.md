@@ -1,5 +1,10 @@
-# Notice 通告栏
-
+---
+title: Notice 通告栏
+author: fico
+date: 2022/09/13
+tags:
+ - 提示
+---
 
 ### 何时使用
 <pre class="language-ts">

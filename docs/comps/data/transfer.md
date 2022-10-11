@@ -1,7 +1,14 @@
-# Transfer 穿梭框
-
+---
+title: Transfer 穿梭框
+author: yangtingting
+date: 2022/08/30
+tags:
+ - 穿梭框
+ - 数据操作
+---
+::: tip
 双栏穿梭选择框。
-
+:::
 ### 何时使用
 用直观的方式在两栏中移动元素，完成选择行为。
 

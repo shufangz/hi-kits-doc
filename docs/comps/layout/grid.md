@@ -1,6 +1,14 @@
-# Grid 栅格
-
+---
+title: Grid 栅格
+author: fico
+date: 2022/05/11
+tags:
+ - 布局
+ - 栅格
+---
+::: tip
 通过基础的 24 分栏，迅速简便地创建布局。
+:::
 <pre class="language-ts">
 import { HiGrid} from 'hi-kits/grid'
 </pre>

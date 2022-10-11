@@ -1,12 +1,19 @@
-# Layout 布局
-
+---
+title: Layout 布局
+author: fico
+date: 2022/07/11
+tags:
+ - 布局
+ - 容器
+---
+::: tip
 用于布局的容器组件，方便快速搭建页面的基本结构
-
+:::
 ### 基础布局
 <pre class="language-ts">
 import { HiLayout } from 'hi-kits/layout'
 </pre>
-#### 垂直排列
+### 垂直排列
 ::: demo
 ```html
   <h-layout class="layoutBox"></h-layout>
@@ -15,7 +22,7 @@ import { HiLayout } from 'hi-kits/layout'
 ```
 :::
 
-#### row 水平排列
+### row 水平排列
 ::: demo
 ```html
 <h-layout row>
@@ -26,7 +33,7 @@ import { HiLayout } from 'hi-kits/layout'
 ```
 :::
 
-#### expand 水平填充
+### expand 水平填充
 根据剩余空间填充（主轴方向）
 ::: demo
 ```html
@@ -38,7 +45,7 @@ import { HiLayout } from 'hi-kits/layout'
 ```
 :::
 
-#### center 水平垂直居中
+### center 水平垂直居中
 ::: demo
 ```html
 <h-layout center style="height:200px">
@@ -48,7 +55,7 @@ import { HiLayout } from 'hi-kits/layout'
 ```
 :::
 
-#### center=mainAxis 以主轴方向居中
+### center=mainAxis 以主轴方向居中
 ::: demo
 ```html
 <h-layout center="mainAxis" style="height:200px">
@@ -58,7 +65,7 @@ import { HiLayout } from 'hi-kits/layout'
 ```
 :::
 
-#### center=crosAxis 以纵轴方向居中
+### center=crosAxis 以纵轴方向居中
 ::: demo
 ```html
 <h-layout center="crosAxis" style="height:200px">
@@ -68,7 +75,7 @@ import { HiLayout } from 'hi-kits/layout'
 ```
 :::
 
-#### 简单的示例
+### 简单的示例
 ::: demo
 ```html
 <h-layout class="layout">

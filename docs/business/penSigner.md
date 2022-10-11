@@ -1,6 +1,14 @@
-# PenSigner 签名板
+---
+title: PenSigner 签名板
+author: fico
+date: 2022/08/25
+tags:
+ - 业务
+ - 签名
+---
+::: tip
 适用于电子签名，结果输出为一张图片
-
+:::
 ### 何时使用
 <pre class="language-ts">
 import { HiPenSigner } from 'hi-kits/penSigner'

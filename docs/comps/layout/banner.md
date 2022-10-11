@@ -1,5 +1,14 @@
-# Banner 横幅
+---
+title: Banner 横幅
+author: fico
+date: 2022/07/27
+tags:
+ - 布局
+ - 卡片
+---
+::: tip
 Banner 广告横幅一般是放置在网页上的不同位置,在用户浏览网页信息的同时,吸引用户对于 广告信息的关注
+:::
 <pre class="language-ts">
 import { HiBanner } from 'hi-kits/banner'
 </pre>

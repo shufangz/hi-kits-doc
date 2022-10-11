@@ -1,7 +1,15 @@
-# NumberKeyboard 数字键盘
-
+---
+title: NumberKeyboard 数字键盘
+author: fico
+date: 2022/09/05
+tags:
+ - 表单
+ - 工具
+ - 移动端
+---
+::: tip
 虚拟数字键盘，可以配合密码输入框组件或自定义的输入框组件使用。
-
+:::
 ### 何时使用
 <pre class="language-ts">
 import { HiNumberKeyboard } from 'hi-kits/numberKeyboard'

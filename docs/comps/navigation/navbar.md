@@ -1,7 +1,15 @@
-# Navbar 导航栏
-
+---
+title: Navbar 导航栏
+author: fico
+date: 2022/07/29
+tags:
+ - 导航
+ - 布局
+ - 移动端
+---
+::: tip
 为页面提供导航功能，常用于页面顶部。
-
+:::
 ### 何时使用
 <pre class="language-ts">
 import { HiNavbar } from 'hi-kits/navbar'

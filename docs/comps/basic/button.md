@@ -1,7 +1,14 @@
-# Button 按钮
-
+---
+title: Button 按钮
+author: fico
+date: 2022/04/27
+tags:
+ - Button
+ - 基础组件
+---
+::: tip
 按钮用于开始一个即时操作。
-
+:::
 ### 何时使用
 <pre class="language-ts">
 import { HiButton } from 'hi-kits/button'
@@ -149,11 +156,7 @@ Button 组件提供除了默认值以外的两种尺寸，可以在不同场景�
 
 ```
 :::
-<style>
-    h-space, h-button {
-        margin: 10px
-    }
-</style>
+
 ### Block 按钮
 
 Block 属性将使按钮适合其父宽度

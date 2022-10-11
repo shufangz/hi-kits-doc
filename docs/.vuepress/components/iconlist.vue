@@ -375,6 +375,7 @@ export default {
   margin-top: 14px;
 }
 .icontable tr td p {
+  font-size: 12px;
   text-align: center;
 }
 .icontable tr td:hover {

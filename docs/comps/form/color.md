@@ -1,6 +1,14 @@
-# ColorPicker 颜色选择器
-
+---
+title: ColorPicker 颜色选择器
+author: liulina
+date: 2022/07/22
+tags:
+ - 表单
+ - 工具
+---
+::: tip
 用于颜色选择，支持多种格式。
+:::
 <pre class="language-ts">
 import { HiColorPicker } from 'hi-kits/color'
 </pre>

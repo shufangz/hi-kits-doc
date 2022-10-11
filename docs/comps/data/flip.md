@@ -1,5 +1,10 @@
-# Flip 翻转
-
+---
+title: Flip 翻转
+author: fico
+date: 2022/04/27
+tags:
+ - animate
+---
 ### 何时使用
 <pre class="language-ts">
 import { HiFlip } from 'hi-kits/flip'
