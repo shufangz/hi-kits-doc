@@ -11,9 +11,9 @@ tags:
 为页面提供导航功能，常用于页面顶部。
 :::
 ### 何时使用
-<pre class="language-ts">
+```ts
 import { HiNavbar } from 'hi-kits/navbar'
-</pre>
+```
 
 ### 基本用法
 

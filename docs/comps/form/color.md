@@ -9,9 +9,9 @@ tags:
 ::: tip
 用于颜色选择，支持多种格式。
 :::
-<pre class="language-ts">
+```ts
 import { HiColorPicker } from 'hi-kits/color'
-</pre>
+```
 
 
 ### 基本用法

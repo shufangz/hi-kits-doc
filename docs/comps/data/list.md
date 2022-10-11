@@ -10,9 +10,9 @@ tags:
 :::
 ### 何时使用
 最基础的列表展示，可承载文字、列表、图片、段落，常用于后台数据展示页面。
-<pre class="language-ts">
+```ts
 import { HiList } from 'hi-kits/list'
-</pre>
+```
 
 
 ### 简单列表

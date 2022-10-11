@@ -13,9 +13,9 @@ tags:
 - 全局展示操作反馈信息。
 - 可提供成功、警告和错误等反馈信息。
 - 顶部居中显示并自动消失，是一种不打断用户操作的轻量级提示方式
-<pre class="language-ts">
+```ts
 import { HiMessage } from 'hi-kits/message'
-</pre>
+```
 ### 基础用法
 
 从顶部出现，3 秒后自动消失。

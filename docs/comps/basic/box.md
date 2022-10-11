@@ -10,9 +10,9 @@ tags:
 :::
 ### 何时使用
 
-<pre class="language-ts">
+```ts
 import { HiBox } from 'hi-kits/box'
-</pre>
+```
 
 ### 基本用法
 

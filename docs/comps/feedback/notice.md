@@ -7,9 +7,9 @@ tags:
 ---
 
 ### 何时使用
-<pre class="language-ts">
+```ts
 import { HiNotice } from 'hi-kits/notice'
-</pre>
+```
 
 ### 基本用法
 

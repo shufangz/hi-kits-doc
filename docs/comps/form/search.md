@@ -10,9 +10,9 @@ tags:
 带有搜索按钮的输入框。
 :::
 ### 何时使用
-<pre class="language-ts">
+```ts
 import { HiSearch } from 'hi-kits/search'
-</pre>
+```
 
 ### 基本用法
 

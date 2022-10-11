@@ -9,9 +9,9 @@ tags:
 可预览的图片。
 :::
 ### 何时使用
-<pre class="language-ts">
+```ts
 import { HiImage } from 'hi-kits/image'
-</pre>
+```
 
 ### 基本用法
 

@@ -10,9 +10,9 @@ Popup 是一个模态窗口，其中包含在 App 的主要内容上弹出的任
 :::
 ### 何时使用
 弹出层容器，用于展示弹窗、信息提示等内容，支持多个弹出层叠加展示。
-<pre class="language-ts">
+```ts
 import { HiPopup } from 'hi-kits/popup'
-</pre>
+```
 
 ### 基本用法
 

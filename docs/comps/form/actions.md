@@ -10,9 +10,9 @@ tags:
 底部弹起的模态面板，包含与当前情境相关的多个选项。
 :::
 ### 何时使用
-<pre class="language-ts">
+```ts
 import { HiActions } from 'hi-kits/select'
-</pre>
+```
 
 ### 基本用法
 

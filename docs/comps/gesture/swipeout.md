@@ -10,9 +10,9 @@ tags:
 可以左右滑动来展示操作按钮的单元格组件。
 :::
 ### 何时使用
-<pre class="language-ts">
+```ts
 import { HiSwipeout } from 'hi-kits/swipeout'
-</pre>
+```
 
 ### 基本用法
 

@@ -10,9 +10,9 @@ tags:
 用于提供下拉刷新的交互操作。
 :::
 ### 何时使用
-<pre class="language-ts">
+```ts
 import { HiPullToRefresh } from 'hi-kits/pullToRefresh'
-</pre>
+```
 
 ### 基本用法
 ::: demo

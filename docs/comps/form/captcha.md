@@ -10,9 +10,9 @@ tags:
 ::: tip
 验证码输入框。
 :::
-<pre class="language-ts">
+```ts
 import { Hcaptcha } from 'hi-kits/captcha'
-</pre>
+```
 
 ### 基本用法
 

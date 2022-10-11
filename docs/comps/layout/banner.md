@@ -9,9 +9,9 @@ tags:
 ::: tip
 Banner 广告横幅一般是放置在网页上的不同位置,在用户浏览网页信息的同时,吸引用户对于 广告信息的关注
 :::
-<pre class="language-ts">
+```ts
 import { HiBanner } from 'hi-kits/banner'
-</pre>
+```
 
 ### 基本用法
 默认比例，尺寸自适应，圆角可配置

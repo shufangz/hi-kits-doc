@@ -10,9 +10,9 @@ tags:
 当选项过多时，使用下拉菜单展示并选择内容。
 :::
 ### 何时使用
-<pre class="language-ts">
+```ts
 import { HiCarousel } from 'hi-kits/carousel'
-</pre>
+```
 
 ### 基本用法
 

@@ -12,9 +12,9 @@ tags:
 ### 何时使用
 - 对评价进行展示。
 - 对事物进行快速的评级操作。
-<pre class="language-ts">
+```ts
 import { HiRate } from 'hi-kits/rate'
-</pre>
+```
 ### 基本用法
 
 最简单的用法。

@@ -11,9 +11,9 @@ tags:
 :::
 ### 何时使用
 选择时间的控件。
-<pre class="language-ts">
+```ts
 import { HiTimePicker } from 'hi-kits/time-picker'
-</pre>
+```
 
 ### 基本用法
 

@@ -76,6 +76,7 @@ export default defineComponent({
 
   .hero {
     text-align: center;
+    background: url('bg.svg') center center / cover no-repeat;
     h1 {
       display: block;
       font-size: 2.5rem;

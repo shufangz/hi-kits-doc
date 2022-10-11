@@ -8,9 +8,9 @@ tags:
 ---
 
 ### 何时使用
-<pre class="language-ts">
+```ts
 import { HiAnimate } from 'hi-kits/animate'
-</pre>
+```
 ### 基本用法
 直接通过设置name来使用即可,会在页面加载完成时触发一次动画效果。
 

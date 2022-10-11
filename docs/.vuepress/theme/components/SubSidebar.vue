@@ -1,11 +1,4 @@
-<!--
- * @Author: zengshufang zengshufang@haier.com
- * @Date: 2022-10-09 11:24:51
- * @LastEditors: zengshufang zengshufang@haier.com
- * @LastEditTime: 2022-10-09 16:51:10
- * @FilePath: /hi-kits-doc/docs/.vuepress/theme/components/SubSidebar.vue
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
--->
+
 <script>
 import { defineComponent, computed } from 'vue'
 import { isActive } from '@theme/helpers/utils'
@@ -22,9 +15,9 @@ export default defineComponent({
     const isLinkActive = (header) => {
       const active = isActive(instance.$route, instance.$page.path + '#' + header.slug)
       if (active) {
-        // setTimeout(() => {
-        // }, 300)
+        setTimeout(() => {
           document.querySelector(`.reco-side-${header.slug}`).scrollIntoView()
+        }, 300)
 
       }
       return active

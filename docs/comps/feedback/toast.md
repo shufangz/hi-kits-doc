@@ -11,9 +11,9 @@ tags:
 :::
 
 ### 何时使用
-<pre class="language-ts">
+```ts
 import { HiToast } from 'hi-kits/toast'
-</pre>
+```
 ### 基本用法
 
 ::: demo

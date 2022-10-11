@@ -10,9 +10,9 @@ tags:
 适用于活动中任务相关业务
 :::
 ### 何时使用
-<pre class="language-ts">
+```ts
 import { HiTask } from 'hi-kits/task'
-</pre>
+```
 
 ### 基本用法
 

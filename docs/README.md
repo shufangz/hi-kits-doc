@@ -1,6 +1,10 @@
 ---
 home: true
-heroImage: https://ys-zjrs.haier.net/image/logo(1).svg
+heroImage: /images/logo(1).svg
+bgImage: bg.svg
+bgImageStyle: {
+  height: '1000px'
+}
 tagline: 面向未来的全新组件交互设计理念
 heroText: Hi-kits
 features: 
@@ -21,7 +25,7 @@ footer: by 海尔
 
 ### 我们用一系列问题解释了推出hi-kit的动机
 
-<div style="display:flex;justify-content: space-around;padding-bottom:40px">
+<div style="width: 100%;display:flex;justify-content: space-between;padding-bottom:40px">
   <div class="box">
     <p style="margin:5px">你是否曾经需要一组可重用的UI组件，可以直接将它们加入应用程序，并获得惊人的体验？</p>
   </div>
@@ -44,15 +48,15 @@ footer: by 海尔
         align-items: center;
         border: solid 2px #eff5fd;
         border-radius: 20px;
-        width: 20%;
-        margin-left: 20px;
+        width: 17%;
         text-align: center;
-        height: 200px;
         padding: 5px;
-        background: #21a0ff;
+        background: #81c995;
         color: white;
-        font-size: 15px;
-        box-shadow: 10px 10px #ecf3fc;
+        font-size: 15px;    
+        height: auto;
+        font-weight: 500;
+        box-shadow: 10px 10px #d9ece1;
         border-right: white solid 1px;
     }
   </style>

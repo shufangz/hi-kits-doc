@@ -12,9 +12,9 @@ tags:
 ### 何时使用
 当有重要操作需告知用户处理结果，且反馈内容较为复杂时使用。
 
-<pre class="language-ts">
+```ts
 import { HiResult } from 'hi-kits/result'
-</pre>
+```
 
 ### 基本用法
 

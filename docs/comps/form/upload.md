@@ -16,9 +16,9 @@ tags:
 - 当需要上传一个或一些文件时。
 - 当需要展现上传的进度时。
 - 当需要使用拖拽交互时。
-<pre class="language-ts">
+```ts
 import { HiUpload } from 'hi-kits/upload'
-</pre>
+```
 
 ### 基本用法
 

@@ -10,9 +10,9 @@ tags:
 用于布局的容器组件，方便快速搭建页面的基本结构
 :::
 ### 基础布局
-<pre class="language-ts">
+```ts
 import { HiLayout } from 'hi-kits/layout'
-</pre>
+```
 ### 垂直排列
 ::: demo
 ```html

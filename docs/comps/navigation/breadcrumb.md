@@ -13,9 +13,9 @@ tags:
 - 当需要告知用户『你在哪里』时；
 - 当需要向上导航的功能时
 
-<pre class="language-ts">
+```ts
 import { HiBreadcrumb } from 'hi-kits/breadcrumb'
-</pre>
+```
 
 ### 基本用法
 

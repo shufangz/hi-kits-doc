@@ -14,9 +14,9 @@ tags:
 - 较为复杂的通知内容。
 - 带有交互的通知，给出用户下一步的行动点。
 - 系统主动推送。
-<pre class="language-ts">
+```ts
 import { HiNotify } from 'hi-kits/notify'
-</pre>
+```
 ### 基本用法
 
 最简单的用法，5 秒后自动关闭。

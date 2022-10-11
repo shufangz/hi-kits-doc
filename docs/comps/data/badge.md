@@ -10,9 +10,9 @@ tags:
 :::
 ### 何时使用
 一般出现在通知图标或头像的右上角，用于显示需要处理的消息条数，通过醒目视觉形式吸引用户处理。
-<pre class="language-ts">
+```ts
 import { HiBadge } from 'hi-kits/badge'
-</pre>
+```
 
 ### 基本用法
 

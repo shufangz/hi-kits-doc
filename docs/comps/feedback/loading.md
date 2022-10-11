@@ -10,9 +10,9 @@ tags:
 :::
 ### 何时使用
 页面局部处于等待异步数据或正在渲染过程时，合适的加载动效会有效缓解用户的焦虑。
-<pre class="language-ts">
+```ts
 import { HiLoading } from 'hi-kits/loading'
-</pre>
+```
 ### 基本用法
 
 一个简单的 loading 状态。

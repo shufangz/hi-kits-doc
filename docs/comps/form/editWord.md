@@ -7,9 +7,9 @@ tags:
  - 表单
 ---
 
-<pre class="language-ts">
+```ts
 import { HiEditWord } from 'hi-kits/editWord'
-</pre>
+```
 
 ### 基本用法
 

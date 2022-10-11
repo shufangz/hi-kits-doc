@@ -11,9 +11,9 @@ tags:
 :::
 
 ### 何时使用
-<pre class="language-ts">
+```ts
 import { HiAvatar } from 'hi-kits/avatar'
-</pre>
+```
 ### 基本用法
 
 通过 circle 和 size 设置头像的形状和大小。

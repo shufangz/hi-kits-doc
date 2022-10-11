@@ -7,6 +7,7 @@ module.exports = {
       }
     ]
   ],
+  title: 'Hi-kits',
   base: '/hidoc/',
   port: '8080',
   theme: 'reco',

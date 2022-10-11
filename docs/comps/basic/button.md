@@ -10,9 +10,9 @@ tags:
 按钮用于开始一个即时操作。
 :::
 ### 何时使用
-<pre class="language-ts">
+```ts
 import { HiButton } from 'hi-kits/button'
-</pre>
+```
 
 标记了一个（或封装一组）操作命令，响应用户点击行为，触发相应的业务逻辑。
 在 Hi-kits 中，我们有五种按钮。

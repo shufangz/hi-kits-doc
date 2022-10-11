@@ -8,9 +8,9 @@ tags:
 ---
 ### 何时使用
 可用于页面切换或者轮播切换
-<pre class="language-ts">
+```ts
 import { HiNavdot } from 'hi-kits/navdot'
-</pre>
+```
 ### 基本用法
 
 ::: demo

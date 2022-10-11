@@ -10,9 +10,9 @@ tags:
 为页面提供标题功能，常用于页面顶部。
 :::
 ### 何时使用
-<pre class="language-ts">
+```ts
 import { HiTitle } from 'hi-kits/title'
-</pre>
+```
 
 ### 基本用法
 

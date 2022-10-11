@@ -11,9 +11,9 @@ tags:
 :::
 ### 何时使用
 
-<pre class="language-ts">
+```ts
 import { HiIcon } from 'hi-kits/icon'
-</pre>
+```
 ### 使用方法
 直接通过设置`name`来使用即可
 

@@ -10,9 +10,9 @@ tags:
 :::
 ### 何时使用
 当目前没有数据时，用于显式的用户提示。
-<pre class="language-ts">
+```ts
 import { HiEmpty } from 'hi-kits/empty'
-</pre>
+```
 
 
 ### 基本用法

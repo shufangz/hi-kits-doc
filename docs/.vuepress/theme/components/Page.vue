@@ -1,5 +1,7 @@
 <template>
   <main class="page" :style="pageStyle">
+        <ModuleTransition delay="0.08">
+
     <section v-show="recoShowModule">
       <div class="page-title">
         <h1 class="title">{{$page.title}}</h1>
@@ -8,6 +10,9 @@
       <!-- 这里使用 v-show，否则影响 SSR -->
       <Content class="theme-reco-content" />
     </section>
+    </ModuleTransition>
+
+    <ModuleTransition delay="0.16">
 
     <footer v-if="recoShowModule" class="page-edit">
       <div class="edit-link" v-if="editLink">
@@ -27,6 +32,9 @@
         <span class="time">{{ lastUpdated }}</span>
       </div>
     </footer>
+    </ModuleTransition>
+
+    <ModuleTransition delay="0.24">
 
     <div class="page-nav" v-if="recoShowModule && (prev || next)">
       <p class="inner">
@@ -42,10 +50,16 @@
         </span>
       </p>
     </div>
+    </ModuleTransition>
+
+    <ModuleTransition  delay="0.32">
 
     <Comments v-if="recoShowModule" :isShowComments="shouldShowComments"/>
+    </ModuleTransition>
+    <ModuleTransition>
 
     <SubSidebar v-if="recoShowModule" class="side-bar" />
+    </ModuleTransition>
   </main>
 </template>
 
@@ -55,9 +69,10 @@ import PageInfo from '@theme/components/PageInfo'
 import { resolvePage, outboundRE, endingSlashRE } from '@theme/helpers/utils'
 import SubSidebar from '@theme/components/SubSidebar'
 import { useInstance, useShowModule } from '@theme/helpers/composable'
+import { ModuleTransition } from '@vuepress-reco/core/lib/components'
 
 export default defineComponent({
-  components: { PageInfo, SubSidebar },
+  components: { PageInfo, ModuleTransition, SubSidebar },
 
   props: ['sidebarItems'],
 

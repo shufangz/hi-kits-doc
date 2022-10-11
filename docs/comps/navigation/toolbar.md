@@ -11,9 +11,9 @@ Toolbar是应用程序中使用的标准工具栏。
 :::
 ### 何时使用
 用于为页面相关操作提供便捷交互。
-<pre class="language-ts">
+```ts
 import { HiToolbar } from 'hi-kits/toolbar'
-</pre>
+```
 
 ### 基本用法
 

@@ -12,9 +12,9 @@ tags:
 ### 何时使用
 当用户需要输入一个日期，可以点击标准输入框，弹出日期面板进行选择。
 
-<pre class="language-ts">
+```ts
 import { HiDatePicker } from 'hi-kits/date-picker'
-</pre>
+```
 
 ### 基本用法
 

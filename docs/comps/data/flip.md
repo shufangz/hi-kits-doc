@@ -6,9 +6,9 @@ tags:
  - animate
 ---
 ### 何时使用
-<pre class="language-ts">
+```ts
 import { HiFlip } from 'hi-kits/flip'
-</pre>
+```
 
 ### 基本用法
 

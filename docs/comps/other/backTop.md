@@ -11,9 +11,9 @@ tags:
 ### 何时使用
 - 当页面内容区域比较长时；
 - 当用户需要频繁返回顶部查看相关内容时。
-<pre class="language-ts">
+```ts
 import { HiBackTop } from 'hi-kits/backTop'
-</pre>
+```
 
 ### 基本用法
 

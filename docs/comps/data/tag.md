@@ -12,9 +12,9 @@ tags:
 ### 何时使用
 - 用于标记事物的属性和维度。
 - 进行分类。
-<pre class="language-ts">
+```ts
 import { HiTag } from 'hi-kits/tag'
-</pre>
+```
 ### 基本用法
 
 基本标签的用法。可通过text设置标签文字。color 设置文字颜色

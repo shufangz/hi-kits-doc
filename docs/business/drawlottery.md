@@ -10,9 +10,9 @@ tags:
 适用于活动抽奖等需求
 :::
 ### 何时使用
-<pre class="language-ts">
+```ts
 import { HiDrawlottery } from 'hi-kits/drawlottery'
-</pre>
+```
 
 ### 基本用法
 通过`onclick`事件设置转盘的奖品索引及是否开始抽奖。
@@ -20,12 +20,17 @@ import { HiDrawlottery } from 'hi-kits/drawlottery'
 ```html
 <h-row gutter="10">
     <h-col span="12">
-        <h-drawlottery 
-          onclick="(
-        this.setAttribute('index', '1'),
-        this.setAttribute('start', 'true'),
-        this.removeAttribute('start')
-        )">
+          <h-drawlottery id="drawlottery"
+            lotteryInfo="{text: '立即开奖', dec: '剩余1次机会'}"
+            lotteryDecStyle= "{color: '#333333', fontSize: '12px', fontWeight: 400}"
+            lotteryTextStyle= "{color: '#000', fontSize: '16px', fontWeight: 500}"
+            lotteryWarpStyle="{background: '#6cd2d2',radius:[100, 100, 100, 100]}"
+            prizeListStyle="{color: '#42b983',fontSize: '12px',fontWeight: 500, radius:[10, 10, 10, 10]}"
+            onclick="(
+            this.setAttribute('index', '1'),
+            this.setAttribute('start', 'true'),
+            this.removeAttribute('start')
+          )" gutter="10">
           </h-drawlottery>
     </h-col>
 </h-row>
@@ -34,20 +39,21 @@ import { HiDrawlottery } from 'hi-kits/drawlottery'
 :::
 
 
-### 自定义圆角和间距
-通过 `radius` 配置转盘方块的圆角，按照`border-radius`的设置，左上，右上，右下，左下。`gutter`设置各方块之间的间距
+### 自定义转盘方块
+通过 `prizeListStyle` 配置转盘方块的样式
 ::: demo
 ```html
 <h-row gutter="10">
     <h-col span="12">
-        <h-drawlottery 
-          radius="[100,100,100,100]"
-          gutter="20"
-          onclick="(
+        <h-drawlottery id="drawlottery"
+            lotteryInfo="{text: '立即开奖', dec: '剩余1次机会'}"
+            lotteryWarpStyle="{background: '#6cd2d2',radius:[100, 100, 100, 100]}"
+            prizeListStyle="{color: '#42b983',fontSize: '12px',fontWeight: 500, background: '#e8f8a1',}"
+            onclick="(
             this.setAttribute('index', '1'),
             this.setAttribute('start', 'true'),
             this.removeAttribute('start')
-          )">
+          )" gutter="10">
           </h-drawlottery>
     </h-col>
 </h-row>
@@ -56,15 +62,17 @@ import { HiDrawlottery } from 'hi-kits/drawlottery'
 :::
 
 ### 自定义转盘控制按钮
-通过 `lotteryBtnInfo` 配置转盘中心控制按钮的样式及文案
+通过 `lotteryInfo` 配置转盘中心控制按钮文字及描述，`lotteryTextStyle`配置按钮文字的样式， `lotteryDecStyle`配置描述文字的样式，`lotteryWarpStyle`配置控制按钮的样式
 ::: demo
 ```html
 <h-row gutter="10">
     <h-col span="12">
         <h-drawlottery
           id="drawlottery"
-          lotteryBtnInfo = "{text: '立即开奖', dec: '剩余1次机会', background: 'lightblue', color: '#000', fontSize: '12px', fontWeight: 600, textcolor: '#000000', textfontSize: '16px', textfontWeight: 500, deccolor: '#333333', decfontSize: '12px', decfontWeight: 400,radius:[100, 100, 100, 100]}"
-          radius="[10, 10, 10, 10]"
+          lotteryInfo="{text: '开奖啦', dec: '点击领奖'}"
+          lotteryDecStyle= "{color: '#e38163', fontSize: '12px', fontWeight: 400}"
+            lotteryTextStyle= "{color: '#eca6a6', fontSize: '16px', fontWeight: 500}"
+            lotteryWarpStyle="{background: '#3bffef',radius:[30, 30, 30, 30]}"
           onchange="lottoryChange(event)"
           gutter="10">
           </h-drawlottery>
@@ -74,14 +82,16 @@ import { HiDrawlottery } from 'hi-kits/drawlottery'
 ```
 :::
 ### 自定义配置
-可设置奖品方块
+可设置奖品方块内容
 ::: demo
 
 ```html
 <template>
   <h-row gutter="10" >
       <h-col span="12">
-          <h-drawlottery ref="drawlottery" gutter="20" radius="[100,100,100,100]"  
+          <h-drawlottery ref="drawlottery" gutter="20" 
+           lotteryWarpStyle="{background: '#abb8af',radius:[30, 30, 30, 30]}"
+           prizeListStyle="{color: '#1ef',fontSize: '12px',fontWeight: 500, background: '#d39f86',radius:[30, 30, 30, 30] }" 
           onclick="(
           this.setAttribute('index', '1'),
           this.setAttribute('start', 'true'),
@@ -97,54 +107,62 @@ import { HiDrawlottery } from 'hi-kits/drawlottery'
   data: () => ({
     prizeOptionList : [
       {
-        prizeImg: 'https://ys-zjrs.haier.net/image/logo(1).svg',
+        prizeImg: '../images/zoo/11.jpeg',
         prizeQuota: '88',
-        background: '#dee',
+        background: '',
         index: 0,
+        prizeName: '100海贝'
       },
       {
-        prizeImg: 'https://ys-zjrs.haier.net/image/logo(1).svg',
+        prizeImg: '../images/zoo/22.jpeg',
         prizeQuota: '66',
-        background: '#dee',
+        background: '',
         index: 1,
+        prizeName: '再来一次'
       },
       {
-        prizeImg: 'https://ys-zjrs.haier.net/image/logo(1).svg',
+        prizeImg: '../images/zoo/33.jpeg',
         prizeQuota: '30',
-        background: '#dee',
+        background: '',
         index: 2,
+        prizeName: '30海贝'
       },
       {
-        prizeImg: 'https://ys-zjrs.haier.net/image/logo(1).svg',
+        prizeImg: '../images/zoo/77.jpeg',
         prizeQuota: '15',
-        background: '#dee',
+        background: '',
         index: 3,
+        prizeName: '谢谢参与'
       },
       {
-        prizeImg: 'https://ys-zjrs.haier.net/image/logo(1).svg',
+        prizeImg: '../images/zoo/00.jpeg',
         prizeQuota: '0',
-        background: '#dee',
+        background: '',
         index: 4,
+        prizeName: '200海贝'
       },
   
       {
-        prizeImg: 'https://ys-zjrs.haier.net/image/logo(1).svg',
+        prizeImg: '../images/zoo/66.jpeg',
         prizeQuota: '5',
-        background: '#dee',
+        background: '',
         index: 5,
+        prizeName: '很遗憾，没有奖励'
       },
       {
-        prizeImg: 'https://ys-zjrs.haier.net/image/logo(1).svg',
+        prizeImg: '../images/zoo/88.jpeg',
         prizeQuota: '10',
-        background: '#dee',
+        background: '',
         index: 6,
+        prizeName: '300海贝'
       },
   
       {
-        prizeImg: 'https://ys-zjrs.haier.net/image/logo(1).svg',
+        prizeImg: '../images/zoo/99.jpeg',
         prizeQuota: '20',
-        background: '#dee',
+        background: '',
         index: 7,
+        prizeName: '500海贝'
       },
   ]
    }),
@@ -162,20 +180,23 @@ import { HiDrawlottery } from 'hi-kits/drawlottery'
 |参数|说明|类型|可选值|默认值
 |:--|:--|:--|:-----|:---
 | `gutter`| 每个奖品块的间距 |  `number` |  -| -
-| `background`| 项目背景颜色 |  `string` | - | -
-| `radius`| 项目圆角,依照`border-radius` 的顺序，顺序为左上、右上、右下和左下 |  `Array[number,number,number,number]` | - | `[10,10,10,10]`
+| `lotteryInfo`| 抽奖按钮信息 |  `string` | - | -
+| `lotteryDecStyle`| 抽奖按钮描述文本样式信息 |  `string` | - | ``
+| `lotteryTextStyle`| 抽奖按钮文字样式信息 |  `string` | - | ``
+| `lotteryWarpStyle`| 抽奖按钮整体样式信息 |  `string` | - | ``
+| `prizeListStyle`| 奖品按钮样式信息 |  `string` | - | ``
 | `start`| 是否开始抽奖 |  `boolean` | - | -
 | `index`| 奖品索引 |  `number` | - | -
 | `prizeOptionList`| 父级传入的奖品列表 |  `Array[]` | - | -
 | `onclick`|  点击抽奖时触发的回调函数 |  `Function` | - | -
-| `onchange`| 转盘抽奖结束 |  `Function` | - | -
+| `onlottchange`| 开始抽奖的回调 |  `Function` | - | -
 
 
 
 
 `prizeOptionList`: 自定义转盘抽奖数据,格式如下
 
-<pre class="language-js">
+```js
 prizeOptionList: [{
     prizeImg: 'https://ys-zjrs.haier.net/image/logo(1).svg', // 图片地址
     prizeQuota: '88', // 奖品说明
@@ -183,4 +204,4 @@ prizeOptionList: [{
     index: 0, // 索引
     prizeName: '0088海贝' // 奖品名称
 },...]
-</pre>
+```

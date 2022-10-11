@@ -10,9 +10,9 @@ tags:
 给页面的某个区域加上水印。
 :::
 ### 何时使用
-<pre class="language-ts">
+```ts
 import { HiWatermark } from 'hi-kits/watermark'
-</pre>
+```
 
 ### 基本用法
 

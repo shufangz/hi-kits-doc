@@ -11,9 +11,9 @@ tags:
 ### 何时使用
 - 当需要突出某个或某组数字时。
 - 当需要展示带描述的统计类数据时使用。
-<pre class="language-ts">
+```ts
 import { HiStatistic } from 'hi-kits/statistic'
-</pre>
+```
 ### 基本用法
 
 简单的展示。

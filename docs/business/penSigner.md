@@ -10,9 +10,9 @@ tags:
 适用于电子签名，结果输出为一张图片
 :::
 ### 何时使用
-<pre class="language-ts">
+```ts
 import { HiPenSigner } from 'hi-kits/penSigner'
-</pre>
+```
 
 ### 基本用法
 可以设置宽、 高、 颜色和背景色， 返回生成的图片

@@ -12,9 +12,9 @@ tags:
 ### 何时使用
 - 当加载/渲染所有数据将花费很多时间时；
 - 可切换页码浏览数据。
-<pre class="language-ts">
+```ts
 import { HiPagination } from 'hi-kits/pagination'
-</pre>
+```
 ### 基本用法
 
 基础分页。

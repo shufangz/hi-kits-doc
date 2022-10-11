@@ -11,9 +11,9 @@ tags:
 虚拟数字键盘，可以配合密码输入框组件或自定义的输入框组件使用。
 :::
 ### 何时使用
-<pre class="language-ts">
+```ts
 import { HiNumberKeyboard } from 'hi-kits/numberKeyboard'
-</pre>
+```
 
 ### 默认键盘
 

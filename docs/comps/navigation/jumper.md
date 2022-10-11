@@ -10,9 +10,9 @@ tags:
 用于上下翻页，适用于监控视图实例切换等
 :::
 ### 何时使用
-<pre class="language-ts">
+```ts
 import { HiJumper } from 'hi-kits/jumper'
-</pre>
+```
 
 ### 基本用法
 

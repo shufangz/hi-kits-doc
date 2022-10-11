@@ -12,9 +12,9 @@ tags:
  - 文本内容长度或高度超过列宽或行高。
  - 图表中空间有限，文本内容无法完全显示。
  - 自适应调整时宽度变小。
-<pre class="language-ts">
+```ts
 import { HiEllipsis } from 'hi-kits/ellipsis'
-</pre>
+```
 
 ### 基本用法
 

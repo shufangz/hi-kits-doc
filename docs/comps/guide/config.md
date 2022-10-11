@@ -7,7 +7,7 @@ tags:
 ---
 
 ### Angular中按需引用配置文件
-```shell
+```ts
 /**
  * HI_KITS 公共组件定义
  * @class HIKITSCOMMONMODULES

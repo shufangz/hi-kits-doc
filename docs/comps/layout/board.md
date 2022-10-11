@@ -10,9 +10,9 @@ tags:
 商品卡片，用于展示商品的图片、价格等信息。
 :::
 ### 何时使用
-<pre class="language-ts">
+```ts
 import { HiBoard } from 'hi-kits/board'
-</pre>
+```
 
 ### 基本用法
 
