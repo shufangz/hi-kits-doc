@@ -32,6 +32,7 @@ export default ({
             Vue.prototype.m = m;
             // Vue.use(m)
         })
+
         router.onReady(() => {
             const {
                 hash

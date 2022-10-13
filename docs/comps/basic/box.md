@@ -28,7 +28,6 @@ import { HiBox } from 'hi-kits/box'
     box-shadow: 0 0 0px 25px #b3f5b0;;
   }
 </style>
-
 ```
 :::
 
@@ -39,7 +38,6 @@ import { HiBox } from 'hi-kits/box'
 <h-box class="Box1" margin="10px 5px" padding="25px 0" border="5px 3px 4px">
   这里是盒子内的实际内容。有 25px 内间距，25px黄色外间距、25px 蓝色边框。
 </h-box>
-
 ```
 :::
 <style>

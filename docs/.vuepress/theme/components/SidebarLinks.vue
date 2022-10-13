@@ -7,7 +7,6 @@
       <SidebarGroup
         v-if="item.type === 'group'"
         :item="item"
-        :open="i === openGroupIndex"
         :collapsable="item.collapsable || item.collapsible"
         :depth="depth"
         @toggle="toggleGroup(i)"
@@ -39,92 +38,93 @@ export default defineComponent({
     'sidebarDepth' // depth of headers to be extracted
   ],
 
-  setup (props, ctx) {
-    const instance = useInstance()
+  // setup (props, ctx) {
+  //   const instance = useInstance()
 
-    const { items } = toRefs(props)
+  //   const { items } = toRefs(props)
 
-    const openGroupIndex = ref(0)
+  //   const openGroupIndex = ref(0)
+  //     console.log( instance);
 
-    const refreshIndex = () => {
-      const index = resolveOpenGroupIndex(
-        instance.$route,
-        items.value
-      )
-      if (index > -1) {
-        openGroupIndex.value = index
-      }
-    }
+  //   const refreshIndex = () => {
+  //     const index = resolveOpenGroupIndex(
+  //       instance.$route,
+  //       items.value
+  //     )
+  //     if (index > -1) {
+  //       openGroupIndex.value = index
+  //     }
+  //   }
 
-    const activationAnchor = () => {
-      // eslint-disable-next-line no-undef
-      const anchors = [].slice.call(document.querySelectorAll(AHL_HEADER_ANCHOR_SELECTOR))
-        .filter(anchor => decodeURIComponent(instance.$route.fullPath).indexOf(decodeURIComponent(anchor.hash)) != -1)
-      if (anchors == null || anchors.length < 1 || anchors[0].offsetTop == undefined) return
-      setTimeout(function () {
-        window.scrollTo(0, anchors[0].offsetTop + 160)
-      }, 100)
-    }
+  //   const activationAnchor = () => {
+  //     // eslint-disable-next-line no-undef
+  //     const anchors = [].slice.call(document.querySelectorAll(AHL_HEADER_ANCHOR_SELECTOR))
+  //       .filter(anchor => decodeURIComponent(instance.$route.fullPath).indexOf(decodeURIComponent(anchor.hash)) != -1)
+  //     if (anchors == null || anchors.length < 1 || anchors[0].offsetTop == undefined) return
+  //     setTimeout(function () {
+  //       window.scrollTo(0, anchors[0].offsetTop + 160)
+  //     }, 100)
+  //   }
 
-    const activationLink = () => {
-      const subtitleName = decodeURIComponent(instance.$route.fullPath)
-      if (!subtitleName || subtitleName == '') return
-      // eslint-disable-next-line no-undef
-      const subtitles = [].slice.call(document.querySelectorAll(AHL_SIDEBAR_LINK_SELECTOR))
-      for (let i = 0; i < subtitles.length; i++) {
-        if (decodeURIComponent(subtitles[i].getAttribute('href')).indexOf(subtitleName) != -1) {
-          subtitles[i].click()
-          activationAnchor()
-          return
-        }
-      }
-    }
+  //   const activationLink = () => {
+  //     const subtitleName = decodeURIComponent(instance.$route.fullPath)
+  //     if (!subtitleName || subtitleName == '') return
+  //     // eslint-disable-next-line no-undef
+  //     const subtitles = [].slice.call(document.querySelectorAll(AHL_SIDEBAR_LINK_SELECTOR))
+  //     for (let i = 0; i < subtitles.length; i++) {
+  //       if (decodeURIComponent(subtitles[i].getAttribute('href')).indexOf(subtitleName) != -1) {
+  //         subtitles[i].click()
+  //         activationAnchor()
+  //         return
+  //       }
+  //     }
+  //   }
 
-    const isInViewPortOfOne = () => {
-      const sidebarScroll = document.getElementsByClassName('sidebar')[0]
-      let el = document.getElementsByClassName('active sidebar-link')[1]
-      if (el == null || el == undefined || el.offsetTop == undefined) {
-        el = document.getElementsByClassName('active sidebar-link')[0]
-      }
-      if (el == null || el == undefined || el.offsetTop == undefined) return
+  //   const isInViewPortOfOne = () => {
+  //     const sidebarScroll = document.getElementsByClassName('sidebar')[0]
+  //     let el = document.getElementsByClassName('active sidebar-link')[1]
+  //     if (el == null || el == undefined || el.offsetTop == undefined) {
+  //       el = document.getElementsByClassName('active sidebar-link')[0]
+  //     }
+  //     if (el == null || el == undefined || el.offsetTop == undefined) return
 
-      const viewPortHeight = sidebarScroll.clientHeight || window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight
-      const offsetTop = el.offsetTop
-      const offsetBottom = el.offsetTop + el.offsetHeight
-      const scrollTop = sidebarScroll.scrollTop
-      const bottomVisible = (offsetBottom <= viewPortHeight + scrollTop)
-      if (!bottomVisible) {
-        sidebarScroll.scrollTop = (offsetBottom + 5 - viewPortHeight)
-      }
-      const topVisible = (offsetTop >= scrollTop)
-      if (!topVisible) {
-        sidebarScroll.scrollTop = (offsetTop - 5)
-      }
-    }
+  //     const viewPortHeight = sidebarScroll.clientHeight || window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight
+  //     const offsetTop = el.offsetTop
+  //     const offsetBottom = el.offsetTop + el.offsetHeight
+  //     const scrollTop = sidebarScroll.scrollTop
+  //     const bottomVisible = (offsetBottom <= viewPortHeight + scrollTop)
+  //     if (!bottomVisible) {
+  //       sidebarScroll.scrollTop = (offsetBottom + 5 - viewPortHeight)
+  //     }
+  //     const topVisible = (offsetTop >= scrollTop)
+  //     if (!topVisible) {
+  //       sidebarScroll.scrollTop = (offsetTop - 5)
+  //     }
+  //   }
 
-    const toggleGroup = (index) => {
-      instance.openGroupIndex = index === instance.openGroupIndex ? -1 : index
-    }
+  //   const toggleGroup = (index) => {
+  //     instance.openGroupIndex = index === instance.openGroupIndex ? -1 : index
+  //   }
 
-    const isActive = (page) => {
-      return isActive(instance.$route, page.regularPath)
-    }
+  //   const isActive = (page) => {
+  //     return isActive(instance.$route, page.regularPath)
+  //   }
 
-    refreshIndex()
+  //   refreshIndex()
 
-    onMounted(() => {
-      activationLink()
-      isInViewPortOfOne()
-    })
+  //   onMounted(() => {
+  //     activationLink()
+  //     isInViewPortOfOne()
+  //   })
 
-    onUpdated(() => isInViewPortOfOne())
+  //   onUpdated(() => isInViewPortOfOne())
 
-    return { openGroupIndex, refreshIndex, toggleGroup, isActive }
-  },
+  //   return { openGroupIndex, refreshIndex, toggleGroup, isActive }
+  // },
 
   watch: {
     '$route' () {
-      this.refreshIndex()
+      // this.refreshIndex()
     }
   }
 })

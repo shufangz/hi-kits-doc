@@ -17,7 +17,7 @@ import { HiAnimate } from 'hi-kits/animate'
 ::: demo
 ```html
 <h-space>
-    <h-animate name="shakeX"  duration="10" onchange="HiMessage.info({content: '动画结束'})">
+    <h-animate name="shakeX"  duration="10">
         <div id="shakeX" style="background-color: #81ea9d; width:100px; height:100px; color: #fff;text-align:center;line-height: 100px;" onclick=" HiAnimate.run(document.getElementById('shakeX'), 'shakeX')">左右晃动</div>
     </h-animate>
     <h-animate name="shakeY">

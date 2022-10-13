@@ -22,7 +22,6 @@ import { HiIcon } from 'hi-kits/icon'
 <h-icon name="close" size="30" color="orangered"></h-icon>
 <h-icon name="add_circled" size="30" color="orangered"></h-icon>
 <h-icon name="badge" size="30" color="#1E90FF"></h-icon>
-
 ```
 :::
 
