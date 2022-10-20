@@ -15,8 +15,6 @@ module.exports = {
     smoothScroll: true,
     mode: 'light',
     modePicker: false, // 默认 true，false 不显示模式调节按钮，true 则显示
-    repo: 'https://github.com/shufangz/hi-kits-doc.git',
-    docsRepo: 'https://github.com/shufangz/hi-kits-doc.git',
     logo: 'https://ys-zjrs.haier.net/image/logo.svg',
     subSidebar: 'auto', //在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
     nav: [ // 配置顶部导航栏

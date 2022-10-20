@@ -2,7 +2,7 @@
   <main class="page" :style="pageStyle">
         <ModuleTransition delay="0.08">
 
-    <section v-show="recoShowModule">
+    <section v-show="recoShowModule" id="section">
       <div class="page-title">
         <h1 class="title">{{$page.title}}</h1>
         <PageInfo :pageInfo="$page" :showAccessNumber="showAccessNumber"></PageInfo>
@@ -330,4 +330,9 @@ function flatten (items, res) {
 main.page {
     transform: none !important;
 }
+#section {
+    transform: none !important;
+
+}
 </style>
+
