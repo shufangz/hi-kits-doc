@@ -12,13 +12,13 @@ tags:
 
 ### 何时使用
 ```ts
-import { HiToast } from 'hi-kits/toast'
+import { HiToast } from 'hi-kits'
 ```
 ### 基本用法
 
 ::: demo
 ```html
-<h-button onclick="HiToast({content: 'This a Toast'})">默认</h-button>
+<h-button onclick="HiServe.toast({content: 'This a Toast'})">默认</h-button>
 
 ```
 :::
@@ -27,10 +27,10 @@ import { HiToast } from 'hi-kits/toast'
 Toast 默认渲染在屏幕底部正中位置，通过配置 site 可以控制 Toast 展示的位置。
 ::: demo
 ```html
-<h-button onclick="HiToast({content: '居中提示', site:['50%'], duration: 1000})">居中提示</h-button>
-<h-button onclick="HiToast({content: '顶部提示', site:['5%'], duration: 1000})">顶部提示</h-button>
-<h-button onclick="HiToast({content: '左侧提示', site:['50%',,,10], duration: 1000})">左侧提示</h-button>
-<h-button onclick="HiToast({content: '右侧提示', site:['50%',10,], duration: 1000})">右侧提示</h-button>
+<h-button onclick="HiServe.toast({content: '居中提示', site:['50%'], duration: 1000})">居中提示</h-button>
+<h-button onclick="HiServe.toast({content: '顶部提示', site:['5%'], duration: 1000})">顶部提示</h-button>
+<h-button onclick="HiServe.toast({content: '左侧提示', site:['50%',,,10], duration: 1000})">左侧提示</h-button>
+<h-button onclick="HiServe.toast({content: '右侧提示', site:['50%',10,], duration: 1000})">右侧提示</h-button>
 ```
 :::
 
@@ -39,7 +39,7 @@ Toast 默认渲染在屏幕底部正中位置，通过配置 site 可以控制 T
 
 ::: demo
 ```html
-<h-button onclick="HiToast({content: 'This a Toast', duration: 5000})">5秒后自动消失</h-button>
+<h-button onclick="HiServe.toast({content: 'This a Toast', duration: 5000})">5秒后自动消失</h-button>
 
 ```
 :::

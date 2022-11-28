@@ -11,7 +11,7 @@ tags:
 :::
 ### 何时使用
 ```ts
-import { HiButton } from 'hi-kits/button'
+import { HiButton } from 'hi-kits'
 ```
 
 标记了一个（或封装一组）操作命令，响应用户点击行为，触发相应的业务逻辑。

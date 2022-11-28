@@ -13,7 +13,7 @@ tags:
 当用户需要在数值区间/自定义区间内进行选择时，可为连续或离散值。
 
 ```ts
-import { HiSlider } from 'hi-kits/slider'
+import { HiSlider } from 'hi-kits'
 ```
 
 ### 基本用法

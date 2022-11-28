@@ -15,7 +15,7 @@ tags:
 - 带有交互的通知，给出用户下一步的行动点。
 - 系统主动推送。
 ```ts
-import { HiNotify } from 'hi-kits/notify'
+import { HNotify } from 'hi-kits'
 ```
 ### 基本用法
 
@@ -23,7 +23,7 @@ import { HiNotify } from 'hi-kits/notify'
 
 ::: demo
 ```html
-<h-button onclick="HiNotify.show({
+<h-button onclick="HiServe.notify.show({
     heading: 'Notify',
     content: 'This a info notify', 
 })">默认</h-button>
@@ -37,7 +37,7 @@ import { HiNotify } from 'hi-kits/notify'
 
 ::: demo
 ```html
-<h-button onclick="HiNotify.show({
+<h-button onclick="HiServe.notify.show({
     heading: 'Notify',
     content: 'This a info notify', 
     duration: 2000,
@@ -52,7 +52,7 @@ import { HiNotify } from 'hi-kits/notify'
 
 ::: demo
 ```html
-<h-button onclick="HiNotify.show({
+<h-button onclick="HiServe.notify.show({
     heading: 'Notify',
     content: 'This a info notify', 
     autohide: false,
@@ -66,22 +66,22 @@ Hi-kits 为 `Notify `组件准备了四种通知类型：`success`, `warning`, `
 
 ::: demo
 ```html
-<h-button onclick="HiNotify.show({
+<h-button onclick="HiServe.notify.show({
     heading: 'Notify',
     type: 'info',
     content: 'This a info notify', 
 })">info</h-button>
-<h-button onclick="HiNotify.show({
+<h-button onclick="HiServe.notify.show({
     heading: 'Notify',
     type: 'success',
     content: 'This a info notify', 
 })">success</h-button>
-<h-button onclick="HiNotify.show({
+<h-button onclick="HiServe.notify.show({
     heading: 'Notify',
     type: 'error',
     content: 'This a info notify', 
 })">error</h-button>
-<h-button onclick="HiNotify.show({
+<h-button onclick="HiServe.notify.show({
     heading: 'Notify',
     type: 'warning',
     content: 'This a info notify', 
@@ -96,22 +96,22 @@ Hi-kits 为 `Notify `组件准备了四种通知类型：`success`, `warning`, `
 
 ::: demo
 ```html
-<h-button onclick="HiNotify.show({
+<h-button onclick="HiServe.notify.show({
     heading: 'Notify',
     content: 'This a info notify', 
     placement: 'topleft'
 })">topleft</h-button>
-<h-button onclick="HiNotify.show({
+<h-button onclick="HiServe.notify.show({
     heading: 'Notify',
     content: 'This a info notify', 
     placement: 'topright'
 })">topright</h-button>
-<h-button onclick="HiNotify.show({
+<h-button onclick="HiServe.notify.show({
     heading: 'Notify',
     content: 'This a info notify', 
     placement: 'bottomleft'
 })">bottomleft</h-button>
-<h-button onclick="HiNotify.show({
+<h-button onclick="HiServe.notify.show({
     heading: 'Notify',
     content: 'This a info notify', 
     placement: 'bottomright'

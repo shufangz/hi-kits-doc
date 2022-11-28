@@ -12,7 +12,7 @@ tags:
 :::
 ### 何时使用
 ```ts
-import { HiNavbar } from 'hi-kits/navbar'
+import { HiNavbar } from 'hi-kits'
 ```
 
 ### 基本用法

@@ -63,6 +63,7 @@ export default defineComponent({
     })
 
     const getPageLocalePath = (page) => {
+      console.log(page);
       for (const localePath in instance.$site.locales || {}) {
         if (localePath !== '/' && page.path.indexOf(localePath) === 0) {
           return localePath

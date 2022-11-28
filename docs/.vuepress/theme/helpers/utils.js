@@ -228,7 +228,7 @@ export function addScriptToHead (href) {
   document.head.append(iconLink)
 }
 
-function ensureEndingSlash (path) {
+function ensureEndingSlash(path) {
   return /(\.html|\/)$/.test(path)
     ? path
     : path + '/'

@@ -17,14 +17,14 @@ tags:
 
 - 在弹出层Component中可以通过依赖注入NzModalRef方式直接获取模态框的组件实例，用于控制在弹出层组件中控制模态框行为。
 ```ts
-import { HiModal } from 'hi-kits/modal'
+import { HiModal } from 'hi-kits'
 ```
 ### 基本用法
 
 第一个对话框
 ::: demo
 ```html
-<h-button type="primary" onclick="HiModal.alert({
+<h-button type="primary" onclick="HiServe.modal.alert({
     content: 'This a alert Modal',
     ok: () => {
         HiMessage.info({content: '确认', duration: 2000})
@@ -38,7 +38,7 @@ import { HiModal } from 'hi-kits/modal'
 
 ::: demo
 ```html
- <h-button type="primary" onclick="HiModal.confirm({
+ <h-button type="primary" onclick="HiServe.modal.confirm({
     content: 'This is a question',
     ok: () => {
         HiMessage.info({content: 'ok', duration: 2000})
@@ -56,7 +56,7 @@ import { HiModal } from 'hi-kits/modal'
 
 ::: demo
 ```html
-<h-button type="primary" onclick="HiModal.prompt({content: 'This a info message'})">prompt</h-button>
+<h-button type="primary" onclick="HiServe.modal.prompt({content: 'This a info message'})">prompt</h-button>
 
 ```
 :::

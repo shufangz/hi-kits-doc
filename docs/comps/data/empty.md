@@ -11,7 +11,7 @@ tags:
 ### 何时使用
 当目前没有数据时，用于显式的用户提示。
 ```ts
-import { HiEmpty } from 'hi-kits/empty'
+import { HiEmpty } from 'hi-kits'
 ```
 
 

@@ -11,7 +11,7 @@ tags:
 ### 何时使用
 页面局部处于等待异步数据或正在渲染过程时，合适的加载动效会有效缓解用户的焦虑。
 ```ts
-import { HiLoading } from 'hi-kits/loading'
+import { HiLoading } from 'hi-kits'
 ```
 ### 基本用法
 

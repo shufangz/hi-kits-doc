@@ -11,7 +11,7 @@ tags:
 金刚区是一个页面中头部的重要位置,是页面的核心功能区域,表现形式为多行排列的宫格区图标。
 :::
 ```ts
-import { HiVajra } from 'hi-kits/vajra'
+import { HiVajra } from 'hi-kits'
 ```
 
 ### 基本用法

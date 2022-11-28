@@ -13,7 +13,7 @@ tags:
 - 用于标记事物的属性和维度。
 - 进行分类。
 ```ts
-import { HiTag } from 'hi-kits/tag'
+import { HiTag } from 'hi-kits'
 ```
 ### 基本用法
 

@@ -28,7 +28,6 @@
         :key="subIndex"
         class="tag-item"
         :class="{ 'active': currentTag == subItem }"
-        @click.stop="goTags(subItem)"
       >{{subItem}}</span>
     </reco-icon>
   </div>

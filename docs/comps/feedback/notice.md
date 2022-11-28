@@ -8,7 +8,7 @@ tags:
 
 ### 何时使用
 ```ts
-import { HiNotice } from 'hi-kits/notice'
+import { HiNotice } from 'hi-kits'
 ```
 
 ### 基本用法

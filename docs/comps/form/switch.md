@@ -14,7 +14,7 @@ tags:
 - 和 `checkbox`的区别是，切换 `switch` 会直接触发状态改变，而 `checkbox` 一般用于状态标记，需要和提交操作配合。
 
 ```ts
-import { HiSwitch } from 'hi-kits/switch'
+import { HiSwitch } from 'hi-kits'
 ```
 
 ### 基本用法

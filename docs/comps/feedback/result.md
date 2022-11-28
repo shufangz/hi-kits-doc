@@ -13,7 +13,7 @@ tags:
 当有重要操作需告知用户处理结果，且反馈内容较为复杂时使用。
 
 ```ts
-import { HiResult } from 'hi-kits/result'
+import { HiResult } from 'hi-kits'
 ```
 
 ### 基本用法

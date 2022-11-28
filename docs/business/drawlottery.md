@@ -11,7 +11,7 @@ tags:
 :::
 ### 何时使用
 ```ts
-import { HiDrawlottery } from 'hi-kits/drawlottery'
+import { HiDrawlottery } from 'hi-kits'
 ```
 
 ### 基本用法
@@ -19,7 +19,7 @@ import { HiDrawlottery } from 'hi-kits/drawlottery'
 ::: demo
 ```html
 <h-row gutter="10">
-    <h-col span="12">
+    <h-col span="12" style="width: 375px; height:375px">
           <h-drawlottery id="drawlottery"
             lotteryInfo="{text: '立即开奖', dec: '剩余1次机会'}"
             lotteryDecStyle= "{color: '#333333', fontSize: '12px', fontWeight: 400}"
@@ -44,7 +44,7 @@ import { HiDrawlottery } from 'hi-kits/drawlottery'
 ::: demo
 ```html
 <h-row gutter="10">
-    <h-col span="12">
+    <h-col span="12" style="width: 375px; height:375px">
         <h-drawlottery id="drawlottery"
             lotteryInfo="{text: '立即开奖', dec: '剩余1次机会'}"
             lotteryWarpStyle="{background: '#6cd2d2',radius:[100, 100, 100, 100]}"
@@ -66,7 +66,7 @@ import { HiDrawlottery } from 'hi-kits/drawlottery'
 ::: demo
 ```html
 <h-row gutter="10">
-    <h-col span="12">
+    <h-col span="12" style="width: 375px; height:375px">
         <h-drawlottery
           id="drawlottery"
           lotteryInfo="{text: '开奖啦', dec: '点击领奖'}"
@@ -88,7 +88,7 @@ import { HiDrawlottery } from 'hi-kits/drawlottery'
 ```html
 <template>
   <h-row gutter="10" >
-      <h-col span="12">
+      <h-col span="12" style="width: 375px; height:375px">
           <h-drawlottery ref="drawlottery" gutter="20" 
            lotteryWarpStyle="{background: '#abb8af',radius:[30, 30, 30, 30]}"
            prizeListStyle="{color: '#1ef',fontSize: '12px',fontWeight: 500, background: '#d39f86',radius:[30, 30, 30, 30] }" 

@@ -13,7 +13,7 @@ tags:
 - 对评价进行展示。
 - 对事物进行快速的评级操作。
 ```ts
-import { HiRate } from 'hi-kits/rate'
+import { HiRate } from 'hi-kits'
 ```
 ### 基本用法
 

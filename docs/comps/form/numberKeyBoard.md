@@ -12,7 +12,7 @@ tags:
 :::
 ### 何时使用
 ```ts
-import { HiNumberKeyboard } from 'hi-kits/numberKeyboard'
+import { HiNumberKeyboard } from 'hi-kits'
 ```
 
 ### 默认键盘

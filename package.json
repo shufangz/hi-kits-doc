@@ -18,7 +18,7 @@
     "vuepress-plugin-comment": "^0.7.3"
   },
   "dependencies": {
-    "hi-kits": "^1.0.71",
+    "hi-kits": "^1.0.89",
     "vuepress-plugin-demo-container": "^0.2.0",
     "vuepress-theme-reco": "^1.6.14"
   }

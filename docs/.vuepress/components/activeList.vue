@@ -174,7 +174,7 @@ export default {
   },
   methods: {
     animate1(box, name) {
-      HiAnimate.run(document.getElementById(box), name);
+      HiServe.animate.run(document.getElementById(box), name);
       var text = document.getElementById(box).innerText;
       var ID = "TEXTAREA_COPY";
       if (!document.getElementById(ID)) {
@@ -195,7 +195,7 @@ export default {
       }
       TEXTAREA.select();
       document.execCommand("Copy");
-      HiMessage.success({ content: name + " 复制成功！", duration: 3000 });
+      HiServe.message.success({ content: name + " 复制成功！", duration: 3000 });
     },
   },
 };

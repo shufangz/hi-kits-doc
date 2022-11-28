@@ -11,7 +11,7 @@ tags:
 :::
 ### 何时使用
 ```ts
-import { HiPenSigner } from 'hi-kits/penSigner'
+import { HiPenSigner } from 'hi-kits'
 ```
 
 ### 基本用法

@@ -13,7 +13,7 @@ tags:
 - 当加载/渲染所有数据将花费很多时间时；
 - 可切换页码浏览数据。
 ```ts
-import { HiPagination } from 'hi-kits/pagination'
+import { HiPagination } from 'hi-kits'
 ```
 ### 基本用法
 

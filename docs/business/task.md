@@ -11,7 +11,7 @@ tags:
 :::
 ### 何时使用
 ```ts
-import { HiTask } from 'hi-kits/task'
+import { HiTask } from 'hi-kits'
 ```
 
 ### 基本用法

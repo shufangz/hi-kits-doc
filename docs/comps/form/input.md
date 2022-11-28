@@ -14,7 +14,7 @@ tags:
 - 需要用户输入表单域内容时。
 - 提供组合型输入框，带搜索的输入框，还可以进行大小选择。
 ```ts
-import { HiInput } from 'hi-kits/input'
+import { HiInput } from 'hi-kits'
 ```
 ### 基本用法
 

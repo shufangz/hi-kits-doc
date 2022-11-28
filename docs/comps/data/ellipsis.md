@@ -13,7 +13,7 @@ tags:
  - 图表中空间有限，文本内容无法完全显示。
  - 自适应调整时宽度变小。
 ```ts
-import { HiEllipsis } from 'hi-kits/ellipsis'
+import { HiEllipsis } from 'hi-kits'
 ```
 
 ### 基本用法

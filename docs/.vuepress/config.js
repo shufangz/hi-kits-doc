@@ -8,7 +8,7 @@ module.exports = {
     ]
   ],
   title: 'Hi-kits',
-  base: '/hidoc/',
+  base: '/Hi-Kits-Doc/',
   port: '8080',
   theme: 'reco',
   themeConfig: { // 新增代码
@@ -20,27 +20,29 @@ module.exports = {
     nav: [ // 配置顶部导航栏
       {
         text: '首页',
-        link: '/',
+        link: '/home',
         icon: 'reco-home'
       },
 
       {
         text: '基础组件',
-        link: '/comps/',
+        link: '/comps/comps',
         icon: 'reco-menu'
       },
       {
         text: '业务组件',
-        link: '/business/',
+        link: '/business/business',
         icon: 'reco-category'
       },
 
     ],
     blogConfig: {
-      tag: {
-        location: 4, // 在导航栏菜单中所占的位置，默认3
-        text: 'Tag' // 默认文案 “标签”
-      },
+      // tag: {
+      //   location: 4, // 在导航栏菜单中所占的位置，默认3
+      //   text: 'Tag', // 默认文案 “标签”
+      //   link: '/tag/tag',
+
+      // },
     },
     valineConfig: {
       appId: 'iDeei0YnNjOlvfQsNfuyxPpU-gzGzoHsz',
@@ -55,7 +57,7 @@ module.exports = {
           collapsable: false,
           children: [{
               title: '安装',
-              path: '/comps/'
+              path: '/comps/comps'
             },
             {
               title: '快速上手',
@@ -166,6 +168,10 @@ module.exports = {
               path: '/comps/navigation/affix'
             },
             {
+              title: 'Tabbar 标签栏',
+              path: '/comps/navigation/tabbar'
+            },
+            {
               title: '表单录入',
               collapsable: false,
             },
@@ -180,6 +186,10 @@ module.exports = {
             {
               title: 'Search 搜索框',
               path: '/comps/form/search'
+            },
+            {
+              title: 'Select 选择框',
+              path: '/comps/form/select'
             },
             {
               title: 'Radio 单选框',
@@ -362,6 +372,10 @@ module.exports = {
               path: '/comps/feedback/result'
             },
             {
+              title: 'Skeleton 骨架屏',
+              path: '/comps/feedback/skeleton'
+            },
+            {
               title: '手势',
               collapsable: false,
             },
@@ -391,7 +405,7 @@ module.exports = {
         collapsable: false,
         children: [{
           title: '介绍',
-          path: '/business/'
+          path: '/business/business'
         }]
       }, {
         title: '组件',
@@ -416,6 +430,10 @@ module.exports = {
             title: 'Task 任务组件',
             path: '/business/task'
           },
+          {
+            title: 'Scrape 刮奖',
+            path: '/business/scrape'
+          },
         ]
       }]
     },
@@ -424,6 +442,7 @@ module.exports = {
   },
   plugins: [
     'demo-container',
+    'alias',
     ['@vuepress-reco/vuepress-plugin-back-to-top'],
     ['@vuepress/active-header-links'],
     ['@vuepress/last-updated', {

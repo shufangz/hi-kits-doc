@@ -11,7 +11,7 @@ tags:
 ### 何时使用
 
 ```ts
-import { HiBox } from 'hi-kits/box'
+import { HiBox } from 'hi-kits'
 ```
 
 ### 基本用法

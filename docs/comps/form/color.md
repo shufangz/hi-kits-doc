@@ -10,7 +10,7 @@ tags:
 用于颜色选择，支持多种格式。
 :::
 ```ts
-import { HiColorPicker } from 'hi-kits/color'
+import { HiColorPicker } from 'hi-kits'
 ```
 
 

@@ -8,7 +8,7 @@ tags:
 ---
 
 ```ts
-import { HiEditWord } from 'hi-kits/editWord'
+import { HiEditWord } from 'hi-kits'
 ```
 
 ### 基本用法

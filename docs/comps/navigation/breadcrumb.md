@@ -14,7 +14,7 @@ tags:
 - 当需要向上导航的功能时
 
 ```ts
-import { HiBreadcrumb } from 'hi-kits/breadcrumb'
+import { HiBreadcrumb } from 'hi-kits'
 ```
 
 ### 基本用法

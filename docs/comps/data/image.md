@@ -10,7 +10,7 @@ tags:
 :::
 ### 何时使用
 ```ts
-import { HiImage } from 'hi-kits/image'
+import { HiImage } from 'hi-kits'
 ```
 
 ### 基本用法
@@ -60,7 +60,7 @@ import { HiImage } from 'hi-kits/image'
 ```html
  <h-button
 type="primary"
-onclick="HiImage.preview({src: 'https\:\/\/ys-oss-zjrs.haier.net/content/img/2022072617500217861338.jpg'})">点击按钮呈现图片
+onclick="HiServe.image.preview({src: 'https\:\/\/ys-oss-zjrs.haier.net/content/img/2022072617500217861338.jpg'})">点击按钮呈现图片
 </h-button>
 
 ```

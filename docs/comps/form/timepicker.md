@@ -12,7 +12,7 @@ tags:
 ### 何时使用
 选择时间的控件。
 ```ts
-import { HiTimePicker } from 'hi-kits/time-picker'
+import { HiTimePicker } from 'hi-kits'
 ```
 
 ### 基本用法

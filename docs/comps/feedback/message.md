@@ -14,7 +14,7 @@ tags:
 - 可提供成功、警告和错误等反馈信息。
 - 顶部居中显示并自动消失，是一种不打断用户操作的轻量级提示方式
 ```ts
-import { HiMessage } from 'hi-kits/message'
+import { HiServe.message } from 'hi-kits'
 ```
 ### 基础用法
 
@@ -22,7 +22,7 @@ import { HiMessage } from 'hi-kits/message'
 
 ::: demo
 ```html
-<h-button onclick="HiMessage.info({content: 'This a info message'})">打开消息提示</h-button>
+<h-button onclick="HiServe.message.info({content: 'This a info message'})">打开消息提示</h-button>
 
 ```
 :::
@@ -33,10 +33,10 @@ import { HiMessage } from 'hi-kits/message'
 
 ::: demo
 ```html
-<h-button onclick="HiMessage.info({content: 'This a info message'})">info</h-button>
-<h-button onclick="HiMessage.success({content:'This a success message'})">success</h-button>
-<h-button onclick="HiMessage.error({content:'This a error message'})">error</h-button>
-<h-button onclick="HiMessage.warning({content:'This a warning message'})">warning</h-button>
+<h-button onclick="HiServe.message.info({content: 'This a info message'})">info</h-button>
+<h-button onclick="HiServe.message.success({content:'This a success message'})">success</h-button>
+<h-button onclick="HiServe.message.error({content:'This a error message'})">error</h-button>
+<h-button onclick="HiServe.message.warning({content:'This a warning message'})">warning</h-button>
 
 ```
 :::
@@ -46,7 +46,7 @@ import { HiMessage } from 'hi-kits/message'
 
 ::: demo
 ```html
-<h-button onclick="HiMessage.info({content: 'This a info message', duration: 10000})">点击10秒后消失</h-button>
+<h-button onclick="HiServe.message.info({content: 'This a info message', duration: 10000})">点击10秒后消失</h-button>
 
 ```
 :::
@@ -56,7 +56,7 @@ import { HiMessage } from 'hi-kits/message'
 
 ::: demo
 ```html
-<h-button onclick="HiMessage.loading({content:'This a loading message'})">loading</h-button>
+<h-button onclick="HiServe.message.loading({content:'This a loading message'})">loading</h-button>
 
 ```
 :::
@@ -65,8 +65,8 @@ import { HiMessage } from 'hi-kits/message'
 
 ::: demo
 ```html
-<h-button onclick="HiMessage.info({content:'This a long info message',duration: 3000000})">消息展示</h-button>
-<h-button onclick="HiMessage.close()">关闭消息展示</h-button>
+<h-button onclick="HiServe.message.info({content:'This a long info message',duration: 3000000})">消息展示</h-button>
+<h-button onclick="HiServe.message.close()">关闭消息展示</h-button>
 
 ```
 :::

@@ -13,7 +13,7 @@ tags:
 - 当有一系列信息需按时间排列时，可正序和倒序。
 - 需要有一条时间轴进行视觉上的串联时。
 ```ts
-import { HiTimeline } from 'hi-kits/timeline'
+import { HiTimeline } from 'hi-kits'
 ```
 
 ### 基本用法

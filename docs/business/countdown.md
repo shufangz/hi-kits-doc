@@ -11,7 +11,7 @@ tags:
 :::
 ### 何时使用
 ```ts
-import { HiCountdown } from 'hi-kits/countdown'
+import { HiCountdown } from 'hi-kits'
 ```
 
 ### 基本用法

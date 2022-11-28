@@ -12,7 +12,7 @@ tags:
 ### 何时使用
 当需要获取标准数值时。
 ```ts
-import { HiInputNumber } from 'hi-kits/inputNumber'
+import { HiInputNumber } from 'hi-kits'
 ```
 
 ### 基本用法

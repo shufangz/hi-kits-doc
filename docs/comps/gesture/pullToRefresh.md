@@ -11,7 +11,7 @@ tags:
 :::
 ### 何时使用
 ```ts
-import { HiPullToRefresh } from 'hi-kits/pullToRefresh'
+import { HiPullToRefresh } from 'hi-kits'
 ```
 
 ### 基本用法

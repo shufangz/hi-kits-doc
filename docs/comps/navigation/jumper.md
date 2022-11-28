@@ -11,7 +11,7 @@ tags:
 :::
 ### 何时使用
 ```ts
-import { HiJumper } from 'hi-kits/jumper'
+import { HiJumper } from 'hi-kits'
 ```
 
 ### 基本用法

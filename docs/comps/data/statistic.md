@@ -12,7 +12,7 @@ tags:
 - 当需要突出某个或某组数字时。
 - 当需要展示带描述的统计类数据时使用。
 ```ts
-import { HiStatistic } from 'hi-kits/statistic'
+import { HiStatistic } from 'hi-kits'
 ```
 ### 基本用法
 

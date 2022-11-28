@@ -11,7 +11,7 @@ tags:
 :::
 ### 何时使用
 ```ts
-import { HiSwipeout } from 'hi-kits/swipeout'
+import { HiSwipeout } from 'hi-kits'
 ```
 
 ### 基本用法

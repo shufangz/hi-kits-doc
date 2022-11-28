@@ -10,7 +10,7 @@ tags:
 通过基础的 24 分栏，迅速简便地创建布局。
 :::
 ```ts
-import { HiGrid} from 'hi-kits/grid'
+import { HiGrid} from 'hi-kits'
 ```
 ### 基础布局
 使用单一分栏创建基础的栅格布局。通过 `row` 和 `col` 组件，并通过 `col` 组件的 `span` 属性我们就可以自由地组合布局。
