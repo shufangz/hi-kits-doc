@@ -71,7 +71,7 @@ import { HiPopover } from 'hi-kits'
 
 ::: demo
 ```html
-<h-popover dir="left" ptitle="uuu" trigger="click" hOk='alert(233)' type='confirm'>
+<h-popover dir="right" ptitle="uuu" trigger="click" hOk='alert(233)' type='confirm'>
     <h-button>confirmOk</h-button>
 </h-popover>
 <h-popover dir="top" ptitle="我是ptitle" content="我是内容" trigger="hover">

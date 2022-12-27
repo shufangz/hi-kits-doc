@@ -52,12 +52,19 @@ module.exports = {
       visitor: true
     },
     sidebar: { // 配置侧边栏部分
-      '/comps/': [{
+      '/comps/': [
+        {
+          title: '组件总览',
+          path: '/comps/comps',
+          collapsable: false,
+        },
+        
+        {
           title: '开发指南',
           collapsable: false,
           children: [{
               title: '安装',
-              path: '/comps/comps'
+              path: '/comps/install'
             },
             {
               title: '快速上手',
@@ -67,10 +74,10 @@ module.exports = {
               title: 'Config 配置',
               path: '/comps/guide/config'
             },
-            // {
-            //   title: '自定义主题',
-            //   path: '/comps/guide/theme'
-            // },
+            {
+              title: '主题配置',
+              path: '/comps/guide/theme'
+            },
           ]
         },
         {
@@ -240,6 +247,10 @@ module.exports = {
               path: '/comps/form/numberKeyBoard'
             },
             {
+              title: 'TextArea 文本域',
+              path: '/comps/form/textArea'
+            },
+            {
               title: '数据展示',
               collapsable: false,
             },
@@ -324,6 +335,10 @@ module.exports = {
               path: '/comps/data/flip'
             },
             {
+              title: 'Swipe 轮播',
+              path: '/comps/data/swipe'
+            },
+            {
               title: '反馈',
               collapsable: false,
             },
@@ -376,6 +391,10 @@ module.exports = {
               path: '/comps/feedback/skeleton'
             },
             {
+              title: ' Progress 进度条',
+              path: '/comps/feedback/progress'
+            },
+            {
               title: '手势',
               collapsable: false,
             },
@@ -389,7 +408,7 @@ module.exports = {
               path: '/comps/gesture/swipeout'
             },
             {
-              title: 'Others',
+              title: '其他(1)',
               collapsable: false,
               icon: 'reco-other'
             },
@@ -433,6 +452,10 @@ module.exports = {
           {
             title: 'Scrape 刮奖',
             path: '/business/scrape'
+          },
+          {
+            title: 'Barrage 弹幕',
+            path: '/business/barrage'
           },
         ]
       }]

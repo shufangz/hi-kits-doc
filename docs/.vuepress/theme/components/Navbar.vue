@@ -1,135 +1,227 @@
 <template>
   <header class="navbar">
-    <SidebarButton @toggle-sidebar="$emit('toggle-sidebar')"/>
-
-    <router-link
-      :to="$localePath+'home.html'"
-      class="home-link">
+    <SidebarButton @toggle-sidebar="$emit('toggle-sidebar')" />
+    <router-link :to="$localePath + 'home.html'" class="home-link">
       <img
         class="logo"
         v-if="$themeConfig.logo"
         :src="$withBase($themeConfig.logo)"
-        :alt="$siteTitle">
-      <span
-        ref="siteName"
-        class="site-name"
-        v-if="$siteTitle">{{ $siteTitle }}</span>
+        :alt="$siteTitle"
+      />
+      <span ref="siteName" class="site-name" v-if="$siteTitle">{{
+        $siteTitle
+      }}</span>
     </router-link>
 
     <div
       class="links"
-      :style="linksWrapMaxWidth ? {
-        'max-width': linksWrapMaxWidth + 'px'
-      } : {}">
-
+      :style="
+        linksWrapMaxWidth
+          ? {
+              'max-width': linksWrapMaxWidth + 'px',
+            }
+          : {}
+      "
+    >
       <Mode />
-      <AlgoliaSearchBox
-        v-if="isAlgoliaSearch"
-        :options="algolia"/>
-      <SearchBox v-else-if="$themeConfig.search !== false && $frontmatter.search !== false"/>
-      <NavLinks class="can-hide"/>
+      <h-tips
+        tips="自定义主题"
+        dir="bottom"
+        style="
+          width: 20px;
+          margin: 0px 10px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        "
+      >
+        <div>
+          <h-color-picker @change="changeThemeColor" custom isgradient="false" :defaultvalue="localThemeColor">
+            <h-icon name="color_palette" size="20" color="#F44336"></h-icon>
+          </h-color-picker>
+        </div>
+      </h-tips>
+      <AlgoliaSearchBox v-if="isAlgoliaSearch" :options="algolia" />
+
+      <SearchBox
+        v-else-if="
+          $themeConfig.search !== false && $frontmatter.search !== false
+        "
+      />
+
+      <NavLinks class="can-hide" />
     </div>
   </header>
 </template>
 
 <script>
-import { defineComponent, ref, onMounted, computed } from 'vue'
-import AlgoliaSearchBox from '@AlgoliaSearchBox'
-import SearchBox from '@SearchBox'
-import SidebarButton from '@theme/components/SidebarButton'
-import NavLinks from '@theme/components/NavLinks'
-import Mode from '@theme/components/Mode'
-import { useInstance } from '@theme/helpers/composable'
+import { defineComponent, ref, onMounted, computed } from "vue";
+import AlgoliaSearchBox from "@AlgoliaSearchBox";
+import SearchBox from "@SearchBox";
+import SidebarButton from "@theme/components/SidebarButton";
+import NavLinks from "@theme/components/NavLinks";
+import Mode from "@theme/components/Mode";
+import { useInstance } from "@theme/helpers/composable";
 
 export default defineComponent({
   components: { SidebarButton, NavLinks, SearchBox, AlgoliaSearchBox, Mode },
 
-  setup (props, ctx) {
-    const instance = useInstance()
-    const linksWrapMaxWidth = ref(null)
+  setup(props, ctx) {
+    console.log(12312);
 
+    const changeThemeColor = (ev) => {
+      document.documentElement.style.setProperty(
+        "--hiThemeColor",
+        ev.detail.value
+      );
+      document.documentElement.style.setProperty(
+        "--hiPrimaryColor",
+        ev.detail.value
+      );
+      document.documentElement.style.setProperty(
+        "--hiThemeBackground",
+        ev.detail.value
+      );
+      document.documentElement.style.setProperty(
+        "--theme-color",
+        ev.detail.value
+      );
+      localStorage.setItem("hidoc_themeColor", ev.detail.value);
+    };
+    const instance = useInstance();
+    const linksWrapMaxWidth = ref(null);
+    let localThemeColor =  localStorage.getItem("hidoc_themeColor") || '#42b983';
     const algolia = computed(() => {
-      return instance.$themeLocaleConfig.algolia || instance.$themeConfig.algolia || {}
-    })
+      return (
+        instance.$themeLocaleConfig.algolia ||
+        instance.$themeConfig.algolia ||
+        {}
+      );
+    });
 
     const isAlgoliaSearch = computed(() => {
-      algolia.value && algolia.value.apiKey && algolia.value.indexName
-    })
+      algolia.value && algolia.value.apiKey && algolia.value.indexName;
+    });
 
-    function css (el, property) {
+    function css(el, property) {
       // NOTE: Known bug, will return 'auto' if style value is 'auto'
-      const win = el.ownerDocument.defaultView
+      const win = el.ownerDocument.defaultView;
       // null means not to return pseudo styles
-      return win.getComputedStyle(el, null)[property]
+      return win.getComputedStyle(el, null)[property];
     }
 
     onMounted(() => {
-      const MOBILE_DESKTOP_BREAKPOINT = 719 // refer to config.styl
+      console.log(localStorage.getItem("hidoc_themeColor"));
+      localThemeColor = localStorage.getItem("hidoc_themeColor");
+      if (localStorage.getItem("hidoc_themeColor")) {
+        document.documentElement.style.setProperty(
+          "--hiThemeColor",
+          localThemeColor
+        );
+        document.documentElement.style.setProperty(
+          "--hiPrimaryColor",
+          localThemeColor
+        );
+        document.documentElement.style.setProperty(
+          "--hiThemeBackground",
+          localThemeColor
+        );
+        document.documentElement.style.setProperty(
+          "--theme-color",
+          localThemeColor
+        );
+      }
+      const MOBILE_DESKTOP_BREAKPOINT = 719; // refer to config.styl
       const NAVBAR_VERTICAL_PADDING =
-        parseInt(css(instance.$el, 'paddingLeft')) +
-        parseInt(css(instance.$el, 'paddingRight'))
+        parseInt(css(instance.$el, "paddingLeft")) +
+        parseInt(css(instance.$el, "paddingRight"));
 
       const handleLinksWrapWidth = () => {
         if (document.documentElement.clientWidth < MOBILE_DESKTOP_BREAKPOINT) {
-          linksWrapMaxWidth.value = null
+          linksWrapMaxWidth.value = null;
         } else {
           linksWrapMaxWidth.value =
             instance.$el.offsetWidth -
             NAVBAR_VERTICAL_PADDING -
-            (instance.$refs.siteName && instance.$refs.siteName.offsetWidth || 0)
+            ((instance.$refs.siteName && instance.$refs.siteName.offsetWidth) ||
+              0);
         }
-      }
+      };
 
-      handleLinksWrapWidth()
-      window.addEventListener('resize', handleLinksWrapWidth, false)
-    })
+      handleLinksWrapWidth();
+      window.addEventListener("resize", handleLinksWrapWidth, false);
+    });
 
-    return { linksWrapMaxWidth, algolia, isAlgoliaSearch, css }
-  }
-})
+    return {
+      linksWrapMaxWidth,
+      algolia,
+      isAlgoliaSearch,
+      css,
+      changeThemeColor,
+      localThemeColor
+    };
+  },
+});
 </script>
 
 <style lang="stylus">
-$navbar-vertical-padding = 0.7rem
-$navbar-horizontal-padding = 1.5rem
+$navbar-vertical-padding = 0.7rem;
+$navbar-horizontal-padding = 1.5rem;
 
-.navbar
-  padding $navbar-vertical-padding $navbar-horizontal-padding
-  line-height $navbarHeight - 1.4rem
-  box-shadow var(--box-shadow)
-  background var(--background-color)
-  a, span, img
-    display inline-block
-  .logo
-    height $navbarHeight - 1.4rem
-    min-width $navbarHeight - 1.4rem
-    margin-right 0.8rem
-    vertical-align top
-    border-radius 50%
-  .site-name
-    font-size 1.2rem
-    font-weight 600
-    color var(--text-color)
-    position relative
-  .links
-    padding-left 1.5rem
-    box-sizing border-box
-    white-space nowrap
-    font-size 0.9rem
-    position absolute
-    right $navbar-horizontal-padding
-    top $navbar-vertical-padding
-    display flex
-    background-color var(--background-color)
-    .search-box
-      flex: 0 0 auto
-      vertical-align top
+.navbar {
+  padding: $navbar-vertical-padding $navbar-horizontal-padding;
+  line-height: $navbarHeight - 1.4rem;
+  box-shadow: var(--box-shadow);
+  background: var(--background-color);
 
-@media (max-width: $MQMobile)
-  .navbar
-    padding-left 4rem
-    .can-hide
-      display none
-    .links
-      padding-left .2rem
+  a, span, img {
+    display: inline-block;
+  }
+
+  .logo {
+    height: $navbarHeight - 1.4rem;
+    min-width: $navbarHeight - 1.4rem;
+    margin-right: 0.8rem;
+    vertical-align: top;
+    border-radius: 50%;
+  }
+
+  .site-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-color);
+    position: relative;
+  }
+
+  .links {
+    padding-left: 1.5rem;
+    box-sizing: border-box;
+    white-space: nowrap;
+    font-size: 0.9rem;
+    position: absolute;
+    right: $navbar-horizontal-padding;
+    top: $navbar-vertical-padding;
+    display: flex;
+    background-color: var(--background-color);
+
+    .search-box {
+      flex: 0 0 auto;
+      vertical-align: top;
+    }
+  }
+}
+
+@media (max-width: $MQMobile) {
+  .navbar {
+    padding-left: 4rem;
+
+    .can-hide {
+      display: none;
+    }
+
+    .links {
+      padding-left: 0.2rem;
+    }
+  }
+}
 </style>

@@ -34,9 +34,9 @@ export default defineComponent({
   border-radius $borderRadius
   padding 0 6px
   color white
-  background-color #42b983
+  background-color var(--theme-color)
   &.tip, &.green
-    background-color #42b983
+    background-color var(--theme-color)
   &.error
     background-color #DA5961
   &.warning, &.warn, &.yellow

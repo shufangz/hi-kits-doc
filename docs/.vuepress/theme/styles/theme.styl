@@ -78,12 +78,12 @@ body
 
 a
   font-weight 500
-  color $accentColor
+  color var(--theme-color)
   text-decoration none
 
 p a code
   font-weight 400
-  color $accentColor
+  color var(--theme-color)
 
 kbd
   background #eee
@@ -197,11 +197,11 @@ th, td
 
 ::-webkit-scrollbar-thumb:vertical
   height: 5px;
-  background-color: $accentColor;
+  background-color: var(--theme-color);
 
 ::-webkit-scrollbar-thumb:horizontal
   width: 5px;
-  background-color: $accentColor;
+  background-color:var(--theme-color);
 
 /************** 流程图的滚动条 **************/
 .vuepress-flowchart
@@ -216,7 +216,7 @@ th, td
   background: var(--background-color)!important;
   border: none!important;
   > button
-    background: $accentColor;
+    background: var(--theme-color);
     border-radius: $borderRadius;
     color: #fff;
     -webkit-tap-highlight-color:rgba(0, 0, 0, 0)

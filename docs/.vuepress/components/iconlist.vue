@@ -358,7 +358,7 @@ export default {
       }
       TEXTAREA.select();
       document.execCommand("Copy");
-      HiMessage.success({ content: text + " 复制成功！", duration: 3000 });
+      HiServe.message.success({ content: text + " 复制成功！", duration: 3000 });
     },
   },
 };
@@ -379,6 +379,6 @@ export default {
   text-align: center;
 }
 .icontable tr td:hover {
-  color: #42b983;
+  color:  var(--theme-color);
 }
 </style>

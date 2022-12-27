@@ -1,5 +1,5 @@
 ---
-title: SceneCard 场景卡
+title: Scrape 刮奖
 author: fico
 date: 2022/09/23
 tags:
@@ -12,7 +12,7 @@ tags:
 
 ### 何时使用
 ```ts
-import { HiSceneCard } from 'hi-kits'
+import { HiScrape } from 'hi-kits'
 ```
 
 ### 基本用法

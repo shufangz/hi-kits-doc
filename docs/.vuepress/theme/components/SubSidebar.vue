@@ -1,4 +1,3 @@
-
 <script>
 import { defineComponent, computed } from 'vue'
 import { isActive } from '@theme/helpers/utils'
@@ -65,11 +64,11 @@ export default defineComponent({
       color var(--text-color)
     &:hover
       a
-       color $accentColor
+       color var(--theme-color)
     &.active
-      border-left 1px solid $accentColor
+      border-left 1px solid var(--theme-color)
       a
-       color $accentColor
+       color var(--theme-color)
     &.level-1
       padding-left .4rem
     &.level-2

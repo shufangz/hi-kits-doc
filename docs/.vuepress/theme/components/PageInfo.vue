@@ -94,9 +94,9 @@ export default defineComponent({
     font-family Ubuntu, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif
     cursor pointer
     &.active
-      color $accentColor
+      color var(--theme-color)
     &:hover
-      color $accentColor
+      color var(--theme-color)
 @media (max-width: $MQMobile)
   .tags
     display block

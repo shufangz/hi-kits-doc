@@ -9,7 +9,6 @@
         :item="item"
         :collapsable="item.collapsable || item.collapsible"
         :depth="depth"
-        @toggle="toggleGroup(i)"
       />
       <SidebarLink
         v-else

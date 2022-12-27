@@ -114,7 +114,7 @@ export default defineComponent({
   box-sizing border-box
   margin 0
   &.open, &:hover
-    color $accentColor
+    color var(--theme-color)
   .arrow
     position absolute
     top 0
@@ -124,10 +124,10 @@ export default defineComponent({
   &.clickable
     &.active
       font-weight 600
-      color $accentColor
-      border-left-color $accentColor
+      color var(--theme-color)
+      border-left-color var(--theme-color)
     &:hover
-      color $accentColor
+      color var(--theme-color)
 
 .sidebar-group-items
   transition height .1s ease-out

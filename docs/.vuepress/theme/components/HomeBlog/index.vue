@@ -196,7 +196,7 @@ export default defineComponent({
           &:hover {
             transform scale(1.04)
             a {
-              color $accentColor
+              color var(--theme-color)
             }
           }
           a {

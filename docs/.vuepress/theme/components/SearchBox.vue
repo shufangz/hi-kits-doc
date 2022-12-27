@@ -189,7 +189,7 @@ export default defineComponent({
     background-size 1rem
     &:focus
       cursor auto
-      border-color $accentColor
+      border-color var(--theme-color)
   .suggestions
     background var(--background-color)
     width 20rem
@@ -217,7 +217,7 @@ export default defineComponent({
     &.focused
       background-color var(--border-color)
       a
-        color $accentColor
+        color var(--theme-color)
 @media (max-width: $MQNarrow)
   .search-box
     input

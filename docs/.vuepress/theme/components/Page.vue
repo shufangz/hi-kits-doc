@@ -274,7 +274,7 @@ function flatten (items, res) {
       display block
       height 1.8rem
       content ''
-      border-left 5px solid $accentColor
+      border-left 5px solid var(--theme-color)
   .page-edit
     @extend $wrapper
     padding-top 1rem
@@ -283,14 +283,14 @@ function flatten (items, res) {
     .edit-link
       display inline-block
       a
-        color $accentColor
+        color var(--theme-color)
         margin-right 0.25rem
     .last-updated
       float right
       font-size 0.9em
       .prefix
         font-weight 500
-        color $accentColor
+        color var(--theme-color)
       .time
         font-weight 400
         color #aaa

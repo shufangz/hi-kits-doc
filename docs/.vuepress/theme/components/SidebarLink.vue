@@ -79,12 +79,12 @@ a.sidebar-link
   // margin 0 0 0 1.5rem
   box-sizing: border-box
   &:hover
-    color $accentColor
+    color var(--theme-color)
   &.active
     font-weight 600
-    color $accentColor
+    color var(--theme-color)
     background var(--default-color-8)
-    border-right 3px solid $accentColor
+    border-right 3px solid var(--theme-color)
   .sidebar-group &
     // padding-left 2rem
   .sidebar-sub-headers &
@@ -94,5 +94,5 @@ a.sidebar-link
     &.active
       font-weight 500
       background transparent
-      color $accentColor
+      color var(--theme-color)
 </style>

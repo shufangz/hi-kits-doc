@@ -103,14 +103,14 @@ export default defineComponent({
       .ds-suggestion
         border-bottom 1px solid var(--border-color)
     .algolia-docsearch-suggestion--highlight
-      color $accentColor
+      color var(--theme-color)
     .algolia-docsearch-suggestion
       border-color var(--border-color)
       padding 0
       .algolia-docsearch-suggestion--category-header
         padding 5px 10px
         margin-top 0
-        background $accentColor
+        background var(--theme-color)
         color #fff
         font-weight 600
         .algolia-docsearch-suggestion--highlight

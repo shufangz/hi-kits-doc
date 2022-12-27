@@ -20,11 +20,11 @@ import { HiTab } from 'hi-kits'
 
 ::: demo
 ```html
-<h-tabs>
-    <h-tab label="tab1">tab111</h-tab>
-    <h-tab label="tab2">tab222</h-tab>
+<!-- <h-tabs activekey="2">
+    <h-tab label="tab1" >tab111</h-tab>
+    <h-tab label="tab2" >tab222</h-tab>
     <h-tab label="tab3">tab333</h-tab>
-</h-tabs>
+</h-tabs> -->
 
 ```
 :::
@@ -33,11 +33,11 @@ import { HiTab } from 'hi-kits'
 禁用某一项。
 ::: demo
 ```html
- <h-tabs type="card">
+ <!-- <h-tabs type="card">
     <h-tab label="tab1">tab111</h-tab>
     <h-tab label="tab2" disabled>tab222</h-tab>
     <h-tab label="tab3">tab333</h-tab>
-</h-tabs>
+</h-tabs> -->
 
 ```
 :::
@@ -50,7 +50,7 @@ import { HiTab } from 'hi-kits'
     <h-tab label="tab2" key="B">tab222</h-tab>
     <h-tab label="tab3" key="C">tab333</h-tab>
 </h-tabs>
-<h-button type="primary" onclick="document.getElementById('Tabs').setAttribute('activekey', 'C')">跳转tab3</h-button>
+<!-- <h-button type="primary" onclick="document.getElementById('Tabs').setAttribute('activekey', 'C')">跳转tab3</h-button> -->
                     
 ```
 :::

@@ -21,17 +21,17 @@ import { HiBanner } from 'hi-kits'
  <h-row gutter="20">
     <h-col span="8">
         <p>默认</p>
-        <h-banner img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d">
+        <h-banner ratio="3.198:1" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d">
         </h-banner>
     </h-col>
     <h-col span="8">
         <p>圆角 radius="40"</p>
-        <h-banner radius="40" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d">
+        <h-banner ratio="3.198:1" radius="40" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d">
         </h-banner>
     </h-col>
     <h-col span="8">
         <p>圆角 radius="80"</p>
-        <h-banner radius="80" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d">
+        <h-banner ratio="3.198:1" radius="80" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d">
         </h-banner>
     </h-col>
 </h-row>
@@ -48,32 +48,32 @@ Hikits 可以自定义比例展示banner
 <h-row gutter="10">
     <h-col span="4">
         <p>5:2</p>
-        <h-banner ratio="5:2" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d">
+        <h-banner ratio="3.198:1" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d">
         </h-banner>
     </h-col>
     <h-col span="4">
         <p>16:9</p>
-        <h-banner ratio="16:9" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d">
+        <h-banner ratio="3.198:1" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d">
         </h-banner>
     </h-col>
     <h-col span="4">
         <p>3:2</p>
-        <h-banner ratio="3:2" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d">
+        <h-banner ratio="3.198:1" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d">
         </h-banner>
     </h-col>
     <h-col span="4">
         <p>4:3</p>
-        <h-banner ratio="4:3" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d">
+        <h-banner ratio="3.198:1" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d">
         </h-banner>
     </h-col>
     <h-col span="4">
         <p>1:1</p>
-        <h-banner ratio="1:1" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d">
+        <h-banner ratio="3.198:1" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d">
         </h-banner>
     </h-col>
     <h-col span="4">
         <p>自定义比例3:1</p>
-        <h-banner ratio="3:1" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d">
+        <h-banner ratio="3.198:1" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d">
         </h-banner>
     </h-col>
 </h-row>
@@ -92,25 +92,25 @@ Hikits 可以自定义比例展示banner
     <h-col span="12">
         <p>一行二个</p>
         <h-banner mode="1/1" gutter="10">
-            <h-banner-item  ratio="16:9" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d"></h-banner-item>
-            <h-banner-item  ratio="16:9" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d"></h-banner-item>
+            <h-banner-item  ratio="3.198:1" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d"></h-banner-item>
+            <h-banner-item  ratio="3.198:1" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d"></h-banner-item>
         </h-banner>
     </h-col>
     <h-col span="12">
         <p>一行三个</p>
         <h-banner mode="1/1/1" gutter="10">
-            <h-banner-item  ratio="16:9" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d"></h-banner-item>
-            <h-banner-item  ratio="16:9" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d"></h-banner-item>
-            <h-banner-item  ratio="16:9" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d"></h-banner-item>
+            <h-banner-item  ratio="3.198:1" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d"></h-banner-item>
+            <h-banner-item  ratio="3.198:1" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d"></h-banner-item>
+            <h-banner-item  ratio="3.198:1" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d"></h-banner-item>
         </h-banner>
     </h-col>
       <h-col span="24">
         <p>一行四个</p>
         <h-banner mode="1/1/1/1" gutter="10">
-            <h-banner-item  ratio="16:9" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d"></h-banner-item>
-            <h-banner-item  ratio="16:9" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d"></h-banner-item>
-            <h-banner-item  ratio="16:9" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d"></h-banner-item>
-            <h-banner-item  ratio="16:9" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d"></h-banner-item>
+            <h-banner-item ratio="3.198:1" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d"></h-banner-item>
+            <h-banner-item  ratio="3.198:1" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d"></h-banner-item>
+            <h-banner-item  ratio="3.198:1" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d"></h-banner-item>
+            <h-banner-item  ratio="3.198:1" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d"></h-banner-item>
         </h-banner>
     </h-col>
 </h-row>
@@ -125,22 +125,22 @@ Hikits 可以自定义比例展示banner
     <h-col span="12">
         <p>左一右二</p>
         <h-banner mode="1/2" gutter="10">
-            <h-banner-item  ratio="16:9" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d"></h-banner-item>
+            <h-banner-item  ratio="3.198:1" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d"></h-banner-item>
             <h-banner gutter="10">
-                <h-banner-item  ratio="16:9" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d"></h-banner-item>
-                <h-banner-item  ratio="16:9" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d"></h-banner-item>
+                <h-banner-item  ratio="3.198:1" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d"></h-banner-item>
+                <h-banner-item ratio="3.198:1" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d"></h-banner-item>
             </h-banner>
         </h-banner>
     </h-col>
     <h-col span="12">
         <p>左一右三</p>
         <h-banner mode="1/3" gutter="10">
-            <h-banner-item  ratio="16:9" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d"></h-banner-item>
+            <h-banner-item  ratio="3.198:1" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d"></h-banner-item>
             <h-banner gutter="10">
-                <h-banner-item  ratio="16:9" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d"></h-banner-item>
+                <h-banner-item ratio="3.198:1" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d"></h-banner-item>
                 <h-banner mode="1/1" gutter="10">
-                    <h-banner-item  ratio="1:1" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d"></h-banner-item>
-                    <h-banner-item  ratio="1:1" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d"></h-banner-item>
+                    <h-banner-item  ratio="3.198:1" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d"></h-banner-item>
+                    <h-banner-item  ratio="3.198:1" img="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cbbe5a095d8ca80121985c875200.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661492672&t=a611f9ae37c7a49fe53b49507f9df30d"></h-banner-item>
                 </h-banner>
             </h-banner>
         </h-banner>

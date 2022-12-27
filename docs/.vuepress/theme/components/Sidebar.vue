@@ -32,7 +32,7 @@ export default defineComponent({
     list-style-type none
     &.sidebar-links
       > li
-        background $accentColor
+        background var(--theme-color)
   a
     display inline-block
   .nav-links

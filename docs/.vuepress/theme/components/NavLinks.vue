@@ -169,9 +169,9 @@ export default defineComponent({
     line-height 1.4rem
     color var(--text-color)
     &:hover, &.router-link-active
-      color $accentColor
+      color var(--theme-color)
       .iconfont
-        color $accentColor
+        color var(--theme-color)
   .nav-item
     position relative
     display inline-block

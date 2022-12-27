@@ -20,7 +20,32 @@ import { HiInput } from 'hi-kits'
 
 ::: demo
 ```html
-<h-input placeholder="基础用法"></h-input>
+<h-input placeholder="请输入内容"></h-input>
+<h-input disabled placeholder="请输入内容"></h-input>
 
+```
+:::
+
+### 密码
+
+::: demo
+```html
+<h-input type="password"></h-input>
+```
+:::
+
+### 数字
+
+::: demo
+```html
+<h-input type="number"></h-input>
+```
+:::
+
+### 只读状态
+
+::: demo
+```html
+<h-input readonly value="只读状态只读状态"></h-input>
 ```
 :::
