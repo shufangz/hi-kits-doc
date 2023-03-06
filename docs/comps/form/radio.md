@@ -13,8 +13,9 @@ tags:
 
 - 用于在多个备选项中选中单个状态。
 - 和 Select 的区别是，Radio 所有选项默认可见，方便用户在比较中选择，因此选项不宜过多。
+
 ```ts
-import { HiRadio } from 'hi-kits'
+import { HiRadio } from 'hi-kits/radio'
 ```
 ### 基本用法
 最简单的用法

@@ -11,7 +11,7 @@ tags:
 :::
 ### 何时使用
 ```ts
-import { HiDrawlottery } from 'hi-kits'
+import { HiDrawlottery } from 'hi-kits/drawlottery'
 ```
 
 ### 基本用法

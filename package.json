@@ -15,11 +15,11 @@
     "@vuepress/plugin-container": "^2.0.0-beta.49",
     "@vuepress/theme-blog": "^2.3.3",
     "vuepress": "^1.9.7",
-    "vuepress-plugin-comment": "^0.7.3"
+    "vuepress-plugin-comment": "^0.7.3",
+    "vuepress-plugin-demo-container": "^0.2.0"
   },
   "dependencies": {
-    "hi-kits": "^1.0.92",
-    "vuepress-plugin-demo-container": "^0.2.0",
+    "hi-kits": "^1.0.106",
     "vuepress-theme-reco": "^1.6.14"
   }
 }

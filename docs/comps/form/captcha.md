@@ -11,7 +11,7 @@ tags:
 验证码输入框。
 :::
 ```ts
-import { Hcaptcha } from 'hi-kits'
+import { Hcaptcha } from 'hi-kits/captcha'
 ```
 
 ### 基本用法

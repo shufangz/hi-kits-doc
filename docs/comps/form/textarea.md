@@ -11,7 +11,7 @@ tags:
 :::
 ### 何时使用
 ```ts
-import { HiTextarea } from 'hi-kits'
+import { HiTextarea } from 'hi-kits/textarea'
 ```
 
 ### 基本用法

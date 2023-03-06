@@ -11,7 +11,7 @@ tags:
 :::
 ### 何时使用
 ```ts
-import { HiBoard } from 'hi-kits'
+import { HiBoard } from 'hi-kits/board'
 ```
 
 ### 基本用法

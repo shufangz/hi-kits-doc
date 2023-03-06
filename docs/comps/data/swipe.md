@@ -9,7 +9,7 @@ date: 2022/11/11
 
 ### 何时使用
 ```ts
-import { HiSwipe } from 'hi-kits'
+import { HiSwipe } from 'hi-kits/swipe'
 ```
 
 ### 基本用法

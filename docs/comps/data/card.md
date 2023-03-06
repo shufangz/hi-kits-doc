@@ -12,7 +12,7 @@ tags:
 ### 何时使用
 最基础的卡片容器，可承载文字、列表、图片、段落，常用于后台概览页面。
 ```ts
-import { HiCard } from 'hi-kits'
+import { HiCard } from 'hi-kits/card'
 ```
 ### 简单卡片
 

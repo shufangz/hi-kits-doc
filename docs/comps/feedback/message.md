@@ -14,7 +14,7 @@ tags:
 - 可提供成功、警告和错误等反馈信息。
 - 顶部居中显示并自动消失，是一种不打断用户操作的轻量级提示方式
 ```ts
-import { HiServe.message } from 'hi-kits'
+import { HiServe.message } from 'hi-kits/message'
 ```
 ### 基础用法
 

@@ -11,7 +11,7 @@ tags:
 :::
 
 ```ts
-import { HiBarrage } from 'hi-kits'
+import { HiBarrage } from 'hi-kits/barrage'
 ```
 
 ### 基本用法

@@ -14,7 +14,7 @@ tags:
 - 只适合用在第一次加载数据的场景。
 - 可以被 Spin 完全代替，但是在可用的场景下可以比 Spin 提供更好的视觉效果和用户体验
 ```ts
-import { HiSkeleton } from 'hi-kits'
+import { HiSkeleton } from 'hi-kits/skeleton'
 ```
 
 ### 基本用法

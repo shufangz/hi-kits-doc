@@ -6,12 +6,14 @@ tags:
  - Button
  - 基础组件
 ---
+
 ::: tip
 按钮用于开始一个即时操作。
 :::
+
 ### 何时使用
 ```ts
-import { HiButton } from 'hi-kits'
+import { HiButton } from 'hi-kits/button'
 ```
 
 标记了一个（或封装一组）操作命令，响应用户点击行为，触发相应的业务逻辑。
@@ -39,7 +41,6 @@ import { HiButton } from 'hi-kits'
 <h-button type="dashed">Dashed Button</h-button>
 <h-button type='flat'>Text Button</h-button>
 <h-button type="flat" href="https://ys-zjrs.haier.net/zjm/synsm/pushManage/favicon.ico" download="111">Link Button</h-button>
-
 ```
 :::
 

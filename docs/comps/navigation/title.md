@@ -11,7 +11,7 @@ tags:
 :::
 ### 何时使用
 ```ts
-import { HiTitle } from 'hi-kits'
+import { HiTitle } from 'hi-kits/title'
 ```
 
 ### 基本用法

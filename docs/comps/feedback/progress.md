@@ -14,7 +14,7 @@ date: 2022/11/08
 - 当需要显示一个操作完成的百分比时。
 
 ```ts
-import { HiProgress } from 'hi-kits'
+import { HiProgress } from 'hi-kits/progress'
 ```
 
 ### 何时使用

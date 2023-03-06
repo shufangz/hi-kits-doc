@@ -10,7 +10,7 @@ tags:
 :::
 ### 何时使用
 ```ts
-import { HiImage } from 'hi-kits'
+import { HiImage } from 'hi-kits/image'
 ```
 
 ### 基本用法

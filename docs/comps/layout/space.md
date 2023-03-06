@@ -15,7 +15,7 @@ tags:
 - 适合行内元素的水平间距。
 - 可以设置各种水平对齐方式。目前支持水平（ horizontal ）和竖直（ vertical ）两种方向
 ```ts
-import { HiSpace } from 'hi-kits'
+import { HiSpace } from 'hi-kits/space'
 ```
 ### 基本用法
 相邻组件水平间距。

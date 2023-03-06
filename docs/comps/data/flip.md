@@ -7,7 +7,7 @@ tags:
 ---
 ### 何时使用
 ```ts
-import { HiFlip } from 'hi-kits'
+import { HiFlip } from 'hi-kits/flip'
 ```
 
 ### 基本用法

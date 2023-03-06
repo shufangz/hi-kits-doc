@@ -11,11 +11,11 @@ tags:
 金刚区是一个页面中头部的重要位置,是页面的核心功能区域,表现形式为多行排列的宫格区图标。
 :::
 ```ts
-import { HiVajra } from 'hi-kits'
+import { HiVajra } from 'hi-kits/vajra'
 ```
 
 ### 基本用法
-::: demo [vanilla]
+::: demo
 ```html
 <h-vajra row="2" col="5" gutter="12">
     <h-vajra-item text="3333">

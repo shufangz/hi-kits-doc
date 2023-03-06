@@ -14,7 +14,7 @@ tags:
 
 - 页面可视范围过小时，慎用此功能以免遮挡页面内容。
 ```ts
-import { HiAffix } from 'hi-kits'
+import { HiAffix } from 'hi-kits/affix'
 ```
 
 ### 固定在页面顶部

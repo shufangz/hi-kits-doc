@@ -11,7 +11,7 @@ tags:
 :::
 ### 何时使用
 ```ts
-import { HiWatermark } from 'hi-kits'
+import { HiWatermark } from 'hi-kits/watermark'
 ```
 
 ### 基本用法

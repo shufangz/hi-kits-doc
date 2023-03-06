@@ -11,7 +11,7 @@ tags:
 :::
 ### 何时使用
 ```ts
-import { HiSelect } from 'hi-kits'
+import { HiSelect } from 'hi-kits/select'
 ```
 
 ### 基本用法

@@ -12,7 +12,7 @@ tags:
 
 ### 何时使用
 ```ts
-import { HiScrape } from 'hi-kits'
+import { HiScrape } from 'hi-kits/scrape'
 ```
 
 ### 基本用法

@@ -13,7 +13,7 @@ tags:
 - 对不同章节的文本段落进行分割。
 - 对行内文字/链接进行分割，例如表格的操作列。
 ```ts
-import { HiDivider } from 'hi-kits'
+import { HiDivider } from 'hi-kits/divider'
 ```
 
 ### 水平分割线

@@ -8,7 +8,7 @@ tags:
 ---
 ### 何时使用
 ```ts
-import { HiFloat } from 'hi-kits'
+import { HiFloat } from 'hi-kits/float'
 ```
 
 ### 基本用法

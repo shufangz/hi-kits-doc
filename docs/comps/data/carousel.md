@@ -11,7 +11,7 @@ tags:
 :::
 ### 何时使用
 ```ts
-import { HiCarousel } from 'hi-kits'
+import { HiCarousel } from 'hi-kits/carousel'
 ```
 
 ### 基本用法

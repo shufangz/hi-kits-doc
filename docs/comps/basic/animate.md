@@ -9,7 +9,7 @@ tags:
 
 ### 何时使用
 ```ts
-import { HiAnimate } from 'hi-kits'
+import { HiAnimate } from 'hi-kits/animate'
 ```
 ### 基本用法
 直接通过设置name来使用即可,会在页面加载完成时触发一次动画效果。

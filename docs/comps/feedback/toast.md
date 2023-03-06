@@ -12,7 +12,7 @@ tags:
 
 ### 何时使用
 ```ts
-import { HiToast } from 'hi-kits'
+import { HiToast } from 'hi-kits/fico'
 ```
 ### 基本用法
 

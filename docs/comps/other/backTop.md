@@ -12,7 +12,7 @@ tags:
 - 当页面内容区域比较长时；
 - 当用户需要频繁返回顶部查看相关内容时。
 ```ts
-import { HiBackTop } from 'hi-kits'
+import { HiBackTop } from 'hi-kits/backTop'
 ```
 
 ### 基本用法

@@ -12,7 +12,7 @@ tags:
 
 ### 何时使用
 ```ts
-import { HiAvatar } from 'hi-kits'
+import { HiAvatar } from 'hi-kits/avatar'
 ```
 ### 基本用法
 

@@ -36,8 +36,8 @@
         "
       >
         <div>
-          <h-color-picker @change="changeThemeColor" custom isgradient="false" :defaultvalue="localThemeColor">
-            <h-icon name="color_palette" size="20" color="#F44336"></h-icon>
+          <h-color-picker @change="changeThemeColor" dir="bottom" custom isgradient="false" needgradient="false"  :defaultvalue="localThemeColor">
+            <h-icon name="color_palette" size="20" :color="localThemeColor"></h-icon>
           </h-color-picker>
         </div>
       </h-tips>
@@ -86,11 +86,11 @@ export default defineComponent({
         "--theme-color",
         ev.detail.value
       );
-      localStorage.setItem("hidoc_themeColor", ev.detail.value);
+      // window.localStorage.setItem("hidoc_themeColor", ev.detail.value);
     };
     const instance = useInstance();
     const linksWrapMaxWidth = ref(null);
-    let localThemeColor =  localStorage.getItem("hidoc_themeColor") || '#42b983';
+    let localThemeColor = '#42b983';
     const algolia = computed(() => {
       return (
         instance.$themeLocaleConfig.algolia ||
@@ -111,9 +111,9 @@ export default defineComponent({
     }
 
     onMounted(() => {
-      console.log(localStorage.getItem("hidoc_themeColor"));
-      localThemeColor = localStorage.getItem("hidoc_themeColor");
-      if (localStorage.getItem("hidoc_themeColor")) {
+      // console.log(window.getItem("hidoc_themeColor"));
+      localThemeColor ='#42b983';
+      if (localThemeColor) {
         document.documentElement.style.setProperty(
           "--hiThemeColor",
           localThemeColor

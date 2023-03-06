@@ -13,7 +13,7 @@ tags:
 ### 何时使用
  - 提供平级的区域将大块内容进行收纳和展现，保持界面整洁。
 ```ts
-import { HiTab } from 'hi-kits'
+import { HiTab } from 'hi-kits/tab'
 ```
 ### 基本用法
 默认选中第一项。

@@ -11,7 +11,7 @@ tags:
 :::
 ### 何时使用
 ```ts
-import { HiTabbar } from 'hi-kits'
+import { HiTabbar } from 'hi-kits/tabbar'
 ```
 
 ### 基本用法

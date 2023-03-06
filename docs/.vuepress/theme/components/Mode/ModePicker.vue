@@ -29,6 +29,7 @@ export default {
   },
 
   mounted () {
+    console.log('eeee');
     // modePicker 开启时默认使用用户主动设置的模式
     this.currentMode = localStorage.getItem('mode') || this.$themeConfig.mode || 'auto'
 

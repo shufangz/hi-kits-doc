@@ -20,8 +20,8 @@ import 'hi-kits'
 我们可以只引入需要的组件，以达到减小项目体积的目的。如果你只希望引入部分组件，比如 Button 和 Select，那么只需要在项目中添加一下代码
 
 ```ts
-import { HiButton } from 'hi-kits'
-import { HiSelect } from 'hi-kits'
+import { HiButton } from 'hi-kits/button'
+import { HiSelect } from 'hi-kits/select'
 ```
 ### 使用方法
 Hikits 的组件引入后，只需在HTML代码中直接使用即可。如下所示

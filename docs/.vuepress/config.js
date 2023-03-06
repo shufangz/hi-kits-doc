@@ -248,7 +248,7 @@ module.exports = {
             },
             {
               title: 'TextArea 文本域',
-              path: '/comps/form/textArea'
+              path: '/comps/form/textarea'
             },
             {
               title: '数据展示',
@@ -408,7 +408,7 @@ module.exports = {
               path: '/comps/gesture/swipeout'
             },
             {
-              title: '其他(1)',
+              title: '其他',
               collapsable: false,
               icon: 'reco-other'
             },
@@ -464,6 +464,7 @@ module.exports = {
 
   },
   plugins: [
+    'vuepress-plugin-demo-container',
     'demo-container',
     'alias',
     ['@vuepress-reco/vuepress-plugin-back-to-top'],

@@ -11,7 +11,7 @@ tags:
 :::
 ### 何时使用
 ```ts
-import { HiActions } from 'hi-kits'
+import { HiActions } from 'hi-kits/actions'
 ```
 
 ### 基本用法

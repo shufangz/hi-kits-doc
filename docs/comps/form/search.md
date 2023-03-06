@@ -11,7 +11,7 @@ tags:
 :::
 ### 何时使用
 ```ts
-import { HiSearch } from 'hi-kits'
+import { HiSearch } from 'hi-kits/search'
 ```
 
 ### 基本用法

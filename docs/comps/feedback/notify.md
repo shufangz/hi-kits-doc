@@ -15,7 +15,7 @@ tags:
 - 带有交互的通知，给出用户下一步的行动点。
 - 系统主动推送。
 ```ts
-import { HNotify } from 'hi-kits'
+import { HNotify } from 'hi-kits/notify'
 ```
 ### 基本用法
 

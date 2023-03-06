@@ -12,7 +12,7 @@ tags:
 ### 何时使用
 评论组件可用于对事物的讨论，例如页面、博客文章、问题等等。
 ```ts
-import { HiComment } from 'hi-kits'
+import { HiComment } from 'hi-kits/comment'
 ```
 ### 基本评论
 

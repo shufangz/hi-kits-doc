@@ -5793,17 +5793,17 @@ hex-color-regex@^1.1.0:
   resolved "https://registry.yarnpkg.com/hex-color-regex/-/hex-color-regex-1.1.0.tgz#4c06fccb4602fe2602b3c93df82d7e7dbf1a8a8e"
   integrity sha512-l9sfDFsuqtOqKDsQdqrMRk0U85RZc0RtOR9yPI7mRVOa4FsR/BVnZ0shmQRM96Ji99kYZP/7hn1cedc1+ApsTQ==
 
-hi-element@0.0.31:
-  version "0.0.31"
-  resolved "https://registry.npmmirror.com/hi-element/-/hi-element-0.0.31.tgz#4e92ad3ed669334e542eff3cea6e4281b17bebe8"
-  integrity sha512-Zk8aDk85JUKZ9J819nAG+n8V+OREh0jSE38x6YiRPiikpHyBYnO5TnlGiGZYFvY2EX5ddH5K2lyJKMQHXg7Mwg==
+hi-element@0.0.34:
+  version "0.0.34"
+  resolved "https://registry.npmmirror.com/hi-element/-/hi-element-0.0.34.tgz#ebdebf7c88c809c1fb64c727d0e6573cd555aa0a"
+  integrity sha512-Vlii7B6j99cGutTjd5jxnqSjtmc574N9+0b4bnvegJKLbE4DbERbX/t4QW9/G7mt3Hy8V9g10t3kFR36iVtmvw==
 
-hi-kits@^1.0.92:
-  version "1.0.92"
-  resolved "https://registry.npmmirror.com/hi-kits/-/hi-kits-1.0.92.tgz#62f6cda299e3fa10878cfdcf80eca548c1d201fc"
-  integrity sha512-WEC/crpfXtOYuI72Dj6wX44K/Fi3VdVsdLCm3mpTEoHHX60ao/7aHDJHZD3appj3x2SE+qcPoZSAxGiEKFwA0g==
+hi-kits@^1.0.106:
+  version "1.0.106"
+  resolved "https://registry.npmmirror.com/hi-kits/-/hi-kits-1.0.106.tgz#acf31d1dee7f8115335c3468b9f24e0d2edfcfa4"
+  integrity sha512-wlLqs167MNpAmmXyF2UqvjA3oaSmTE2PNrPd9oSJftC9LmaSCnim3VYKPHqDDGoOKSyODF/pXdw1ZtECrhL50A==
   dependencies:
-    hi-element "0.0.31"
+    hi-element "0.0.34"
     tslib "^2.4.0"
 
 highlight.js@^9.7.0:
@@ -11559,7 +11559,7 @@ vuepress-plugin-container@^2.0.2:
 
 vuepress-plugin-demo-container@^0.2.0:
   version "0.2.0"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-demo-container/-/vuepress-plugin-demo-container-0.2.0.tgz#5d92161b1c033b91f3cabddd994d5beed47ab6a6"
+  resolved "https://registry.npmmirror.com/vuepress-plugin-demo-container/-/vuepress-plugin-demo-container-0.2.0.tgz#5d92161b1c033b91f3cabddd994d5beed47ab6a6"
   integrity sha512-IXWZUc9+mErxjhBMRvhjHkGlXC3aXLS8wRV4kh4RZYAOVtb8nLv2fmpzwrSZrnIOXLGMcMTObdFruVzX9kBylw==
 
 vuepress-plugin-disqus@^0.2.0:

@@ -11,7 +11,7 @@ tags:
 :::
 ### 基础布局
 ```ts
-import { HiLayout } from 'hi-kits'
+import { HiLayout } from 'hi-kits/layout'
 ```
 ### 垂直排列
 ::: demo

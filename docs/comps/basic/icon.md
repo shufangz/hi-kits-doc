@@ -12,8 +12,9 @@ tags:
 ### 何时使用
 
 ```ts
-import { HiIcon } from 'hi-kits'
+import { HiIcon } from 'hi-kits/icon'
 ```
+
 ### 使用方法
 直接通过设置`name`来使用即可
 
@@ -32,6 +33,7 @@ import { HiIcon } from 'hi-kits'
 | `name` | 名称 | `string` | - | -
 | `size` | 大小 | `string` | - | -
 | `color` | 颜色 | `string` | - | -  | -
+
 
 ### 图标列表
 <iconlist />

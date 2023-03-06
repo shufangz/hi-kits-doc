@@ -9,7 +9,7 @@ tags:
 ### 何时使用
 可用于页面切换或者轮播切换
 ```ts
-import { HiNavdot } from 'hi-kits'
+import { HiNavdot } from 'hi-kits/navdot'
 ```
 ### 基本用法
 

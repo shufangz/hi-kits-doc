@@ -17,11 +17,11 @@ tags:
  import { NgModule } from "@angular/core";
  /*----------------- hikits库 ---------------------*/
  import { HI_CONFIG } from 'hi-kits/_shared/config/config';
- import { HiBoard } from "hi-kits";
- import { HiButton } from "hi-kits";
- import { HiGoods } from "hi-kits";
- import { HiDrawlottery } from 'hi-kits';
- import { HiIcon } from "hi-kits";
+ import { HiBoard } from "hi-kits/board";
+ import { HiButton } from "hi-kits/button";
+ import { HiGoods } from "hi-kits/goods";
+ import { HiDrawlottery } from 'hi-kits/drawlottery';
+ import { HiIcon } from "hi-kits/icon";
  // ...
  HI_CONFIG.case.install([
   HiBoard,
@@ -40,9 +40,9 @@ tags:
 
 1.在项目中引入hi-kits
 ```ts
- import { HI_CONFIG } from 'hi-kits';
- import { HiBoard } from "hi-kits";
- import { HiButton } from "hi-kits";
+ import { HI_CONFIG } from 'hi-kits/_shared/config/config';
+ import { HiBoard } from "hi-kits/board";
+ import { HiButton } from "hi-kits/button";
 
 ```
 2.页面初始化时加载组件
@@ -53,9 +53,9 @@ HI_CONFIG.case.install([HiBoard, HiButton])
 ### Vue中按需引用Hi-kits
 在Vue项目中的main.ts引入并注册，同React 中的使用方法相似
 ```ts
-import { HI_CONFIG } from 'hi-kits';
-import { HiBoard } from "hi-kits";
-import { HiButton } from "hi-kits";
+ import { HI_CONFIG } from 'hi-kits/_shared/config/config';
+ import { HiBoard } from "hi-kits/board";
+ import { HiButton } from "hi-kits/button";
 
 HI_CONFIG.case.install([HiBoard, HiButton])
 
