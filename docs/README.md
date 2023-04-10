@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://ys-zjrs.haier.net/image/logo(1).svg
+heroImage: /image/logo(1).svg
 tagline: 面向未来的全新组件交互设计理念
 heroText: Hi-kits
 features: 
