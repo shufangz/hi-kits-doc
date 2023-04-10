@@ -3,7 +3,7 @@ module.exports = {
     ['link',
       {
         rel: 'icon',
-        href: 'https://ys-zjrs.haier.net/image/logo(1).svg'
+        href: 'image/logo(1).svg'
       }
     ]
   ],
@@ -14,7 +14,7 @@ module.exports = {
     smoothScroll: true,
     // repo: 'https://github.com/shufangz/hi-kits-doc.git',
     // docsRepo: 'https://github.com/shufangz/hi-kits-doc.git',
-    logo: 'https://ys-zjrs.haier.net/image/logo.svg',
+    logo: 'image/logo.svg',
     nav: [ // 配置顶部导航栏
       {
         text: '首页',
