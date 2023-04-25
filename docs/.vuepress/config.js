@@ -8,7 +8,7 @@ module.exports = {
     ]
   ],
   title: 'Hi-kits',
-  base: '/Hi-Kits-Doc/',
+  base: '/hidoc/',
   port: '8080',
   theme: 'reco',
   themeConfig: { // 新增代码
@@ -464,7 +464,6 @@ module.exports = {
 
   },
   plugins: [
-    'vuepress-plugin-demo-container',
     'demo-container',
     'alias',
     ['@vuepress-reco/vuepress-plugin-back-to-top'],

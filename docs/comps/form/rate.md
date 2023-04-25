@@ -24,7 +24,6 @@ import { HiRate } from 'hi-kits/rate'
     
 ```
 :::
-
 ### 默认选中
 ::: demo
 ```html

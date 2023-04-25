@@ -13,7 +13,6 @@ tags:
 ```ts
 import { HiSelect } from 'hi-kits/select'
 ```
-
 ### 基本用法
 
 适用广泛的基础单选

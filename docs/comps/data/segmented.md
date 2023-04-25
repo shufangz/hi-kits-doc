@@ -13,7 +13,6 @@ tags:
 import { HiSegmented } from 'hi-kits/segmented'
 ```
 ### 基本用法
-
 ::: demo
 ```html
 <h-segmenteds current="1">

@@ -15,7 +15,6 @@ tags:
 import { HiSteps } from 'hi-kits/steps'
 ```
 
-
 ### 基本用法
 
 简单的步骤条。

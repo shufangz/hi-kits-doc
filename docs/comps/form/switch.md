@@ -16,7 +16,6 @@ tags:
 ```ts
 import { HiSwitch } from 'hi-kits/switch'
 ```
-
 ### 基本用法
 
 最简单的用法。

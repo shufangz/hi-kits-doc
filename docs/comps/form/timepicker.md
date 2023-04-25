@@ -14,7 +14,6 @@ tags:
 ```ts
 import { HiTimePicker } from 'hi-kits/timePicker'
 ```
-
 ### 基本用法
 
 最简单的用法，在浮层中可以选择时间。

@@ -13,7 +13,6 @@ tags:
 ```ts
 import { HiJumper } from 'hi-kits/jumper'
 ```
-
 ### 基本用法
 
 ::: demo

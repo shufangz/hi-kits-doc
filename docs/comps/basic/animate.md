@@ -6,7 +6,6 @@ tags:
  - animate
  - 基础组件
 ---
-
 ### 何时使用
 ```ts
 import { HiAnimate } from 'hi-kits/animate'

@@ -12,7 +12,6 @@ tags:
 - 当系统拥有超过两级以上的层级结构时；
 - 当需要告知用户『你在哪里』时；
 - 当需要向上导航的功能时
-
 ```ts
 import { HiBreadcrumb } from 'hi-kits/breadcrumb'
 ```

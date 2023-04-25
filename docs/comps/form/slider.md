@@ -15,7 +15,6 @@ tags:
 ```ts
 import { HiSlider } from 'hi-kits/slider'
 ```
-
 ### 基本用法
 
 基本滑动条。当设置disabled，滑块处于不可用状态。

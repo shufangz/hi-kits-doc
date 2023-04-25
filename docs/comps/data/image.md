@@ -8,6 +8,7 @@ tags:
 ::: tip
 可预览的图片。
 :::
+
 ### 何时使用
 ```ts
 import { HiImage } from 'hi-kits/image'

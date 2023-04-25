@@ -14,7 +14,6 @@ Toolbar是应用程序中使用的标准工具栏。
 ```ts
 import { HiToolbar } from 'hi-kits/toolbar'
 ```
-
 ### 基本用法
 
 ::: demo

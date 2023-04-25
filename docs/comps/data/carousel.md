@@ -9,6 +9,7 @@ tags:
 ::: tip
 当选项过多时，使用下拉菜单展示并选择内容。
 :::
+
 ### 何时使用
 ```ts
 import { HiCarousel } from 'hi-kits/carousel'

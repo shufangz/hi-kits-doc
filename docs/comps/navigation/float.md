@@ -10,7 +10,6 @@ tags:
 ```ts
 import { HiFloat } from 'hi-kits/float'
 ```
-
 ### 基本用法
 通过设置`dir` 可将元素浮动到指定位置。查看页面左上角和右上角
 ::: demo

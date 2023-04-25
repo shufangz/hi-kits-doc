@@ -90,9 +90,6 @@ import { HiLayout } from 'hi-kits/layout'
     <h-layout class="footer">底部</h-layout>
 </h-layout>
 
-```
-:::
-
 <style>
   h-layout{ background: #2196f380; }
   .layoutBox{
@@ -103,12 +100,16 @@ import { HiLayout } from 'hi-kits/layout'
   .layoutBoxo{
     background: rgba(33, 243, 103, 0.5);
   }
-  .layout{ height: 300px; }
+  .layout{ width: 100%; height: 300px; }
   .side{ width: 200px; }
   .main{ margin: 0 10px; }
   .box{ width: 100px; height: 100px; color: #fff; }
   .header,.footer{ padding: 5px 10px; color: #fff; }
 </style>
+```
+:::
+
+
 ### 参数说明
 
 |参数|说明|类型|可选值|默认值

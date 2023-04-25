@@ -19,7 +19,6 @@ import { HiTimeline } from 'hi-kits/timeline'
 ### 基本用法
 
 基本的时间轴。
-
 ::: demo
 ```html
 <h-timeline>

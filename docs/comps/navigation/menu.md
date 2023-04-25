@@ -15,7 +15,6 @@ tags:
 ```ts
 import { HiMenut } from 'hi-kits/menu'
 ```
-
 ### 基本用法
 垂直菜单，子菜单是弹出的形式。
 ::: demo

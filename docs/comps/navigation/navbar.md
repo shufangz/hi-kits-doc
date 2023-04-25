@@ -14,7 +14,6 @@ tags:
 ```ts
 import { HiNavbar } from 'hi-kits/navbar'
 ```
-
 ### 基本用法
 
 通过 `heading` 属性设置导航栏标题。

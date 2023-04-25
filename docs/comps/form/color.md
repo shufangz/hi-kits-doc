@@ -13,7 +13,6 @@ tags:
 import { HiColorPicker } from 'hi-kits/color'
 ```
 
-
 ### 基本用法
 
 颜色面板

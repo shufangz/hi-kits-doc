@@ -19,7 +19,6 @@ import { HiInputNumber } from 'hi-kits/inputNumber'
 
 数字输入框。
 
-
 ::: demo
 ```html
     <h-input-number></h-input-number>

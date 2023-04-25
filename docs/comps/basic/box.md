@@ -5,6 +5,7 @@ date: 2022/07/11
 tags:
  - 基础组件
 ---
+
 ::: tip
 盒子模型(Box Modal)： 把HTML页面中的元素看作是一个矩形的盒子，也就是一个盛装内容的容器。每个矩形包括：margin border padding content 四个属性
 :::

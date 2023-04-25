@@ -19,7 +19,6 @@ import { HiPagination } from 'hi-kits/pagination'
 
 基础分页。
 
-
 ::: demo
 ```html
 <h-pagination onchange="HiMessage.info({content: '当前页: '+ event.detail.current, duration: 1000})" pagesize="3" total="50"></h-pagination>

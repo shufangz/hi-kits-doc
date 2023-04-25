@@ -13,7 +13,6 @@ tags:
 ```ts
 import { HiTextarea } from 'hi-kits/textarea'
 ```
-
 ### 基本用法
 
 ::: demo

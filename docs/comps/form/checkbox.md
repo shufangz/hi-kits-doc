@@ -24,7 +24,6 @@ import { HiCheckbox } from 'hi-kits/checkbox'
 :::
 
 ### 不可用
-
 ::: demo
 ```html
 <h-checkbox disabled>Checkbox</h-checkbox>

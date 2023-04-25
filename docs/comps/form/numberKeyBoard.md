@@ -14,7 +14,6 @@ tags:
 ```ts
 import { HiNumberKeyboard } from 'hi-kits/numberKeyBoard'
 ```
-
 ### 默认键盘
 
 ::: demo

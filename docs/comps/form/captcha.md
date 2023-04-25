@@ -31,7 +31,6 @@ import { Hcaptcha } from 'hi-kits/captcha'
 
 ```
 :::
-
 ### 参数说明
 
 |参数|说明|类型|可选值|默认值

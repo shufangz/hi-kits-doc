@@ -27,7 +27,6 @@ import { HiInput } from 'hi-kits/input'
 :::
 
 ### 密码
-
 ::: demo
 ```html
 <h-input type="password"></h-input>

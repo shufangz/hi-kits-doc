@@ -19,7 +19,6 @@ import { HiTag } from 'hi-kits/tag'
 
 基本标签的用法。可通过text设置标签文字。color 设置文字颜色
 
-
 ::: demo
 ```html
 <h-tag text="标签一"></h-tag>

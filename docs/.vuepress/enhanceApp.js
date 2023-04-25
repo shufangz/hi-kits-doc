@@ -1,4 +1,5 @@
-export default ({
+
+export default ( {
     Vue, // VuePress 正在使用的 Vue 构造函数
     router,
     isServer // 当前应用配置是处于 服务端渲染 或 客户端
@@ -9,6 +10,7 @@ export default ({
         Vue.mixin({
             mounted() {
                 import('hi-kits').then(function (m) {
+                    console.log(m);
                     Vue.prototype.m = m;
                     // Vue.use(m)
                 })
@@ -28,7 +30,8 @@ export default ({
             }
         })
     } else {
-        import('hi-kits').then(function (m) {
+        import('hi-kits').then( function ( m ) {
+            console.log(m);
             Vue.prototype.m = m;
             // Vue.use(m)
         })

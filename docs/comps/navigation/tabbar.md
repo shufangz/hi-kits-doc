@@ -13,7 +13,6 @@ tags:
 ```ts
 import { HiTabbar } from 'hi-kits/tabbar'
 ```
-
 ### 基本用法
 
 ::: demo

@@ -19,7 +19,6 @@ tags:
 ```ts
 import { HiUpload } from 'hi-kits/upload'
 ```
-
 ### 基本用法
 
 经典款式，用户点击按钮弹出文件选择框。

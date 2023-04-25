@@ -11,7 +11,6 @@ date: 2022/11/11
 ```ts
 import { HiSwipe } from 'hi-kits/swipe'
 ```
-
 ### 基本用法
 
 ::: demo

@@ -16,7 +16,6 @@ tags:
 ```ts
 import { HiAffix } from 'hi-kits/affix'
 ```
-
 ### 固定在页面顶部
 可通过 `siteTop`配置到顶部的距离
 ::: demo

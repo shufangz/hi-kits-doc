@@ -14,7 +14,6 @@ tags:
 import { HiList } from 'hi-kits/list'
 ```
 
-
 ### 简单列表
 
 列表拥有大、中、小三种尺寸。

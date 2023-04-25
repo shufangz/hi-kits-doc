@@ -13,7 +13,6 @@ tags:
 ```ts
 import { HiBoard } from 'hi-kits/board'
 ```
-
 ### 基本用法
 
 ::: demo

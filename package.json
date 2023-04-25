@@ -10,16 +10,18 @@
   "author": "Ann",
   "license": "ISC",
   "devDependencies": {
-    "@vuepress-reco/vuepress-plugin-back-to-top": "^1.6.13",
     "@vuepress/plugin-active-header-links": "^1.9.7",
-    "@vuepress/plugin-container": "^2.0.0-beta.49",
     "@vuepress/theme-blog": "^2.3.3",
+    "vuepress-plugin-cursor-effects": "^1.1.4",
+    "vuepress-plugin-global-toc": "^1.1.0",
+    "vuepress-theme-reco": "^1.6.17",
     "vuepress": "^1.9.7",
-    "vuepress-plugin-comment": "^0.7.3",
-    "vuepress-plugin-demo-container": "^0.2.0"
+    "vuepress-plugin-comment": "^0.7.3"
   },
   "dependencies": {
-    "hi-kits": "^1.0.106",
-    "vuepress-theme-reco": "^1.6.14"
+    "async-validator": "1.11.5",
+    "hi-kits": "^1.0.111-beta.1",
+    "vuepress-plugin-alias": "^1.0.0-beta",
+    "vuepress-plugin-demo-container": "^0.2.0"
   }
 }

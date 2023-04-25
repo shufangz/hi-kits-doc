@@ -13,7 +13,6 @@ tags:
 ```ts
 import { HiWatermark } from 'hi-kits/watermark'
 ```
-
 ### 基本用法
 
 ::: demo

@@ -13,7 +13,6 @@ tags:
 ```ts
 import { HiSearch } from 'hi-kits/search'
 ```
-
 ### 基本用法
 
 ::: demo

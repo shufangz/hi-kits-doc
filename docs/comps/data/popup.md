@@ -13,7 +13,6 @@ Popup 是一个模态窗口，其中包含在 App 的主要内容上弹出的任
 ```ts
 import { HiPopup } from 'hi-kits/popup'
 ```
-
 ### 基本用法
 
 ::: demo

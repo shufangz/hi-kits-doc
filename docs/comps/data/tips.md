@@ -16,7 +16,6 @@ tags:
 import { HiTips } from 'hi-kits/tips'
 ```
 ### 基本用法
-
 最简单的用法。
 
 ::: demo

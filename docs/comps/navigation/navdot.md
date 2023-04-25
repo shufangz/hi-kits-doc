@@ -12,7 +12,6 @@ tags:
 import { HiNavdot } from 'hi-kits/navdot'
 ```
 ### 基本用法
-
 ::: demo
 ```html
 <h-space  dir="vertical">

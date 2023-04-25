@@ -16,7 +16,6 @@ tags:
 ```ts
 import { HiTransfer } from 'hi-kits/transfer'
 ```
-
 ### 基本用法
 
 最基本的用法，展示了 `sourceData` 左侧源数据，`targetData`右侧目标数据 以及回调函数 `onSelectChange`, `onTransChange`的用法。

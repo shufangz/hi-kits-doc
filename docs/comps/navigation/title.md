@@ -13,7 +13,6 @@ tags:
 ```ts
 import { HiTitle } from 'hi-kits/title'
 ```
-
 ### 基本用法
 
 ::: demo

@@ -15,7 +15,6 @@ tags:
 ```ts
 import { HiDatePicker } from 'hi-kits/datePicker'
 ```
-
 ### 基本用法
 
 最简单的用法，在浮层中可以选择日期。

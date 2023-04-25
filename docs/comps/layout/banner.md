@@ -12,7 +12,6 @@ Banner 广告横幅一般是放置在网页上的不同位置,在用户浏览网
 ```ts
 import { HiBanner } from 'hi-kits/banner'
 ```
-
 ### 基本用法
 默认比例，尺寸自适应，圆角可配置
 

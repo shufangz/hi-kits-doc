@@ -26,7 +26,6 @@ import { HiRadio } from 'hi-kits/radio'
 
 ```
 :::
-
 ### 默认选中
 
 ::: demo
