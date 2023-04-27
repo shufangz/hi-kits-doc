@@ -17,7 +17,6 @@ import { HiTask } from 'hi-kits/task'
 ### 基本用法
 
 适用广泛的基础单选
-
 ::: demo
 ```html
 <h-task gutter="10">

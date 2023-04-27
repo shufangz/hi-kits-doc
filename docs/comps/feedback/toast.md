@@ -15,7 +15,6 @@ tags:
 import { HiToast } from 'hi-kits/fico'
 ```
 ### 基本用法
-
 ::: demo
 ```html
 <h-button onclick="HiServe.toast({content: 'This a Toast'})">默认</h-button>

@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "async-validator": "1.11.5",
-    "hi-kits": "^1.0.111-beta.1",
+    "hi-kits": "^1.0.111-beta.2",
     "vuepress-plugin-alias": "^1.0.0-beta",
     "vuepress-plugin-demo-container": "^0.2.0"
   }

@@ -94,7 +94,6 @@ import { HiPopover } from 'hi-kits/popover'
 | `canceltext`| 取消文案 |  `string` | -|取 消
 | `loading`| 加载状态 |  `boolean` | -|`false`
 | `hOk`| 点击确认回调函数 |  ` string  |  Function` | -|-
-
 ### h-popcon
 
 |参数|说明|类型|可选值|默认值

@@ -13,7 +13,6 @@ tags:
 ```ts
 import { HiPullToRefresh } from 'hi-kits/pullToRefresh'
 ```
-
 ### 基本用法
 ::: demo
 ```html

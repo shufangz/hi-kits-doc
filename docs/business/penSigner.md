@@ -13,7 +13,6 @@ tags:
 ```ts
 import { HiPenSigner } from 'hi-kits/penSigner'
 ```
-
 ### 基本用法
 可以设置宽、 高、 颜色和背景色， 返回生成的图片
 ::: demo

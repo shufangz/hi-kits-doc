@@ -75,7 +75,6 @@ import { HiModal } from 'hi-kits/modal'
 </h-modal>
 ```
 :::
-
 ### 参数说明
 
 |参数|说明|类型|可选值|默认值

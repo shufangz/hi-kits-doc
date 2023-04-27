@@ -14,7 +14,6 @@ tags:
 ```ts
 import { HiScrape } from 'hi-kits/scrape'
 ```
-
 ### 基本用法
 
 ::: demo

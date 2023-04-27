@@ -17,7 +17,6 @@ tags:
 import { HiServe.message } from 'hi-kits/message'
 ```
 ### 基础用法
-
 从顶部出现，3 秒后自动消失。
 
 ::: demo

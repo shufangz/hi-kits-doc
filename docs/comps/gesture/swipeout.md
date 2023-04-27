@@ -13,7 +13,6 @@ tags:
 ```ts
 import { HiSwipeout } from 'hi-kits/swipeout'
 ```
-
 ### 基本用法
 
 适用广泛的基础单选

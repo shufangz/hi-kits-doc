@@ -229,87 +229,87 @@
         <h-row gutter="20">
           <h-col span="6">
             <h-card>
-              <h-card-header class="itemTitle" @click="goToPage('/comps/data/button.html')">Empty 空状态</h-card-header>
+              <h-card-header class="itemTitle" @click="goToPage('/comps/data/empty.html')">Empty 空状态</h-card-header>
             </h-card>
           </h-col>
           <h-col span="6">
             <h-card>
-              <h-card-header class="itemTitle" @click="goToPage('/comps/data/button.html')">Avatar 头像</h-card-header>
+              <h-card-header class="itemTitle" @click="goToPage('/comps/data/avatar.html')">Avatar 头像</h-card-header>
             </h-card>
           </h-col>
           <h-col span="6">
             <h-card>
-              <h-card-header class="itemTitle" @click="goToPage('/comps/data/button.html')">Image 图片</h-card-header>
+              <h-card-header class="itemTitle" @click="goToPage('/comps/data/image.html')">Image 图片</h-card-header>
             </h-card>
           </h-col>
           <h-col span="6">
             <h-card>
-              <h-card-header class="itemTitle" @click="goToPage('/comps/data/button.html')">Tag 标签</h-card-header>
+              <h-card-header class="itemTitle" @click="goToPage('/comps/data/tag.html')">Tag 标签</h-card-header>
             </h-card>
           </h-col>
           <h-col span="6">
             <h-card>
-              <h-card-header class="itemTitle" @click="goToPage('/comps/data/button.html')">Card 卡片</h-card-header>
+              <h-card-header class="itemTitle" @click="goToPage('/comps/data/card.html')">Card 卡片</h-card-header>
             </h-card>
           </h-col>
           <h-col span="6">
             <h-card>
-              <h-card-header class="itemTitle" @click="goToPage('/comps/data/button.html')">Badge 徽标数</h-card-header>
+              <h-card-header class="itemTitle" @click="goToPage('/comps/data/badge.html')">Badge 徽标数</h-card-header>
             </h-card>
           </h-col>
           <h-col span="6">
             <h-card>
-              <h-card-header class="itemTitle" @click="goToPage('/comps/data/button.html')">List 列表</h-card-header>
+              <h-card-header class="itemTitle" @click="goToPage('/comps/data/list.html')">List 列表</h-card-header>
             </h-card>
           </h-col>
           <h-col span="6">
             <h-card>
-              <h-card-header class="itemTitle" @click="goToPage('/comps/data/button.html')">Comment 评论</h-card-header>
+              <h-card-header class="itemTitle" @click="goToPage('/comps/data/comment.html')">Comment 评论</h-card-header>
             </h-card>
           </h-col>
           <h-col span="6">
             <h-card>
-              <h-card-header class="itemTitle" @click="goToPage('/comps/data/button.html')">Ellipsis 文本省略</h-card-header>
+              <h-card-header class="itemTitle" @click="goToPage('/comps/data/ellipsis.html')">Ellipsis 文本省略</h-card-header>
             </h-card>
           </h-col>
           <h-col span="6">
             <h-card>
-              <h-card-header class="itemTitle" @click="goToPage('/comps/data/button.html')">EditWord 文字编辑</h-card-header>
+              <h-card-header class="itemTitle" @click="goToPage('/comps/data/editWord.html')">EditWord 文字编辑</h-card-header>
             </h-card>
           </h-col>
           <h-col span="6">
             <h-card>
-              <h-card-header class="itemTitle" @click="goToPage('/comps/data/button.html')">Segmented 分段控制器</h-card-header>
+              <h-card-header class="itemTitle" @click="goToPage('/comps/data/segmented.html')">Segmented 分段控制器</h-card-header>
             </h-card>
           </h-col>
           <h-col span="6">
             <h-card>
-              <h-card-header class="itemTitle" @click="goToPage('/comps/data/button.html')">Tabs 标签页</h-card-header>
+              <h-card-header class="itemTitle" @click="goToPage('/comps/data/tabs.html')">Tabs 标签页</h-card-header>
             </h-card>
           </h-col>
           <h-col span="6">
             <h-card>
-              <h-card-header class="itemTitle" @click="goToPage('/comps/data/button.html')">Statistic 统计</h-card-header>
+              <h-card-header class="itemTitle" @click="goToPage('/comps/data/statistic.html')">Statistic 统计</h-card-header>
             </h-card>
           </h-col>
           <h-col span="6">
             <h-card>
-              <h-card-header class="itemTitle" @click="goToPage('/comps/data/button.html')">Timeline 时间轴</h-card-header>
+              <h-card-header class="itemTitle" @click="goToPage('/comps/data/timeline.html')">Timeline 时间轴</h-card-header>
             </h-card>
           </h-col>
           <h-col span="6">
             <h-card>
-              <h-card-header class="itemTitle" @click="goToPage('/comps/data/button.html')">Watermark 水印</h-card-header>
+              <h-card-header class="itemTitle" @click="goToPage('/comps/data/watermark.html')">Watermark 水印</h-card-header>
             </h-card>
           </h-col>
           <h-col span="6">
             <h-card>
-              <h-card-header class="itemTitle" @click="goToPage('/comps/data/button.html')">Accordion 折叠面板</h-card-header>
+              <h-card-header class="itemTitle" @click="goToPage('/comps/data/accordion.html')">Accordion 折叠面板</h-card-header>
             </h-card>
           </h-col>
           <h-col span="6">
             <h-card>
-              <h-card-header class="itemTitle" @click="goToPage('/comps/data/button.html')">Carousel 走马灯</h-card-header>
+              <h-card-header class="itemTitle" @click="goToPage('/comps/data/carousel.html')">Carousel 走马灯</h-card-header>
             </h-card>
           </h-col>
           <h-col span="6">
@@ -483,7 +483,7 @@ export default {
   mounted() {},
   methods: {
     goToPage(ev) {
-      window.location.href=window.location.origin + '/Hi-Kits-Doc' + ev;
+      window.location.href=window.location.origin + '/hidoc' + ev;
     },
   },
 };

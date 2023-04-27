@@ -16,7 +16,6 @@ tags:
 ```ts
 import { HiSkeleton } from 'hi-kits/skeleton'
 ```
-
 ### 基本用法
 最简单的用法。
 :::demo

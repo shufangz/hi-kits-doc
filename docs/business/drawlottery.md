@@ -60,7 +60,6 @@ import { HiDrawlottery } from 'hi-kits/drawlottery'
 
 ```
 :::
-
 ### 自定义转盘控制按钮
 通过 `lotteryInfo` 配置转盘中心控制按钮文字及描述，`lotteryTextStyle`配置按钮文字的样式， `lotteryDecStyle`配置描述文字的样式，`lotteryWarpStyle`配置控制按钮的样式
 ::: demo

@@ -133,7 +133,6 @@ import { HiResult } from 'hi-kits/result'
         <h-button type="primary">Go Console</h-button>
     </div>
 </h-result>
-
 ```
 :::
 ### 参数说明

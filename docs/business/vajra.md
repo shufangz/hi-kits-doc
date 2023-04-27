@@ -13,7 +13,6 @@ tags:
 ```ts
 import { HiVajra } from 'hi-kits/vajra'
 ```
-
 ### 基本用法
 ::: demo
 ```html
